@@ -1,0 +1,43 @@
+Free Courses : 
+by CampusX
+Platform : Youtube
+Link : https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH
+
+by NPTEL-NOC-IITM
+Platform : Youtube
+Link : https://www.youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K
+
+
+
+Free Certified Courses 🎓
+
+Machine Learning Specialization by Stanford University & DeepLearning.AI
+Platform: Coursera
+Certification: You can audit the entire course for free to learn the material. A fee is required to get the official certificate.
+Link: https://www.coursera.org/specializations/machine-learning-introduction
+
+Google's Machine Learning Crash Course
+Platform: Google AI
+Certification: You receive a certificate of completion for free upon finishing the course.
+Link: https://developers.google.com/machine-learning/crash-course
+
+Introduction to Machine Learning by Kaggle
+Platform: Kaggle
+Certification: You get a free, shareable certificate upon completion of each short course.
+Link: https://www.kaggle.com/learn/intro-to-machine-learning
+
+Paid Certified Courses 🏆
+IBM Machine Learning Professional Certificate
+Platform: Coursera
+Certification: A professional, shareable certificate from IBM is awarded upon completion.
+Link: https://www.coursera.org/professional-certificates/ibm-machine-learning
+
+Machine Learning A-Z™: AI, Python & R by Kirill Eremenko & Hadelin de Ponteves
+Platform: Udemy
+Certification: A certificate of completion is provided.
+Link: https://www.udemy.com/course/machinelearning/
+
+Udacity Machine Learning Engineer Nanodegree
+Platform: Udacity
+Certification: A highly regarded Nanodegree certificate is awarded.
+Link: https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t
