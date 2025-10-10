@@ -1,0 +1,15 @@
+📚 Free ML Books
+These books are considered classics and are made available for free by their authors and publishers.
+
+"The Hundred-Page Machine Learning Book" by Andriy Burkov
+Link: https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t
+
+"Pattern Recognition and Machine Learning" by Christopher M. Bishop
+Link: https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf
+
+"An Introduction to Statistical Learning" by Gareth James, et al.
+Link: https://www.statlearning.com/
+
+💳 Paid ML Books
+"Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow" by Aurélien Géron
+"Deep Learning with Python" by François Chollet
