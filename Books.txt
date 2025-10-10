@@ -1,0 +1,87 @@
+<pre>
+
+Books that you can Purchase :
+For Beginners:
+"Beginning MERN Stack: Build and Deploy a Full Stack MongoDB, Express, React, Node.js App"
+by Greg Lim: This book is an excellent starting point if you're new to the MERN stack.
+It provides a clear and concise introduction to each technology and guides you through building a complete application from scratch.
+
+"MERN Quick Start Guide: Build web applications with MongoDB, Express.js, React, and Node"
+by Eddy Wilson Iriarte Koroliova: As the title suggests, this book is designed to get you up and running with the MERN stack quickly.
+It's a great choice for those who want a fast-paced introduction.
+
+For Intermediate Developers:
+"Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node"
+by Vasan Subramanian: This book is ideal for developers who already have some familiarity with the individual technologies in the MERN stack.
+It delves deeper into more advanced concepts and best practices for building robust and scalable applications.
+A second edition is also available, which covers more updated information.
+
+"Full-Stack React Projects: Learn MERN stack development by building modern web apps using MongoDB, Express, React, and Node.js"
+by Shama Hoque: This project-based book is perfect for those who learn best by doing. 
+You'll build several real-world applications, solidifying your understanding of the MERN stack in a practical context.
+
+For Advanced Topics and Project-Based Learning:
+"MERN from Scratch: Build an eCommerce Platform": If you're looking for a comprehensive, project-based learning experience, this book is a fantastic choice. 
+It walks you through the process of building a fully functional e-commerce website, covering a wide range of features and functionalities.
+
+Books that are freely available:
+
+Comprehensive Free MERN Stack Resources:
+The Odin Project - Full Stack JavaScript: 
+While not a single book, The Odin Project offers a comprehensive, free, and open-source curriculum on full-stack JavaScript development,
+which covers Node.js, Express, MongoDB, and React. It's a highly recommended, project-based learning path.
+
+Direct Link: https://www.theodinproject.com/paths/full-stack-javascript
+
+Fullstack Open: This is another outstanding and free course from the University of Helsinki 
+that covers modern web development with a focus on React, Node.js, Express, and MongoDB. 
+It's structured like a university course with extensive materials and exercises.
+
+Direct Link: https://fullstackopen.com/en/
+
+Free Books on Individual MERN Stack Technologies:
+Often, you can find more in-depth, free books by focusing on the individual components of the MERN stack.
+
+MongoDB:
+"The Little MongoDB Book" by Karl Seguin: This is a concise and popular introduction to MongoDB.
+
+Direct Link: https://github.com/karlseguin/the-little-mongodb-book
+
+"MongoDB Notes for Professionals": Compiled from Stack Overflow documentation, this book is a thorough resource.
+
+Direct Link: https://goalkicker.com/MongoDBBook/
+
+Express.js:
+"Express.js Guide: The Comprehensive Book on Express.js" by Azat Mardan: This is a detailed guide to Express.js.
+
+Direct Link: https://github.com/azat-co/expressjs-guide
+
+React:
+"The Road to React" by Robin Wieruch: The author provides a significant portion of this highly-regarded book for free to help you learn the fundamentals of React.
+
+Direct Link: https://www.robinwieruch.de/the-road-to-react/
+
+"React JS Notes for Professionals": Another excellent resource from the creators of the "Notes for Professionals" series.
+
+Direct Link: https://goalkicker.com/ReactJSBook/
+
+Node.js:
+"Node.js Succinctly" by Emanuele DelBono: A concise guide to get you started with Node.js.
+
+Direct Link: https://www.syncfusion.com/ebooks/nodejs-succinctly (Requires a free Syncfusion account)
+
+"Node.js Notes for Professionals": A comprehensive guide to Node.js.
+
+Direct Link: https://goalkicker.com/NodeJSBook/
+
+These resources provide a wealth of information to get you started and advance your skills in MERN stack development without any cost
+
+Also you can visit each language document to study directly from the official website 
+
+MongoDB : https://www.mongodb.com/docs/
+Node js : https://nodejs.org/docs/latest/api/documentation.html
+Express ejs : https://expressjs.com/
+React : https://react.dev/learn
+JavaScript : https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+</pre>
