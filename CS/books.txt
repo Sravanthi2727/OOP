@@ -14,13 +14,10 @@ Free eBooks collection page: https://www.simplilearn.com/resources/cyber-securit
 
 GitHub collection “A collection of FREE cyber security books” – https://github.com/DoS0x99/cyber-security-books
 
-💳 Paid ML Books
-Book	Author(s)
-Hacking: The Art of Exploitation (2nd Ed)	Jon Erickson and nostarch.com
+💳 Paid cs Books
+“The Web Application Hacker's Handbook” – Dafydd Stuttard	https://www.amazon.in/dp/1118026470
+“Hacking: The Art of Exploitation” – Jon Erickson	https://www.amazon.in/dp/1593271441
+“Cybersecurity and Cyberwar” – P.W. Singer	https://www.amazon.in/dp/0199918119
+“Metasploit: The Penetration Tester’s Guide” – David Kennedy	https://www.amazon.in/dp/159327288X
+“Practical Malware Analysis” – Michael Sikorski	https://www.amazon.in/dp/1593272901
 
-The Hacker Playbook 3: Practical Guide to Penetration Testing	Peter Kim 
-
-How Cybersecurity Really Works: A Hands‑On Guide for Total Beginners	Sam Grubb 
-
-
-Cybersecurity for Beginners	Raef Meeuwisse Tribe of Hackers: Cybersecurity Advice from the Best Hackers in the World	Marcus J. Carey & Jennifer Jin
