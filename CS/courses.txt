@@ -1,0 +1,35 @@
+Certified Cybersecurity Courses (Industry-Recognized)
+
+ISC² – Certified in Cybersecurity (CC)	
+   link :https://www.isc2.org/landing/1mcc
+
+Fortinet NSE Training (NSE 1–4 free, higher NSE levels are official certs)	
+link: https://www.fortinet.com/training/cybersecurity-professionals
+
+Cisco Networking Academy – Introduction to Cybersecurity
+ link : https://www.netacad.com/courses/introduction-to-cybersecurity
+
+Palo Alto Networks Beacon
+link : https://www.paloaltonetworks.com/cyberpedia/free-cybersecurity-education-courses
+
+EC-Council CEH / Cybersecurity Foundations (free beginner courses + optional paid certification)
+link: https://www.eccouncil.org/cybersecurity-exchange/cyber-novice/free-cybersecurity-courses-beginners/
+
+
+
+Free Cybersecurity Courses (Completion Certificate / Badges)
+
+Cybrary – Free foundational courses
+link : https://www.cybrary.it/free-content
+
+IBM SkillsBuild – Free courses + digital badges
+link: https://skillsbuild.org/students/course-catalog/cybersecurity
+
+Great Learning Academy – Free courses + certificate
+  link:https://www.mygreatlearning.com/cybersecurity/free-courses
+
+SANS Cyber Aces – Free intro courses	
+link : https://www.sans.org/cyberaces
+
+Palo Alto Networks Beacon – Free courses	
+link: https://www.paloaltonetworks.com/cyberpedia/free-cybersecurity-education-courses
