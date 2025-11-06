@@ -1,0 +1,26 @@
+📚 Free cs  Books
+These books are considered classics and are made available for free by their authors and publishers.
+The Cyber Security Body Of Knowledge (CyBOK) v1.0 – PDF download: https://www.cybok.org/media/downloads/CyBOK-version-1.0.pdf 
+
+Cyber Security for Beginners – PDF download: https://heimdalsecurity.com/pdf/cyber_security_for_beginners_ebook.pdf 
+
+Introduction to Cyber Security (Uttarakhand Open University) – PDF download: https://uou.ac.in/sites/default/files/slm/Introduction-cyber-security.pdf 
+
+Cybersecurity Handbook – Greek National Cybersecurity Authority – PDF download: https://cyber.gov.gr/wp-content/uploads/2025/03/Cybersecurity-Handbook-English-version-compressed.pdf 
+
+FreeCybersecurity-books list/resource: https://freecomputerbooks.com/compscspecialSecurityBooks.html 
+
+Free eBooks collection page: https://www.simplilearn.com/resources/cyber-security/ebooks 
+
+GitHub collection “A collection of FREE cyber security books” – https://github.com/DoS0x99/cyber-security-books
+
+💳 Paid ML Books
+Book	Author(s)
+Hacking: The Art of Exploitation (2nd Ed)	Jon Erickson and nostarch.com
+
+The Hacker Playbook 3: Practical Guide to Penetration Testing	Peter Kim 
+
+How Cybersecurity Really Works: A Hands‑On Guide for Total Beginners	Sam Grubb 
+
+
+Cybersecurity for Beginners	Raef Meeuwisse Tribe of Hackers: Cybersecurity Advice from the Best Hackers in the World	Marcus J. Carey & Jennifer Jin
