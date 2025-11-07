@@ -1,0 +1,40 @@
+🆓 Free Books / Resources
+
+Principles of Data Science — free PDF via OpenStax: 
+link: https://assets.openstax.org/oscms-prodcms/media/documents/Principles-of-Data-Science-WEB.pdf
+ 
+Data Science and Machine Learning: Mathematical & Statistical Methods by Dirk Kroese et al — free PDF:
+link:https://people.smp.uq.edu.au/DirkKroese/DSML/DSML.pdf
+
+R for Data Science by Hadley Wickham & Garrett Grolemund — freely available online:
+link:https://r4ds.had.co.nz/
+
+Free collections: “100+ Free Data Science Books” list: 
+link:https://www.learndatasci.com/free-data-science-books/
+
+More lists: “Top Data Science Books (Free)” with download links:
+link:https://freecomputerbooks.com/top-data-science-books.html
+
+
+Recommended Paid Books & Links
+
+Python Data Science Handbook by Jake VanderPlas
+Link: Amazon India listing
+ (search by ISBN if link unavailable)
+Covers key Python libraries (NumPy, pandas, matplotlib, scikit-learn) for data science. 
+
+Data Science from Scratch: First Principles with Python by Joel Grus
+Link: Amazon India listing
+
+
+Advanced Data Science Techniques with Python by Talluri Sunil Kumar & Ponnam Lalitha
+Link: Flipkart listing
+ 
+
+Advanced AI and Data Science Applications (ed. by D. Sivabalaselvamani et al)
+Link: Routledge listing
+ 
+
+Data Science & Big Data Analytics: Discovering, Analyzing, Visualizing and Presenting Data
+Link: Wiley listing
+
