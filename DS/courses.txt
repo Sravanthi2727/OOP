@@ -1,0 +1,32 @@
+🎓 Free Courses
+
+By CampusX — Platform: YouTube
+Link: https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH
+
+By NPTEL‑NOC / IIT Madras — Platform: YouTube / SWAYAM
+Link: https://www.youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K
+ (Note: you’ll also find free courses directly on the NPTEL site)
+
+
+Free (with free certificate / badge options)
+
+Machine Learning Specialization (Stanford Online ↔ DeepLearning.AI) — Coursera (you can audit the content for free; certificate requires payment).
+Link / course page: https://www.coursera.org/specializations/machine-learning-introduction
+
+Google — Machine Learning Crash Course (interactive, free; Google provides a free completion certificate/badge on certain tracks).
+Link: https://developers.google.com/machine-learning/crash-course
+
+Kaggle — Intro to Machine Learning (short hands-on course; free + shareable certificate on completion).
+Link: https://www.kaggle.com/learn/intro-to-machine-learning
+
+
+Paid / Certified (official certificates)
+
+IBM — Machine Learning Professional Certificate (Coursera: paid professional certificate).
+Link: https://www.coursera.org/professional-certificates/ibm-machine-learning
+
+Udemy — Machine Learning A-Z™: AI, Python & R (paid course; certificate of completion provided by Udemy).
+Link: https://www.udemy.com/course/machinelearning/
+
+Udacity — Machine Learning Nanodegree (paid Nanodegree; highly regarded, project-based certificate).
+Link (Udacity programs page — pick the ML Nanodegree you prefer): https://www.udacity.com/
