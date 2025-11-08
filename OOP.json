@@ -1,0 +1,305 @@
+{
+  "resourceGuide": {
+    "introduction": "Here are 10 beginner-friendly resources each for Quantum Computing and Internet of Things (IoT), including books, websites, and YouTube channels with brief descriptions and direct domain links.",
+    "topics": {
+      "quantumComputing": {
+        "title": "Quantum Computing",
+        "books": [
+          {
+            "title": "Quantum Computing for Everyone",
+            "author": "Chris Bernhardt",
+            "description": "Explains quantum gates and algorithms using basic algebra.",
+            "domain": "mitpress.mit.edu"
+          },
+          {
+            "title": "Quantum Computation and Quantum Information",
+            "author": "Nielsen & Chuang",
+            "description": "The definitive academic text, widely used in universities.",
+            "domain": "cambridge.org"
+          },
+          {
+            "title": "Dancing with Qubits",
+            "author": "Robert S. Sutor",
+            "description": "IBM-backed guide with Qiskit examples.",
+            "domain": "amazon.com"
+          },
+          {
+            "title": "Quantum Computing: An Applied Approach",
+            "author": "Jack D. Hidary",
+            "description": "Covers algorithms and hardware with real-world labs.",
+            "domain": "springer.com"
+          },
+          {
+            "title": "Learn Quantum Computing with Python and Q#",
+            "author": "Kaiser & Granade",
+            "description": "Hands-on coding with Python and Microsoft's QDK.",
+            "domain": "manning.com"
+          },
+          {
+            "title": "Quantum Computing Since Democritus",
+            "author": "Scott Aaronson",
+            "description": "Philosophical and technical insights from a CS perspective.",
+            "domain": "amazon.com"
+          },
+          {
+            "title": "Quantum Supremacy",
+            "author": "Michio Kaku",
+            "description": "Explores societal impact and future of quantum tech.",
+            "domain": "penguinrandomhouse.com"
+          },
+          {
+            "title": "Q is for Quantum",
+            "author": "Terry Rudolph",
+            "description": "Visual and intuitive guide to quantum principles.",
+            "domain": "amazon.com"
+          },
+          {
+            "title": "Programming Quantum Computers",
+            "author": "Johnston, Harrigan & Gimeno-Segovia",
+            "description": "Practical exercises in quantum software.",
+            "domain": "oreilly.com"
+          },
+          {
+            "title": "The Feynman Lectures on Computation",
+            "author": "Richard Feynman",
+            "description": "Foundational ideas from a quantum pioneer.",
+            "domain": "basicbooks.com"
+          }
+        ],
+        "websites": [
+          {
+            "domain": "qiskit.org",
+            "description": "IBM's open-source quantum SDK"
+          },
+          {
+            "domain": "quantum.country",
+            "description": "Interactive memory-aided learning"
+          },
+          {
+            "domain": "qubitbyqubit.org",
+            "description": "Courses for students"
+          },
+          {
+            "domain": "quantum-computing.ibm.com",
+            "description": "IBM Quantum Experience"
+          },
+          {
+            "domain": "quantum.microsoft.com",
+            "description": "Microsoft Azure Quantum"
+          },
+          {
+            "domain": "quantumai.google",
+            "description": "Google's quantum research"
+          },
+          {
+            "domain": "spinquanta.com",
+            "description": "Beginner guides and news"
+          },
+          {
+            "domain": "quantumalgorithmzoo.org",
+            "description": "Catalog of quantum algorithms"
+          },
+          {
+            "domain": "quantum-computing.stackexchange.com",
+            "description": "Q&A community"
+          },
+          {
+            "domain": "github.com/desireevl/awesome-quantum-computing",
+            "description": "Curated resource list"
+          }
+        ],
+        "youtubeChannels": [
+          {
+            "name": "Qiskit YouTube",
+            "description": "Tutorials and events"
+          },
+          {
+            "name": "Quantum Computing Roadmap",
+            "description": "Beginner walkthrough"
+          },
+          {
+            "name": "Looking Glass Universe",
+            "description": "Visual explanations"
+          },
+          {
+            "name": "PBS Space Time",
+            "description": "Deep physics insights"
+          },
+          {
+            "name": "MinutePhysics",
+            "description": "Bite-sized physics"
+          },
+          {
+            "name": "Domain of Science",
+            "description": "Quantum series"
+          },
+          {
+            "name": "MIT OpenCourseWare",
+            "description": "Full quantum courses"
+          },
+          {
+            "name": "QuTech Academy",
+            "description": "Dutch quantum institute"
+          },
+          {
+            "name": "Quantum Grad",
+            "description": "Student-friendly content"
+          },
+          {
+            "name": "Quantum ML",
+            "description": "Quantum machine learning"
+          }
+        ]
+      },
+      "internetOfThings": {
+        "title": "Internet of Things (IoT)",
+        "books": [
+          {
+            "title": "Getting Started with the Internet of Things",
+            "author": "Cuno Pfister",
+            "description": "Hands-on with sensors and cloud.",
+            "domain": "oreilly.com"
+          },
+          {
+            "title": "IoT Fundamentals",
+            "author": "Cisco Press",
+            "description": "Networking, protocols, and use cases.",
+            "domain": "ciscopress.com"
+          },
+          {
+            "title": "Building the Internet of Things",
+            "author": "Maciej Kranz",
+            "description": "Business transformation via IoT.",
+            "domain": "wiley.com"
+          },
+          {
+            "title": "Precision: Principles, Practices and Solutions",
+            "author": "Timothy Chou",
+            "description": "Industry case studies.",
+            "domain": "amazon.com"
+          },
+          {
+            "title": "The Internet of Things (MIT Press)",
+            "author": "Samuel Greengard",
+            "description": "Overview of IoT's evolution.",
+            "domain": "mitpress.mit.edu"
+          },
+          {
+            "title": "Hands-On IoT with MQTT",
+            "author": "Tim Pulver",
+            "description": "Arduino + MQTT projects.",
+            "domain": "packtpub.com"
+          },
+          {
+            "title": "MicroPython for IoT",
+            "author": "Charles Bell",
+            "description": "Python on microcontrollers.",
+            "domain": "apress.com"
+          },
+          {
+            "title": "Learning Internet of Things",
+            "author": "Peter Waher",
+            "description": "Covers architecture and protocols.",
+            "domain": "packtpub.com"
+          },
+          {
+            "title": "Internet of Things: A Hands-On Approach",
+            "author": "Arshdeep Bahga & Vijay Madisetti",
+            "description": "Academic and practical guide.",
+            "domain": "amazon.com"
+          },
+          {
+            "title": "Practical IoT Hacking",
+            "author": "Chantzis et al.",
+            "description": "Security-focused guide.",
+            "domain": "nostarch.com"
+          }
+        ],
+        "websites": [
+          {
+            "domain": "iotgyaan.com",
+            "description": "Tutorials and project ideas"
+          },
+          {
+            "domain": "randomnerdtutorials.com",
+            "description": "ESP32/ESP8266 guides"
+          },
+          {
+            "domain": "iotdunia.com",
+            "description": "Hindi + English IoT content"
+          },
+          {
+            "domain": "arduino.cc",
+            "description": "Microcontroller platform"
+          },
+          {
+            "domain": "circuitbasics.com",
+            "description": "Electronics + IoT"
+          },
+          {
+            "domain": "iotprojectsideas.com",
+            "description": "DIY project hub"
+          },
+          {
+            "domain": "geeksforgeeks.org",
+            "description": "IoT articles and code"
+          },
+          {
+            "domain": "guru99.com",
+            "description": "IoT tutorials"
+          },
+          {
+            "domain": "infobooks.org",
+            "description": "Free IoT PDFs"
+          },
+          {
+            "domain": "placementpreparation.io",
+            "description": "Project-based learning"
+          }
+        ],
+        "youtubeChannels": [
+          {
+            "name": "IoT for All",
+            "description": "Industry insights"
+          },
+          {
+            "name":"The IoT Academy",
+            "description": "Training and demos"
+          },
+          {
+            "name": "IoT Explained",
+            "description": "Visual breakdowns"
+          },
+          {
+            "name": "Random Nerd Tutorials",
+            "description": "ESP projects"
+          },
+          {
+            "name": "The Things Network",
+            "description": "LoRaWAN guides"
+          },
+          {
+            "name": "Bosch ConnectedWorld",
+            "description": "Smart tech"
+          },
+          {
+            "name": "Cisco IoT",
+            "description": "Enterprise IoT"
+          },
+          {
+            "name": "IoT Geeks",
+            "description": "DIY builds"
+          },
+          {
+            "name": "IoT World Today",
+            "description": "News and trends"
+          },
+          {
+            "name": "Stacey on IoT",
+            "description": "Gadget reviews"
+          }
+        ]
+      }
+    }
+  }
+}
