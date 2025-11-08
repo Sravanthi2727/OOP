@@ -1,0 +1,274 @@
+### AI 
+{
+  "title": "Artificial Intelligence (AI)",
+  "intro": {
+    "description": "AI enables machines to perform tasks that typically require human intelligence — such as learning, reasoning, and decision-making. It powers automation, personalization, and innovation across industries.",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/surya/introonAI"
+  },
+  "roadmap": {
+    "summary": "Covers foundational AI concepts, machine learning, deep learning, NLP, computer vision, MLOps, ethics, and production deployment using tools like TensorFlow, PyTorch, and cloud platforms.",
+    "source": "https://share.google/images/bMhpEUqThjmxn2eyj"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Deep Learning",
+    "Neural Networks",
+    "NLP",
+    "Computer Vision",
+    "MLOps",
+    "AI Ethics",
+    "TensorFlow",
+    "PyTorch"
+  ],
+  "AI Learning Path": {
+    "books": [
+      {
+        "title": "Artificial Intelligence: A Modern Approach",
+        "author": "Stuart Russell & Peter Norvig",
+        "link": "https://aima.cs.berkeley.edu/"
+      },
+      {
+        "title": "Deep Learning",
+        "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+        "link": "https://www.deeplearningbook.org/"
+      },
+      {
+        "title": "The Hundred-Page Machine Learning Book",
+        "author": "Andriy Burkov",
+        "link": "https://themlbook.com/wiki/"
+      }
+    ],
+    "courses_and_certifications": {
+      "free": [
+        {
+          "title": "CS50's Introduction to AI with Python",
+          "platform": "HarvardX / edX",
+          "link": "https://www.edx.org/course/cs50s-introduction-to-artificial-intelligence-with-python"
+        },
+        {
+          "title": "AI for Everyone",
+          "platform": "DeepLearning.AI / Coursera",
+          "link": "https://www.coursera.org/learn/ai-for-everyone"
+        },
+        {
+          "title": "Machine Learning Crash Course",
+          "platform": "Google for Developers",
+          "link": "https://developers.google.com/machine-learning/crash-course"
+        },
+        {
+          "title": "Elements of AI",
+          "platform": "University of Helsinki",
+          "link": "https://www.elementsofai.com/"
+        }
+      ],
+      "paid": [
+        {
+          "title": "Deep Learning Specialization",
+          "platform": "DeepLearning.AI / Coursera",
+          "link": "https://www.coursera.org/specializations/deep-learning"
+        },
+        {
+          "title": "IBM AI Engineering Professional Certificate",
+          "platform": "IBM / Coursera",
+          "link": "https://www.coursera.org/professional-certificates/ai-engineering"
+        },
+        {
+          "title": "Microsoft Certified: Azure AI Engineer Associate",
+          "platform": "Microsoft Learn",
+          "link": "https://learn.microsoft.com/en-us/certifications/azure-ai-engineer-associate/"
+        }
+      ]
+    },
+    "practice_resources": [
+      {
+        "title": "Kaggle",
+        "author": "Kaggle Community",
+        "link": "https://www.kaggle.com/"
+      },
+      {
+        "title": "GeeksforGeeks – AI Section",
+        "author": "GeeksforGeeks",
+        "link": "https://www.geeksforgeeks.org/artificial-intelligence/"
+      },
+      {
+        "title": "DataCamp – AI Scientist with Python",
+        "author": "DataCamp",
+        "link": "https://www.datacamp.com/tracks/ai-scientist-with-python"
+      },
+      {
+        "title": "Towards Data Science",
+        "author": "Medium Publication",
+        "link": "https://towardsdatascience.com/"
+      }
+    ],
+    "video_playlists": [
+      {
+        "title": "AI & ML Full Course 2025",
+        "platform": "edureka!",
+        "link": "https://www.youtube.com/watch?v=N8svLoC2eNA"
+      },
+      {
+        "title": "Machine Learning for Everybody",
+        "platform": "freeCodeCamp",
+        "link": "https://www.youtube.com/watch?v=i_LwzRVP7bg"
+      },
+      {
+        "title": "Generative AI in One Shot",
+        "platform": "Intellipaat",
+        "link": "https://www.youtube.com/watch?v=hCwzL3H7l8M"
+      },
+      {
+        "title": "3Blue1Brown – Math for AI",
+        "platform": "YouTube",
+        "link": "https://youtube.com/playlist?list=PLZHQObOWTQDNU6R167000DxZCJB-3pi"
+      },
+      {
+        "title": "Corey Schafer / Sentdex",
+        "platform": "YouTube",
+        "link": "https://youtube.com/@coreyms"
+      },
+      {
+        "title": "Krish Naik",
+        "platform": "YouTube",
+        "link": "https://youtube.com/@krishnaik06"
+      }
+    ]
+  }
+}
+
+### robotics
+{
+  "title": "Robotics",
+  "intro": {
+    "description": "Robotics is the branch of technology that deals with designing, building, and operating robots — machines capable of performing tasks automatically or with human guidance. It integrates mechanical engineering, electronics, sensors, actuators, and AI.",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/surya/introonrobo"
+  },
+  "roadmap": {
+    "summary": "Covers sensors, actuators, control systems, kinematics, motion planning, ROS, autonomous systems, and hands-on robot building. Includes certified courses, free tutorials, reference books, and practice resources.",
+    "source": " https://share.google/images/cqJgvzOmcFX3Vj8sq"
+  },
+  "tags": [
+    "Robotics",
+    "Sensors",
+    "Actuators",
+    "Control Systems",
+    "Kinematics",
+    "ROS",
+    "Autonomous Systems",
+    "Robot Design",
+    "Mechatronics",
+    "AI Integration"
+  ],
+  "Robotics Learning Path": {
+    "books": [
+      {
+        "title": "Modern Robotics: Mechanics, Planning, and Control",
+        "author": "Kevin M. Lynch & Frank C. Park",
+        "link": "https://modernrobotics.northwestern.edu/?hl=en-GB"
+      },
+      {
+        "title": "Probabilistic Robotics",
+        "author": "Sebastian Thrun, Wolfram Burgard, Dieter Fox",
+        "link": "https://mitpress.mit.edu/books/probabilistic-robotics"
+      },
+      {
+        "title": "Introduction to Autonomous Mobile Robots (2e)",
+        "author": "Roland Siegwart, Illah R. Nourbakhsh, Davide Scaramuzza",
+        "link": "https://introduction-to-autonomous-robots.github.io/?hl=en-GB"
+      }
+    ],
+    "notes": [
+      {
+        "title": "QUT Robot Academy",
+        "author": "Peter Corke / QUT",
+        "link": "https://petercorke.com/resources/robot-academy/"
+      },
+      {
+        "title": "MIT OpenCourseWare – Robotics",
+        "author": "MIT",
+        "link": "https://ocw.mit.edu/courses/2-12-introduction-to-robotics-fall-2005/"
+      },
+      {
+        "title": "Electronics and Robotics Courses",
+        "author": "Raspberry Pi Foundation",
+        "link": "https://www.raspberrypi.org/courses/electronics-and-robotics"
+      }
+    ],
+    "courses_and_certifications": {
+      "free": [
+        {
+          "title": "QUT Robot Academy",
+          "platform": "Peter Corke / QUT",
+          "link": "https://petercorke.com/resources/robot-academy/"
+        },
+        {
+          "title": "MIT OpenCourseWare – Robotics",
+          "platform": "MIT",
+          "link": "https://ocw.mit.edu/courses/2-12-introduction-to-robotics-fall-2005/"
+        },
+        {
+          "title": "Electronics and Robotics Courses",
+          "platform": "Raspberry Pi Foundation",
+          "link": "https://www.raspberrypi.org/courses/electronics-and-robotics"
+        }
+      ],
+      "paid": [
+        {
+          "title": "Robotics Engineering",
+          "platform": "edX",
+          "link": "https://www.edx.org/learn/robotics?hl=en-GB"
+        },
+        {
+          "title": "Robotics and ROS 2 – Learn by Doing",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/topic/robotics/?hl=en-GB"
+        },
+        {
+          "title": "Robotics and Autonomous Systems",
+          "platform": "Stanford Online",
+          "link": "https://online.stanford.edu/programs/robotics-and-autonomous-systems-graduate-certificate"
+        }
+      ]
+    },
+    "video_playlists": [
+      {
+        "title": "Learn Robotics",
+        "platform": "Liz Miller",
+        "link": "https://youtube.com/@learnrobotics?si=hGy6ImrArQPOnaLO"
+      },
+      {
+        "title": "SparkFun Electronics / Adafruit",
+        "platform": "SparkFun / Adafruit",
+        "link": "https://youtube.com/@sparkfun?si=cHJZUKjycmeXsvNT"
+      },
+      {
+        "title": "James Bruton",
+        "platform": "YouTube",
+        "link": "https://youtube.com/@jamesbruton?si=C0prIkMxVoDWYx3c"
+      },
+      {
+        "title": "RootSaid – Robotics Playlist",
+        "platform": "YouTube",
+        "link": "https://youtube.com/playlist?list=PL4g1oAdmuCfqmYvURLzVFkMMUI7839biN&si=uYQZ8cJd7t7KmjgA"
+      },
+      {
+        "title": "Brian Douglas",
+        "platform": "YouTube",
+        "link": "https://youtube.com/@brianbdouglas?si=Bu_ylnWb7bdTZqUq"
+      }
+    ],
+    "practice_resources": [
+      {
+        "title": "Sanfoundry – Robotics MCQs",
+        "author": "Sanfoundry",
+        "link": "https://www.sanfoundry.com/robotics-multiple-choice-questions/"
+      },
+      {
+        "title": "Docsity – Robotics Exams and Quizzes",
+        "author": "Docsity Community",
+        "link": "https://www.docsity.com/en/exam-questions/engineering/robotics/"
+      }
+    ]
+  }
+}
