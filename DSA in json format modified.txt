@@ -2,11 +2,11 @@
   "title": "Data Structures and Algorithms (DSA)",
   "intro": {
     "description": "Data Structures and Algorithms (DSA) is the study of organizing and processing data efficiently. It includes structures like arrays, trees, graphs, and algorithms for searching, sorting, and optimization.",
-    "source": "Intro to DSA.txt"
+    "source": "https://github.com/Sravanthi2727/OOP/blob/PravallikaGanta15/DSA/Intro%20to%20DSA"
   },
   "roadmap": {
     "summary": "Visual overview of key data structures (arrays, trees, graphs, hash tables) and algorithms (searching, sorting, traversal) with time complexities ranging from O(1) to O(2^n).",
-    "source": "Road map to DSA.pdf"
+    "source": ""
   },
 ,
   "tags": [
@@ -315,3 +315,4 @@
     ]
   }
 }
+
