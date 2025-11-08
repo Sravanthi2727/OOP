@@ -1,0 +1,169 @@
+<% layout('layouts/boilerplate') %>
+
+<section class="hv-hero">
+  <div class="hv-container">
+    <h1>Hackathons — Live & Upcoming</h1>
+    <div class="hv-search">
+      <input id="searchQ" placeholder="Keyword (eg. web, AI, mobile)" />
+      <input id="location" placeholder="Location (optional)" />
+      <button id="btnSearch" class="hv-btn">Search</button>
+    </div>
+  </div>
+</section>
+
+<section class="hv-listing hv-container">
+  <div class="hv-panel-title">Upcoming Hackathons</div>
+  <div id="cards" class="hv-grid"></div>
+  <div id="noResults" class="hv-noresults" style="display:none;">No events found.</div>
+</section>
+
+<style>
+/* container */
+.hv-container{max-width:1100px;margin:0 auto;padding:20px}
+
+/* hero */
+.hv-hero{background:linear-gradient(135deg,#0f2b2f,#1b3b41);padding:48px 0 36px;color:#fff}
+.hv-hero h1{font-size:44px;margin:0 0 18px}
+.hv-search{display:flex;gap:12px;align-items:center}
+.hv-search input{padding:12px 14px;border-radius:8px;border:1px solid rgba(255,255,255,0.08);width:320px;background:rgba(255,255,255,0.03);color:#fff}
+.hv-search input::placeholder{color:#dceef8}
+.hv-btn{background:linear-gradient(90deg,#00f0ff,#0088ff);border:none;color:#002; padding:10px 18px;border-radius:24px;cursor:pointer;box-shadow:0 8px 28px rgba(0,140,255,0.12)}
+
+/* listing */
+.hv-listing{padding:28px 0}
+.hv-panel-title{background:#f6f8fb;border-radius:10px;padding:18px;text-align:center;font-size:26px;margin-bottom:18px;color:#223}
+
+/* grid */
+.hv-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:18px}
+
+/* card */
+.hv-card{background:#fff;border-radius:12px;padding:18px;box-shadow:0 12px 30px rgba(10,20,30,0.06);display:flex;gap:16px;align-items:flex-start}
+.hv-title{color:#1769d6;font-size:20px;font-weight:700;margin:0 0 6px}
+.hv-tags{margin-bottom:8px}
+.hv-tag{display:inline-block;background:#eaf6ff;color:#1374d1;padding:6px 10px;border-radius:999px;font-size:12px;margin-right:6px}
+.hv-desc{color:#666;font-style:italic;margin-bottom:10px}
+.hv-meta{color:#333;margin-top:8px;display:flex;gap:14px}
+.hv-actions{margin-left:auto;display:flex;flex-direction:column;gap:10px;align-items:flex-end}
+.hv-btn-ghost{background:#fff;border:1px solid #1769d6;color:#1769d6;padding:8px 12px;border-radius:8px;text-decoration:none}
+.hv-btn-primary{background:#1769d6;color:#fff;padding:8px 12px;border-radius:8px;border:none;cursor:pointer}
+
+/* progress bar look */
+.hv-progress{background:#e8f4ff;border-radius:8px;padding:8px;color:#fff;text-align:center;font-weight:700;margin-top:10px}
+.hv-noresults{color:#666;padding:20px;text-align:center}
+</style>
+
+<script>
+  const user = <%- JSON.stringify(user || null) %>;
+
+  async function fetchList(q, location) {
+    const url = new URL('/api/hackathons/list', window.location.origin);
+    if (q) url.searchParams.set('q', q);
+    if (location) url.searchParams.set('location', location);
+    const res = await fetch(url);
+    if (!res.ok) throw new Error('Fetch error ' + res.status);
+    return await res.json();
+  }
+
+  function timeLeftText(start) {
+    if (!start) return '';
+    const diff = new Date(start).getTime() - Date.now();
+    if (diff <= 0) return 'Ongoing';
+    const days = Math.floor(diff / (1000*60*60*24));
+    const hours = Math.floor((diff % (1000*60*60*24)) / (1000*60*60));
+    return (days>0?days+' days ':'') + hours + ' hours left';
+  }
+
+  function createCard(it) {
+    const card = document.createElement('div');
+    card.className = 'hv-card';
+    const title = it.title || 'Untitled';
+    const desc = it.description || '';
+    const date = it.start ? new Date(it.start).toLocaleDateString() : 'TBD';
+    const tagsHtml = `<span class="hv-tag">HACKATHON</span>`;
+    const applyUrl = it.url || '#';
+
+    card.innerHTML = `
+      <div style="flex:1">
+        <div class="hv-title">${escapeHtml(title)}</div>
+        <div class="hv-tags">${tagsHtml}</div>
+        <div class="hv-desc">${escapeHtml(desc.substring(0,240))}${desc.length>240?'...':''}</div>
+        <div style="color:#333;margin-top:8px"><strong>Date</strong><br/>${escapeHtml(date)}</div>
+        <div class="hv-progress" style="background:#2d9cdb">${escapeHtml(timeLeftText(it.start))}</div>
+        <div class="hv-meta">
+          <div><strong>Team Size</strong><br/>${escapeHtml(it.teamSize||'—')}</div>
+          <div><strong>Mode</strong><br/>${escapeHtml(it.mode||'—')}</div>
+        </div>
+      </div>
+      <div class="hv-actions">
+        <a class="hv-btn-ghost" href="/hackathons/${encodeURIComponent(it.source)}/${encodeURIComponent(it.id)}">Learn More</a>
+        <a class="hv-btn-ghost" target="_blank" rel="noopener noreferrer" href="${escapeAttr(applyUrl)}">Open Event</a>
+        <button class="hv-btn-primary register-btn" data-id="${encodeURIComponent(it.id)}" data-source="${encodeURIComponent(it.source)}" data-title="${encodeURIComponent(it.title||'')}" data-url="${encodeURIComponent(it.url||'')}">Register</button>
+      </div>
+    `;
+    return card;
+  }
+
+  // safe escaping
+  function escapeHtml(s) { if(!s) return ''; return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function escapeAttr(s){ if(!s) return ''; return String(s).replace(/"/g,'&quot;').replace(/'/g,"&#39;"); }
+
+  async function render(q, loc) {
+    const container = document.getElementById('cards');
+    const noResults = document.getElementById('noResults');
+    container.innerHTML = '<div style="grid-column:1/-1;padding:18px;background:#fff;border-radius:8px;">Loading...</div>';
+    noResults.style.display='none';
+    try {
+      const items = await fetchList(q, loc);
+      container.innerHTML = '';
+      if (!items || items.length === 0) {
+        noResults.style.display='block';
+        return;
+      }
+      items.forEach(it => container.appendChild(createCard(it)));
+
+      // register handlers
+      document.querySelectorAll('.register-btn').forEach(btn => {
+        btn.addEventListener('click', async (e) => {
+          if (!user || !user.isVerified) {
+            alert('You must be logged in and verified to register.');
+            return;
+          }
+          const eventId = decodeURIComponent(btn.dataset.id);
+          const source = decodeURIComponent(btn.dataset.source);
+          const title = decodeURIComponent(btn.dataset.title);
+          const applyUrl = decodeURIComponent(btn.dataset.url);
+          try {
+            const r = await fetch('/auth/registerHackathon', {
+              method:'POST',
+              headers:{'Content-Type':'application/json'},
+              body: JSON.stringify({ eventId, source, title, applyUrl })
+            });
+            const data = await r.json();
+            alert(data.message || 'Registered');
+          } catch (err) {
+            console.error('register error', err);
+            alert('Registration failed. Try again.');
+          }
+        });
+      });
+
+    } catch (err) {
+      console.error('render error', err);
+      container.innerHTML = '<div style="grid-column:1/-1;padding:18px;background:#fff;border-radius:8px;color:#c33;">Error loading events. See console.</div>';
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const qIn = document.getElementById('searchQ');
+    const locIn = document.getElementById('location');
+    const btn = document.getElementById('btnSearch');
+
+    qIn.value = qIn.value || 'hackathon';
+    locIn.value = locIn.value || '';
+
+    render(qIn.value.trim(), locIn.value.trim());
+
+    btn.addEventListener('click', () => render(qIn.value.trim(), locIn.value.trim()));
+    [qIn, locIn].forEach(el => el.addEventListener('keydown', (ev) => { if(ev.key==='Enter'){ev.preventDefault(); render(qIn.value.trim(), locIn.value.trim());}}));
+  });
+</script>

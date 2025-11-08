@@ -91,7 +91,8 @@ router.post('/login', async (req, res, next) => {
     const ok = await bcrypt.compare(password, user.passwordHash);
     if (!ok) return res.status(400).json({ message: 'Invalid credentials' });
     if (!user.isVerified) return res.status(403).json({ message: 'Account not verified', needVerify: true, email: user.email });
-
+    req.session.user = { email: user.email, name: user.name, isVerified: user.isVerified };
+    
     return res.json({ message: 'Logged in', name: user.name, email: user.email });
   } catch (err) {
     next(err);
@@ -194,5 +195,17 @@ router.post('/reset', async (req, res, next) => {
     next(err);
   }
 });
+
+/**
+ * POST /logout
+ */
+router.post('/logout', (req, res) => {
+  req.session.destroy(err => {
+    if (err) return res.status(500).json({ message: 'Logout failed' });
+    res.clearCookie('vision.vault');
+    res.json({ message: 'Logged out' });
+  });
+});
+
 
 module.exports = router;
