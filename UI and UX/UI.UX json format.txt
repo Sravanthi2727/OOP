@@ -1,0 +1,146 @@
+## UI/UX
+{
+  "title": "UI/UX Design",
+  "intro": {
+    "description": "User Interface (UI) focuses on the visual elements of a product, while User Experience (UX) emphasizes usability and interaction flow. Together, they ensure digital products are both beautiful and functional.",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/PravallikaGanta15/UI%20and%20UX/Intro%20on%20UI%20and%20UX"
+  },
+  "roadmap": {
+    "summary": "Covers basic design principles, HTML/CSS, design tools (Figma, Adobe XD, Sketch), wireframing, prototyping, usability testing, responsive/mobile design, and project development.",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/PravallikaGanta15/UI%20and%20UX/roadmap%20UI%20and%20UX.jpg"
+  },
+  "tags": [
+    "UI Design",
+    "UX Design",
+    "Wireframing",
+    "Prototyping",
+    "Usability Testing",
+    "Figma",
+    "Adobe XD",
+    "Design Systems",
+    "Accessibility",
+    "Responsive Design"
+  ],
+  "books": {
+    "free": [
+      {
+        "title": "UX Design for Startups",
+        "author": "Keep It Usable",
+        "link": "https://www.keepitusable.com/blog/biggest-list-of-free-ux-books/"
+      },
+      {
+        "title": "The UX Book: Agile UX Design for a Quality User Experience",
+        "author": "Userbrain",
+        "link": "https://www.userbrain.com/blog/free-ebooks-on-usability-user-experience-ui-and-more/"
+      },
+      {
+        "title": "Don't Make Me Think (Summary)",
+        "author": "Qubstudio",
+        "link": "https://qubstudio.com/blog/best-40-ux-ui-books-free-paid-versions/"
+      },
+      {
+        "title": "135 Free UX/UI eBooks Collection",
+        "author": "Userbrain",
+        "link": "https://www.userbrain.com/blog/free-ebooks-on-usability-user-experience-ui-and-more/"
+      },
+      {
+        "title": "35 FREE UX Books",
+        "author": "Keep It Usable",
+        "link": "https://www.keepitusable.com/blog/biggest-list-of-free-ux-books/"
+      },
+      {
+        "title": "40 Best UX/UI Books (Free & Paid)",
+        "author": "Qubstudio",
+        "link": "https://qubstudio.com/blog/best-40-ux-ui-books-free-paid-versions/"
+      }
+    ],
+    "paid": [
+      {
+        "title": "Don't Make Me Think",
+        "author": "Steve Krug",
+        "link": "https://www.amazon.in/dp/0321965515"
+      },
+      {
+        "title": "The Design of Everyday Things",
+        "author": "Don Norman",
+        "link": "https://www.amazon.in/dp/0465050654"
+      },
+      {
+        "title": "Hooked: How to Build Habit-Forming Products",
+        "author": "Nir Eyal",
+        "link": "https://www.amazon.in/dp/1591847788"
+      },
+      {
+        "title": "UI is Communication",
+        "author": "Everett McKay",
+        "link": "https://www.flipkart.com/ui-communication/p/itmdx9y7gqgqzqzq"
+      },
+      {
+        "title": "Lean UX",
+        "author": "Jeff Gothelf",
+        "link": "https://www.amazon.in/dp/1491953608"
+      },
+      {
+        "title": "About Face: The Essentials of Interaction Design",
+        "author": "Alan Cooper et al.",
+        "link": "https://www.wiley.com/en-in/About+Face%3A+The+Essentials+of+Interaction+Design%2C+4th+Edition-p-9781118766576"
+      }
+    ]
+  },
+  "courses_and_playlists": {
+    "free": [
+      {
+        "title": "Zero to Mastery – UI/UX Design Full Course",
+        "platform": "YouTube",
+        "link": "https://www.youtube.com/playlist?list=PLpKyNBYcYNJec4bUTVZUqxBQF5ezd96RT",
+        "author": "Andrei Neagoie (Zero to Mastery)"
+      },
+      {
+        "title": "Top 5 Free UI/UX Courses",
+        "platform": "LinkedIn",
+        "link": "https://www.linkedin.com/pulse/5-free-uiux-design-courses-youtube-pragya-sharma-qb5ce",
+        "author": "Pragya Sharma"
+      },
+      {
+        "title": "Best YouTube Channels to Learn UI/UX",
+        "platform": "PlacementPreparation",
+        "link": "https://www.placementpreparation.io/blog/best-youtube-channels-to-learn-ui-ux-design/",
+        "author": "PlacementPreparation Team"
+      }
+    ],
+    "certified": [
+      {
+        "title": "UI/UX for Beginners",
+        "platform": "Great Learning",
+        "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/ui-ux",
+        "author": "Great Learning Academy"
+      },
+      {
+        "title": "UI/UX Basics",
+        "platform": "Simplilearn SkillUp",
+        "link": "https://www.simplilearn.com/free-graphic-design-beginner-course-skillup",
+        "author": "Simplilearn"
+      }
+    ],
+    "paid": [
+      {
+        "title": "UI/UX Design Course with IIT Roorkee",
+        "platform": "Intellipaat",
+        "link": "https://intellipaat.com/ui-ux-course/",
+        "author": "Intellipaat + IIT Roorkee"
+      },
+      {
+        "title": "Google UX Design Certificate",
+        "platform": "Coursera",
+        "link": "https://grow.google/certificates/ux-design/",
+        "author": "Google"
+      },
+      {
+        "title": "Advanced UI/UX Design",
+        "platform": "IIIT Bangalore",
+        "link": "https://sl-courses.iiitb.ac.in/ui-ux-design-course-certification",
+        "author": "IIIT Bangalore"
+      }
+    ]
+  }
+}
