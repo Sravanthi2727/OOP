@@ -1,0 +1,141 @@
+## data analytics
+{
+  "title": "Data Analytics",
+  "intro": {
+    "description": "Data Analytics is the process of examining large datasets to uncover patterns, trends, and insights. It helps organizations make informed decisions using tools like Excel, SQL, Python, R, Tableau, and Power BI.",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/keerthan/introonDA"
+  },
+  "roadmap": {
+    "summary": "Covers foundations in math and stats, programming (Python/R), SQL, data cleaning, visualization, advanced analytics, machine learning, and portfolio building. Includes tools like Excel, Tableau, Power BI, and cloud platforms.",
+    "source": "https://roadmap.sh/data-analyst"
+  },
+  "tags": [
+    "Data Analytics",
+    "Excel",
+    "SQL",
+    "Python",
+    "R",
+    "Tableau",
+    "Power BI",
+    "Data Cleaning",
+    "Visualization",
+    "Statistics",
+    "Machine Learning",
+    "Big Data",
+    "Projects"
+  ],
+  "Data Analytics Learning Path": {
+    "books": [
+      {
+        "title": "Practical Statistics for Data Scientists",
+        "author": "Peter Bruce & Andrew Bruce",
+        "link": "http://103.203.175.90:81/fdScript/RootOfEBooks/E%20Book%20collection%202023/CSE%20ITAIDSML/Practical%20Statistics%20for%20Data%20Scientist%20by%20Peter%20Bruce,%20Andrew%20Bruce.pdf"
+      },
+      {
+        "title": "Python for Data Analysis",
+        "author": "Wes McKinney",
+        "link": "https://fasttacks.com/wp-content/uploads/2024/07/Wes-Mckinney-Python-for-Data-Analysis-Data-Wrangling-with-pandas-NumPy-and-Jupyter-OReilly-Media-2022.pdf"
+      },
+      {
+        "title": "Storytelling with Data",
+        "author": "Cole Nussbaumer Knaflic",
+        "link": "https://www.wiley.com/en-us/Storytelling+with+Data%3A+A+Data+Visualization+Guide+for+Business+Professionals-p-9781119002253"
+      },
+      {
+        "title": "The Data Warehouse Toolkit",
+        "author": "Ralph Kimball",
+        "link": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/books/data-warehouse-dw-toolkit/"
+      }
+    ],
+    "notes": [
+      {
+        "title": "W3Schools SQL Tutorial",
+        "author": "W3Schools",
+        "link": "https://www.youtube.com/playlist?list=PLxSn8YMF02XWIQdf-c07-MxSjgpO6eySi"
+      },
+      {
+        "title": "Pandas Documentation",
+        "author": "pandas.pydata.org",
+        "link": "https://pandas.pydata.org/docs/"
+      },
+      {
+        "title": "NumPy Documentation",
+        "author": "SciPy.org",
+        "link": "https://docs.scipy.org/"
+      },
+      {
+        "title": "Tableau Public Resources",
+        "author": "Tableau Community",
+        "link": "https://community.tableau.com/s/news/a0A8b00002JfZQhEAN/tableau-desktop-resources-for-newbies"
+      },
+      {
+        "title": "Power BI Learning Path",
+        "author": "Microsoft Learn",
+        "link": "https://learn.microsoft.com/en-us/training/paths/model-data-power-bi/"
+      }
+    ],
+    "courses_and_certifications": {
+      "one_shots": [
+        {
+          "title": "Data Analytics in 1 Hour",
+          "author": "Simplilearn",
+          "link": "https://www.youtube.com/watch?v=rw6m1mMWSQA"
+        },
+        {
+          "title": "Excel Data Analysis Crash Course",
+          "author": "Leila Gharani",
+          "link": "https://www.youtube.com/channel/UCJtUOosMwJaEwii-R3cJA"
+        },
+        {
+          "title": "Power BI Crash Course",
+          "author": "Pragmatic Works",
+          "link": "https://www.youtube.com/pragmaticworks"
+        },
+        {
+          "title": "Tableau Crash Course",
+          "author": "Edureka",
+          "link": "https://www.youtube.com/watch?v=cSuo9uy7Kk"
+        }
+      ],
+      "free": [
+        {
+          "title": "Data Analysis with Python",
+          "platform": "freeCodeCamp",
+          "link": "https://www.freecodecamp.org/learn/data-analysis-with-python"
+        },
+        {
+          "title": "Data Analytics Full Course (8 hrs)",
+          "platform": "Simplilearn",
+          "link": "https://www.youtube.com/watch?v=a3urSV7q441"
+        },
+        {
+          "title": "Kaggle Micro-Courses",
+          "platform": "Kaggle",
+          "link": "https://www.kaggle.com/general/198508"
+        },
+        {
+          "title": "Microsoft Learn – Data Analytics",
+          "platform": "Microsoft",
+          "link": "https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/"
+        }
+      ],
+      "paid": [
+        {
+          "title": "Google Data Analytics Professional Certificate",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
+        },
+        {
+          "title": "IBM Data Analyst Professional Certificate",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/professional-certificates/ibm-data-analyst-r-excel"
+        },
+        {
+          "title": "Data Analytics Bootcamp",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/topic/data-analysis/"
+        }
+      ]
+    }
+  }
+}
