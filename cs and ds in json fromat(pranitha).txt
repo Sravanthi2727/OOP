@@ -1,0 +1,282 @@
+ ## data science 
+{
+  "title": "Data Science "
+  "intro": {
+    "description": "Data Science is the field of extracting meaningful insights from data using statistics, programming, and domain expertise. It helps in decision-making across industries like business, healthcare, and government.",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/enjamoorpranitha/DS/IntroOnDS"
+  },
+  "roadmap": {
+    "summary": "Covers foundational math, data handling, machine learning, deep learning, NLP, computer vision, tools, and portfolio projects. Includes Python/R, libraries like NumPy, Pandas, TensorFlow, and visualization tools like Power BI and Tableau.",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/enjamoorpranitha/DS/ChatGPT%20Image%20Nov%207%2C%202025%2C%2006_36_18%20PM.pdf"
+  },
+  "tags": [
+    "Data Science",
+    "Machine Learning",
+    "Python",
+    "R",
+    "Statistics",
+    "AI",
+    "Deep Learning",
+    "NLP",
+    "Computer Vision",
+    "Portfolio Projects"
+  ],
+  "books": {
+    "free": [
+      {
+        "title": "Principles of Data Science",
+        "author": "OpenStax",
+        "link": "https://assets.openstax.org/oscms-prodcms/media/documents/Principles-of-Data-Science-WEB.pdf"
+      },
+      {
+        "title": "Data Science and Machine Learning: Mathematical & Statistical Methods",
+        "author": "Dirk Kroese et al",
+        "link": "https://people.smp.uq.edu.au/DirkKroese/DSML/DSML.pdf"
+      },
+      {
+        "title": "R for Data Science",
+        "author": "Hadley Wickham & Garrett Grolemund",
+        "link": "https://r4ds.had.co.nz/"
+      },
+      {
+        "title": "100+ Free Data Science Books",
+        "link": "https://www.learndatasci.com/free-data-science-books/"
+      },
+      {
+        "title": "Top Data Science Books (Free)",
+        "link": "https://freecomputerbooks.com/top-data-science-books.html"
+      }
+    ],
+    "paid": [
+      {
+        "title": "Python Data Science Handbook",
+        "author": "Jake VanderPlas",
+        "link": "Amazon India listing"
+      },
+      {
+        "title": "Data Science from Scratch",
+        "author": "Joel Grus",
+        "link": "Amazon India listing"
+      },
+      {
+        "title": "Advanced Data Science Techniques with Python",
+        "author": "Talluri Sunil Kumar & Ponnam Lalitha",
+        "link": "Flipkart listing"
+      },
+      {
+        "title": "Advanced AI and Data Science Applications",
+        "editor": "D. Sivabalaselvamani et al",
+        "link": "Routledge listing"
+      },
+      {
+        "title": "Data Science & Big Data Analytics",
+        "link": "Wiley listing"
+      }
+    ]
+  },
+  "courses": {
+    "free": [
+      {
+        "title": "CampusX – Data Science Playlist",
+        "platform": "YouTube",
+        "link": "https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH"
+      },
+      {
+        "title": "NPTEL‑NOC / IIT Madras",
+        "platform": "YouTube / SWAYAM",
+        "link": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K"
+      }
+    ],
+    "free_certified": [
+      {
+        "title": "Machine Learning Specialization",
+        "platform": "Coursera (Stanford Online ↔ DeepLearning.AI)",
+        "link": "https://www.coursera.org/specializations/machine-learning-introduction"
+      },
+      {
+        "title": "Google ML Crash Course",
+        "platform": "Google",
+        "link": "https://developers.google.com/machine-learning/crash-course"
+      },
+      {
+        "title": "Kaggle – Intro to Machine Learning",
+        "platform": "Kaggle",
+        "link": "https://www.kaggle.com/learn/intro-to-machine-learning"
+      }
+    ],
+    "paid_certified": [
+      {
+        "title": "IBM – Machine Learning Professional Certificate",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/professional-certificates/ibm-machine-learning"
+      },
+      {
+        "title": "Udemy – Machine Learning A-Z™",
+        "platform": "Udemy",
+        "link": "https://www.udemy.com/course/machinelearning/"
+      },
+      {
+        "title": "Udacity – Machine Learning Nanodegree",
+        "platform": "Udacity",
+        "link": "https://www.udacity.com/"
+      }
+    ]
+  }
+}
+
+ ### cyber security 
+{
+  "title": "Cybersecurity "
+  "intro": {
+    "description": "Cybersecurity is the practice of protecting systems, networks, and data from digital attacks. It involves firewalls, encryption, antivirus tools, and ethical practices to defend against threats like hacking, ransomware, and data breaches.",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/enjamoorpranitha/CS/IntroOnCS"
+  },
+  "roadmap": {
+    "summary": "Covers foundational topics like programming, operating systems, probability, and cybersecurity concepts. Reinforces basics with ethics, vulnerabilities, and network security. Advances into cloud, encryption, endpoint security, threat intelligence, and digital forensics. Includes certifications and hands-on projects like CTFs and bug bounty.",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/enjamoorpranitha/CS/ChatGPT%20Image%20Nov%206%2C%202025%2C%2005_57_02%20PM.pdf"
+  },
+  "tags": [
+    "Cybersecurity",
+    "Ethical Hacking",
+    "Network Security",
+    "Bug Bounty",
+    "Digital Forensics",
+    "Encryption",
+    "Threat Intelligence",
+    "CTF",
+    "Security Certifications",
+    "Python",
+    "Linux",
+    "Cloud Security"
+  ],
+  "books": {
+    "free": [
+      {
+        "title": "The Cyber Security Body Of Knowledge (CyBOK)",
+        "link": "https://www.cybok.org/media/downloads/CyBOK-version-1.0.pdf"
+      },
+      {
+        "title": "Cyber Security for Beginners",
+        "link": "https://heimdalsecurity.com/pdf/cyber_security_for_beginners_ebook.pdf"
+      },
+      {
+        "title": "Introduction to Cyber Security (UOU)",
+        "link": "https://uou.ac.in/sites/default/files/slm/Introduction-cyber-security.pdf"
+      },
+      {
+        "title": "Cybersecurity Handbook – Greek National Cybersecurity Authority",
+        "link": "https://cyber.gov.gr/wp-content/uploads/2025/03/Cybersecurity-Handbook-English-version-compressed.pdf"
+      },
+      {
+        "title": "FreeCybersecurity-books list/resource",
+        "link": "https://freecomputerbooks.com/compscspecialSecurityBooks.html"
+      },
+      {
+        "title": "Simplilearn Cybersecurity eBooks",
+        "link": "https://www.simplilearn.com/resources/cyber-security/ebooks"
+      },
+      {
+        "title": "GitHub – FREE Cybersecurity Books Collection",
+        "link": "https://github.com/DoS0x99/cyber-security-books"
+      }
+    ],
+    "paid": [
+      {
+        "title": "The Web Application Hacker's Handbook",
+        "author": "Dafydd Stuttard",
+        "link": "https://www.amazon.in/dp/1118026470"
+      },
+      {
+        "title": "Hacking: The Art of Exploitation",
+        "author": "Jon Erickson",
+        "link": "https://www.amazon.in/dp/1593271441"
+      },
+      {
+        "title": "Cybersecurity and Cyberwar",
+        "author": "P.W. Singer",
+        "link": "https://www.amazon.in/dp/0199918119"
+      },
+      {
+        "title": "Metasploit: The Penetration Tester’s Guide",
+        "author": "David Kennedy",
+        "link": "https://www.amazon.in/dp/159327288X"
+      },
+      {
+        "title": "Practical Malware Analysis",
+        "author": "Michael Sikorski",
+        "link": "https://www.amazon.in/dp/1593272901"
+      }
+    ]
+  },
+  "courses": {
+    "free_certified": [
+      {
+        "title": "Cybrary – Free foundational courses",
+        "platform": "Cybrary",
+        "link": "https://www.cybrary.it/free-content"
+      },
+      {
+        "title": "IBM SkillsBuild – Free courses + digital badges",
+        "platform": "IBM",
+        "link": "https://skillsbuild.org/students/course-catalog/cybersecurity"
+      },
+      {
+        "title": "Great Learning Academy – Free courses + certificate",
+        "platform": "Great Learning",
+        "link": "https://www.mygreatlearning.com/cybersecurity/free-courses"
+      },
+      {
+        "title": "SANS Cyber Aces – Free intro courses",
+        "platform": "SANS",
+        "link": "https://www.sans.org/cyberaces"
+      },
+      {
+        "title": "Palo Alto Networks Beacon – Free courses",
+        "platform": "Palo Alto Networks",
+        "link": "https://www.paloaltonetworks.com/cyberpedia/free-cybersecurity-education-courses"
+      }
+    ],
+    "certified": [
+      {
+        "title": "ISC² – Certified in Cybersecurity (CC)",
+        "platform": "ISC²",
+        "link": "https://www.isc2.org/landing/1mcc"
+      },
+      {
+        "title": "Fortinet NSE Training (NSE 1–4 free)",
+        "platform": "Fortinet",
+        "link": "https://www.fortinet.com/training/cybersecurity-professionals"
+      },
+      {
+        "title": "Cisco Networking Academy – Introduction to Cybersecurity",
+        "platform": "Cisco",
+        "link": "https://www.netacad.com/courses/introduction-to-cybersecurity"
+      },
+      {
+        "title": "Palo Alto Networks Beacon",
+        "platform": "Palo Alto Networks",
+        "link": "https://www.paloaltonetworks.com/cyberpedia/free-cybersecurity-education-courses"
+      },
+      {
+        "title": "EC-Council CEH / Cybersecurity Foundations",
+        "platform": "EC-Council",
+        "link": "https://www.eccouncil.org/cybersecurity-exchange/cyber-novice/free-cybersecurity-courses-beginners/"
+      }
+    ]
+  },
+  "certifications": {
+    "beginner": [
+      "CompTIA Security+",
+      "CEH (Certified Ethical Hacker)"
+    ],
+    "intermediate": [
+      "DKSP",
+      "cJPT",
+      "CySA+"
+    ],
+    "advanced": [
+      "CISSP",
+      "CISM"
+    ]
+  }
+}
