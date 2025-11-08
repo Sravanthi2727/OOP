@@ -1,0 +1,270 @@
+## devops
+
+{
+  "title": "DevOps",
+  "intro": {
+    "description": "DevOps is a methodology combining software development (Dev) and IT operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives. It emphasizes culture, automation, Lean principles, and system thinking.",
+    "source": "DevOps (3).pdf"
+  },
+  "roadmap": {
+    "summary": "A clear roadmap covering three phases: Phase 1 (Foundations), Phase 2 (Core DevOps Tools: CI/CD, Containerization, IaC), and Phase 3 (Cloud & Advanced Practices: Observability, DevSecOps, SRE Concepts).",
+    "source": " https://share.google/images/fhl4QMyue97s59BSQ"
+  },
+  "tags": [
+    "DevOps",
+    "CI/CD",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "Git",
+    "Terraform",
+    "Ansible",
+    "AWS",
+    "Azure",
+    "SRE"
+  ],
+  "DevOps Learning Path": {
+    "notes": [
+      {
+        "title": "Introduction to DevOps",
+        "author": "IBM via Coursera",
+        "link": "https://www.coursera.org/learn/introduction-devops"
+      },
+      {
+        "title": "DevOps Free Course",
+        "author": "Great Learning Academy",
+        "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/devops-basics"
+      },
+      {
+        "title": "100 Days Of DevOps",
+        "author": "KodeKloud",
+        "link": "https://www.100daysofdevops.com/"
+      }
+    ],
+    "books": [
+      {
+        "title": "The Phoenix Project",
+        "author": "Gene Kim, Kevin Behr, George Spafford",
+        "link": "https://itrevolution.com/product/the-phoenix-project/"
+      },
+      {
+        "title": "The DevOps Handbook",
+        "author": "Gene Kim, Jez Humble, Patrick Debois, John Willis",
+        "link": "https://itrevolution.com/product/the-devops-handbook/"
+      },
+      {
+        "title": "Accelerate",
+        "author": "Nicole Forsgren, Jez Humble, Gene Kim",
+        "link": "https://itrevolution.com/product/accelerate/"
+      },
+      {
+        "title": "Continuous Delivery",
+        "author": "Jez Humble, David Farley",
+        "link": "https://www.informit.com/store/continuous-delivery-reliable-software-releases-through-9780321601919"
+      }
+    ],
+    "courses_and_certifications": {
+      "free": [
+        {
+          "title": "Introduction to DevOps",
+          "platform": "Coursera (IBM)",
+          "link": "https://www.coursera.org/learn/introduction-devops"
+        },
+        {
+          "title": "DevOps Free Course",
+          "platform": "Great Learning Academy",
+          "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/devops-basics"
+        },
+        {
+          "title": "100 Days Of DevOps",
+          "platform": "KodeKloud",
+          "link": "https://www.100daysofdevops.com/"
+        }
+      ],
+      "paid": [
+        {
+          "title": "DevOps Engineer Master's Program",
+          "platform": "Simplilearn / Intellipaat",
+          "link": "https://www.simplilearn.com/devops-engineer-masters-program-certification-training"
+        },
+        {
+          "title": "Microsoft Certified: DevOps Engineer Expert (AZ-400)",
+          "platform": "Microsoft Azure",
+          "link": "https://learn.microsoft.com/en-us/certifications/devops-engineer/"
+        },
+        {
+          "title": "Certified Kubernetes Administrator (CKA)",
+          "platform": "CNCF / Linux Foundation",
+          "link": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"
+        },
+        {
+          "title": "AWS Certified DevOps Engineer - Professional",
+          "platform": "Amazon Web Services (AWS)",
+          "link": "https://aws.amazon.com/certification/certified-devops-engineer-professional/"
+        }
+      ]
+    },
+    "video_playlists": [
+      {
+        "title": "Comprehensive Free DevOps Playlist",
+        "platform": "YouTube (Abhishek Veeramalla)",
+        "link": "https://www.youtube.com/playlist?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC"
+      },
+      {
+        "title": "Terraform Zero to Hero",
+        "platform": "YouTube (Abhishek Veeramalla)",
+        "link": "https://www.youtube.com/playlist?list=PLy7NrYWoggjzWzvF7kG3n4Z9i1IXkKURn"
+      },
+      {
+        "title": "DevOps with AWS",
+        "platform": "YouTube (Train With Shubham)",
+        "link": "https://www.youtube.com/playlist?list=PLlfy9GnSVerRqYJkLZ6FLz1fFU3YzVx3y"
+      },
+      {
+        "title": "DevOps Full Course (2025)",
+        "platform": "YouTube (Simplilearn)",
+        "link": "https://www.youtube.com/watch?v=0yWAtQ6wYNM"
+      },
+      {
+        "title": "BEST DevOps Course For Beginners",
+        "platform": "YouTube (Intellipaat)",
+        "link": "https://www.youtube.com/watch?v=0yWAtQ6wYNM"
+      }
+    ],
+    "interview_resources": [
+      {
+        "title": "Comprehensive DevOps/SRE Q&A",
+        "author": "GitHub: bregman-arie",
+        "link": "https://github.com/bregman-arie/devops-exercises"
+      },
+      {
+        "title": "DevOps Interview Prep Hub",
+        "author": "GitHub: rohitg00",
+        "link": "https://github.com/rohitg00/devops-interview-questions"
+      },
+      {
+        "title": "Advanced Scenario Questions",
+        "author": "GitHub: sv222",
+        "link": "https://github.com/sv222/devops-interview-questions"
+      },
+      {
+        "title": "Jenkins CI/CD Questions",
+        "author": "InterviewBit",
+        "link": "https://www.interviewbit.com/jenkins-interview-questions/"
+      }
+    ]
+  }
+}
+
+### block chain
+{
+  "title": "Blockchain",
+  "intro": {
+    "description": "Blockchain is a distributed ledger technology (DLT) based on concepts from computer science and cryptography. It covers core protocols like Bitcoin and Ethereum, smart contract languages like Solidity, and DApp development.",
+    "source": "Blockchain (2).pdf"
+  },
+  "roadmap": {
+    "summary": "Detailed mind map outlining five stages: Foundation, Core Protocol, Smart Contracts, Full-Stack DApp, and Security & Optimisation (Pages 5–6).",
+    "source": " https://share.google/images/VIDuq3NODFNHyMcXF"
+  },
+  "tags": [
+    "Blockchain",
+    "Web3",
+    "Solidity",
+    "Ethereum",
+    "Bitcoin",
+    "Cryptography",
+    "DApp Development",
+    "Interview Prep",
+    "Consensus Mechanisms"
+  ],
+  "Blockchain Learning Path": {
+    "notes_and_books": [
+      {
+        "title": "Bitcoin White Paper",
+        "author": "Satoshi Nakamoto",
+        "link": "https://bitcoin.org/bitcoin.pdf"
+      },
+      {
+        "title": "Ethereum White Paper",
+        "author": "Vitalik Buterin",
+        "link": "https://ethereum.org/en/whitepaper/"
+      },
+      {
+        "title": "Mastering Bitcoin",
+        "author": "Andreas M. Antonopoulos",
+        "link": "https://github.com/bitcoinbook/bitcoinbook"
+      },
+      {
+        "title": "Mastering Ethereum",
+        "author": "Andreas M. Antonopoulos & Gavin Wood",
+        "link": "https://github.com/ethereumbook/ethereumbook"
+      }
+    ],
+    "courses_and_playlists": {
+      "free": [
+        {
+          "title": "Blockchain Basics",
+          "platform": "Coursera / University at Buffalo",
+          "link": "https://www.coursera.org/courses?query=blockchain"
+        },
+        {
+          "title": "Blockchain Essentials",
+          "platform": "edX / IBM",
+          "link": "https://www.edx.org/learn/cryptocurrency"
+        },
+        {
+          "title": "Blockchain Fundamentals",
+          "platform": "101 Blockchains",
+          "link": "https://101blockchains.com/"
+        },
+        {
+          "title": "Solidity, Web3, and DApp Development",
+          "platform": "freeCodeCamp (YouTube)",
+          "link": "https://www.youtube.com/watch?v=tq-ooflj7R4"
+        },
+        {
+          "title": "Dapp University",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/channel/UCY0xL8V6NzzFcwzHCgB8orQ/videos"
+        },
+        {
+          "title": "Finematics",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/c/Finematics/videos"
+        }
+      ],
+      "paid": [
+        {
+          "title": "Blockchain Developer Nanodegree Program",
+          "platform": "Udacity",
+          "link": "https://www.classcentral.com/course/udacity-blockchain-developer-nanodegree--nd1309-18231"
+        }
+      ],
+      "certified": [
+        {
+          "title": "Professional Certificate in Blockchain Fundamentals",
+          "platform": "edX / UC Berkeley",
+          "link": "https://www.classcentral.com/course/uc-berkeleyx-blockchain-fundamentals-18439"
+        },
+        {
+          "title": "Certified Blockchain Expert™",
+          "platform": "Blockchain Council",
+          "link": "https://www.blockchain-council.org/certifications/certified-blockchain-professional-expert/"
+        }
+      ]
+    },
+    "practice_resources": [
+      {
+        "title": "Blockchain Interview Questions",
+        "author": "101 Blockchains",
+        "link": "https://101blockchains.com/blockchain-interview-questions/"
+      },
+      {
+        "title": "MCQ/Quiz Platform",
+        "author": "Testbook",
+        "link": "https://testbook.com/objective-questions/mcq-on-block-chain--5eea6a0d39140f30f369e30d"
+      }
+    ]
+  }
+}
