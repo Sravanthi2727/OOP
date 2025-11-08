@@ -1,0 +1,191 @@
+### prompt engineering 
+{
+  "title": "Prompt Engineering",
+  "intro": {
+    "description": "Prompt Engineering is the art and science of crafting effective inputs for large language models (LLMs) and generative AI systems. It involves guiding model behavior using structured prompts, context, constraints, and chaining techniques.",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/pavan/introonprompt"
+  },
+  "roadmap": {
+    "summary": "Covers fundamentals, context engineering, multimodal prompting, prompt tuning, agent building, and applications across platforms like ChatGPT, Claude, Gemini, and GitHub Copilot.",
+    "source": " https://share.google/images/j3aNDaZuXtKlF6ieA"
+  },
+  "tags": [
+    "Prompt Engineering",
+    "LLMs",
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Copilot",
+    "Multimodal",
+    "Prompt Tuning",
+    "AI Agents",
+    "Reasoning"
+  ],
+  "Prompt Engineering Learning Path": {
+    "books": [
+      {
+        "title": "The Prompt Report: A Systematic Survey of Prompting Techniques",
+        "author": "Prompt Engineering Research Group (2024)",
+        "link": "Searchable via academic repositories"
+      },
+      {
+        "title": "A Systematic Survey of Prompt Engineering in LLMs",
+        "author": "Arxiv ID: 2402.07927",
+        "link": "https://arxiv.org/abs/2402.07927"
+      },
+      {
+        "title": "A Survey of Automatic Prompt Engineering: An Optimization Perspective",
+        "author": "Arxiv ID: 2502.11560",
+        "link": "https://arxiv.org/abs/2502.11560"
+      }
+    ],
+    "courses_and_certifications": {
+      "certified": [
+        {
+          "title": "Prompt Engineering for ChatGPT",
+          "platform": "Vanderbilt University / Coursera",
+          "link": "https://www.coursera.org/learn/prompt-engineering"
+        }
+      ]
+    },
+    "video_playlists": [
+      {
+        "title": "Prompt Engineering Full Course 2025",
+        "platform": "Simplilearn",
+        "link": "Searchable on YouTube"
+      }
+    ],
+    "tutorials": [
+      {
+        "title": "Prompt Engineering Tutorial",
+        "author": "Azure Blob (Shared)",
+        "link": "https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-f0a8-622f-8e39-0b41ecde3d98/raw?se=2025-09-30T05%3A27%3A47Z&sp=r&sv=2024-08-04&sr=b&scid=90b8558d-23a4-5aad-a311-fc83d78d93ff&skoid=03727f49-62d3-42ac-8350-1c0e6559d238&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-29T23%3A22%3A18Z&ske=2025-09-30T23%3A22%3A18Z&sks=b&skv=2024-08-04&sig=d/6zKowRcWUZ2x1g4/Kia49pjn1FbuPcgGj8gg/aiXE%3D"
+      }
+    ]
+  }
+}
+
+#### big data
+{
+  "title": "Big Data",
+  "intro": {
+    "description": "Big Data refers to large-scale datasets that require advanced tools and techniques for storage, processing, and analysis. It includes technologies like Hadoop, Spark, NoSQL, and cloud platforms for real-time analytics.",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/pavan/introonbig"
+  },
+  "roadmap": {
+    "summary": "Covers Hadoop, Spark, PySpark, data engineering pipelines, cloud platforms (Azure, AWS), streaming systems, and hands-on practice via Kaggle, DataCamp, and YouTube tutorials.",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/pavan/roadmaponbig.pdf"
+  },
+  "tags": [
+    "Big Data",
+    "Hadoop",
+    "Spark",
+    "PySpark",
+    "Streaming",
+    "Data Engineering",
+    "Azure",
+    "AWS",
+    "ETL",
+    "NoSQL",
+    "Kaggle"
+  ],
+  "Big Data Learning Path": {
+    "books": [
+      {
+        "title": "Big Data: Principles and Best Practices of Scalable Real-Time Data Systems",
+        "author": "Nathan Marz & James Warren",
+        "link": "https://www.manning.com/books/big-data"
+      },
+      {
+        "title": "Hadoop: The Definitive Guide",
+        "author": "Tom White",
+        "link": "https://www.oreilly.com/library/view/hadoop-the-definitive/9781491901687/"
+      },
+      {
+        "title": "Streaming Systems",
+        "author": "Tyler Akidau et al.",
+        "link": "https://www.oreilly.com/library/view/streaming-systems/9781491983867/"
+      }
+    ],
+    "courses_and_certifications": {
+      "free": [
+        {
+          "title": "Spark: PySpark",
+          "platform": "Great Learning",
+          "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/spark-pyspark"
+        },
+        {
+          "title": "Introduction to Big Data with Spark and Hadoop",
+          "platform": "Coursera / IBM",
+          "link": "https://www.coursera.org/learn/introduction-to-big-data-with-spark-hadoop"
+        },
+        {
+          "title": "Introduction to Big Data with PySpark",
+          "platform": "Codecademy",
+          "link": "https://www.codecademy.com/learn/big-data-pyspark"
+        }
+      ],
+      "paid": [
+        {
+          "title": "Big Data Specialization",
+          "platform": "University of California San Diego / Coursera",
+          "link": "https://www.coursera.org/specializations/big-data"
+        },
+        {
+          "title": "IBM Data Engineering Professional Certificate",
+          "platform": "IBM / Coursera",
+          "link": "https://www.coursera.org/professional-certificates/ibm-data-engineer"
+        },
+        {
+          "title": "Microsoft Certified: Azure Data Engineer Associate",
+          "platform": "Microsoft Learn",
+          "link": "https://learn.microsoft.com/en-us/certifications/azure-data-engineer/"
+        }
+      ]
+    },
+    "practice_resources": [
+      {
+        "title": "Kaggle",
+        "author": "Kaggle Community",
+        "link": "https://www.kaggle.com/"
+      },
+      {
+        "title": "GeeksforGeeks – Big Data",
+        "author": "GeeksforGeeks",
+        "link": "https://www.geeksforgeeks.org/big-data/"
+      },
+      {
+        "title": "DataCamp – Data Engineer with Python",
+        "author": "DataCamp",
+        "link": "https://www.datacamp.com/tracks/data-engineer-with-python"
+      },
+      {
+        "title": "Towards Data Science",
+        "author": "Medium Publication",
+        "link": "https://towardsdatascience.com/"
+      }
+    ],
+    "video_playlists": [
+      {
+        "title": "Big Data Full Course",
+        "platform": "Edureka",
+        "link": "https://www.youtube.com/watch?v=I3Hq9jvU5Dk"
+      },
+      {
+        "title": "Hadoop and Spark Tutorial",
+        "platform": "Simplilearn",
+        "link": "https://www.youtube.com/watch?v=yrZPAh0Jfqs"
+      },
+      {
+        "title": "Big Data Roadmap",
+        "platform": "Krish Naik",
+        "link": "https://www.youtube.com/watch?v=JztWz0gsC6Y"
+      },
+      {
+        "title": "Big Data Crash Course",
+        "platform": "freeCodeCamp",
+        "link": "https://www.youtube.com/watch?v=eSaF8NXeNsA"
+      }
+    ]
+  }
+}
