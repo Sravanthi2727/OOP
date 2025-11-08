@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - VisionVault</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Starry Background -->
+    <div class="starry-background">
+        <div class="stars-layer-1"></div>
+        <div class="stars-layer-2"></div>
+        <div class="stars-layer-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <a href="course.html" class="logo">VISIONVAULT</a>
+                
+                <div class="nav-links" id="navLinks">
+                    <a href="course.html" class="nav-link active">Courses</a>
+                    <button class="btn btn-outline btn-login">Login</button>
+                </div>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="course.html" class="mobile-link">Courses</a>
+                <button class="btn btn-outline btn-login">Login</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <main class="page-content">
+        <div class="container">
+            <div class="page-header">
+                <h1 class="page-title">Explore <span class="text-primary">Courses</span></h1>
+                <p class="page-description">Browse our comprehensive collection of courses and start your learning journey today.</p>
+            </div>
+
+            <div class="search-container">
+                <div class="search-box">
+                    <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <input type="search" class="search-input" id="courseSearch" placeholder="Search courses...">
+                </div>
+            </div>
+
+            <!-- Course Grid - Add your courses here -->
+            <div class="course-grid" id="courseGrid">
+                <!-- Example Course Card Template - Duplicate and modify as needed -->
+                <div class="course-card" data-course-title="Sample Course Title" data-course-description="Sample course description">
+                    <div class="card-header">
+                        <div class="card-title-section">
+                            <h3 class="card-title">[Course Title]</h3>
+                            <span class="badge badge-primary">[Level]</span>
+                        </div>
+                        <svg class="card-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">[Course Description]</p>
+                        <div class="card-meta">
+                            <div class="meta-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                <span>[Duration]</span>
+                            </div>
+                            <div class="meta-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                                <span>[Students]</span>
+                            </div>
+                        </div>
+                        <a href="course-detail.html" class="btn btn-outline btn-full">Explore Course</a>
+                    </div>
+                </div>
+
+                <!-- Add more course cards here by duplicating the template above -->
+            </div>
+
+            <div class="no-results" id="noResults" style="display: none;">
+                <p>No courses found matching your search.</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
