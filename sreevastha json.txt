@@ -1,0 +1,247 @@
+## iot
+{
+  "title": "Internet of Things (IoT)",
+  "intro": {
+    "description": "The Internet of Things (IoT) is the network of physical devices connected to the internet, collecting and sharing data to automate and optimize real-world processes.",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/Sreevathsa-Thalluri/introoniot"
+  },
+  "roadmap": {
+    "summary": "Covers sensors, connectivity protocols (Wi-Fi, Bluetooth, 5G), microcontrollers, cloud integration, data processing, and automation. Includes applications in smart homes, healthcare, agriculture, and industry.",
+    "source": " https://share.google/images/SgAz6i8ixeCag4UxK"
+  },
+  "tags": [
+    "IoT",
+    "Sensors",
+    "Automation",
+    "Embedded Systems",
+    "Microcontrollers",
+    "Cloud IoT",
+    "Edge Computing",
+    "Smart Devices"
+  ],
+  "courses_and_playlists": {
+    "free": [
+      {
+        "title": "IoT for Beginners",
+        "author": "Microsoft",
+        "platform": "GitHub",
+        "link": "https://github.com/microsoft/IoT-For-Beginners"
+      },
+      {
+        "title": "Introduction to IoT",
+        "author": "Cisco Networking Academy",
+        "platform": "Cisco NetAcad",
+        "link": "https://www.netacad.com/courses/iot/introduction-iot"
+      },
+      {
+        "title": "IoT Projects & Tutorials",
+        "author": "Rui Santos",
+        "platform": "Random Nerd Tutorials",
+        "link": "https://randomnerdtutorials.com/"
+      },
+      {
+        "title": "IoT Crash Course",
+        "author": "freeCodeCamp",
+        "platform": "YouTube",
+        "link": "https://www.youtube.com/watch?v=5Wb1pJp9g2g"
+      },
+      {
+        "title": "IoT Explained",
+        "author": "IoT Explained Channel",
+        "platform": "YouTube",
+        "link": "https://www.youtube.com/@IoTExplained"
+      },
+      {
+        "title": "IoT with Raspberry Pi",
+        "author": "Raspberry Pi Foundation",
+        "platform": "Raspberry Pi Courses",
+        "link": "https://www.raspberrypi.org/courses/electronics-and-robotics"
+      },
+      {
+        "title": "IoT Academy",
+        "author": "The IoT Academy",
+        "platform": "YouTube",
+        "link": "https://www.youtube.com/@theiotacademy"
+      },
+      {
+        "title": "IoT Basics",
+        "author": "Guru99",
+        "platform": "Website",
+        "link": "https://www.guru99.com/iot-tutorial.html"
+      },
+      {
+        "title": "IoT for All",
+        "author": "IoT for All Team",
+        "platform": "YouTube",
+        "link": "https://www.youtube.com/@iotforall"
+      },
+      {
+        "title": "Arduino IoT Projects",
+        "author": "Arduino Team",
+        "platform": "Arduino.cc",
+        "link": "https://www.arduino.cc/education"
+      }
+    ],
+    "paid": [
+      {
+        "title": "Internet of Things (IoT)",
+        "author": "Ian Harris",
+        "platform": "Udemy",
+        "link": "https://www.udemy.com/course/internet-of-things-iot/"
+      },
+      {
+        "title": "IoT and Embedded Systems",
+        "author": "Various Instructors",
+        "platform": "Udemy",
+        "link": "https://www.udemy.com/topic/iot/"
+      },
+      {
+        "title": "IoT with Python and Raspberry Pi",
+        "author": "Coursera Instructors",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/iot"
+      }
+    ],
+    "certified": [
+      {
+        "title": "Introduction to the Internet of Things and Embedded Systems",
+        "author": "UC Irvine",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/iot"
+      },
+      {
+        "title": "Elements of IoT",
+        "author": "Curtin University",
+        "platform": "edX",
+        "link": "https://www.edx.org/professional-certificate/curtinx-internet-of-things"
+      },
+      {
+        "title": "IoT Specialization",
+        "author": "University of California, Irvine",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/specializations/internet-of-things"
+      },
+      {
+        "title": "Professional Certificate in IoT",
+        "author": "Curtin University",
+        "platform": "edX",
+        "link": "https://www.edx.org/professional-certificate/curtinx-internet-of-things"
+      },
+      {
+        "title": "IoT Certification Training",
+        "author": "Simplilearn",
+        "platform": "Simplilearn",
+        "link": "https://www.simplilearn.com/iot-certification-training-course"
+      }
+    ]
+  }
+}
+## quantum
+{
+  "title": "Quantum Engineering",
+  "intro": {
+    "description": "Quantum Engineering applies quantum mechanics to develop powerful computing systems using qubits, enabling breakthroughs in cryptography, optimization, and scientific simulation.",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/Sreevathsa-Thalluri/introonquantum"
+  },
+  "roadmap": {
+    "summary": "Covers quantum mechanics, qubits, superposition, entanglement, quantum gates, algorithms, and hardware. Includes applications in AI, cryptography, optimization, and simulation.",
+    "source": " https://share.google/images/Y1cqHrpivUzI7HHXD"
+  },
+  "tags": [
+    "Quantum Computing",
+    "Qubits",
+    "Quantum Algorithms",
+    "Quantum Cryptography",
+    "Quantum Hardware",
+    "Quantum AI",
+    "Quantum Mechanics",
+    "Quantum Engineering"
+  ],
+  "courses_and_playlists": {
+    "free": [
+      {
+        "title": "Quantum Computing",
+        "author": "IBM",
+        "platform": "SkillsBuild",
+        "link": "https://skillsbuild.org/students/course-catalog/quantum-computing"
+      },
+      {
+        "title": "Quantum Mechanics for Engineers",
+        "author": "University of Colorado Boulder",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/quantum-mechanics-engineers"
+      },
+      {
+        "title": "Learn Quantum Computing for Free",
+        "author": "Monit Sharma",
+        "platform": "GitHub",
+        "link": "https://monitsharma.github.io/Learn-Quantum-Computing-For-Free/"
+      },
+      {
+        "title": "Qiskit Tutorials",
+        "author": "IBM Qiskit Team",
+        "platform": "GitHub / YouTube",
+        "link": "https://qiskit.org/learn"
+      },
+      {
+        "title": "Quantum Computing Crash Course",
+        "author": "freeCodeCamp",
+        "platform": "YouTube",
+        "link": "https://www.youtube.com/watch?v=F_Riqjdh2oM"
+      }
+    ],
+    "paid": [
+      {
+        "title": "Quantum Computing & Machine Learning",
+        "author": "IIT Delhi",
+        "platform": "TimesPro",
+        "link": "https://timespro.com/executive-education/iit-delhi-certification-in-quantum-computing-and-machine-learning"
+      },
+      {
+        "title": "Quantum Academy",
+        "author": "QNu Labs",
+        "platform": "QNu Academy",
+        "link": "https://www.qnulabs.com/qnu-academy"
+      },
+      {
+        "title": "Quantum Computing Projects",
+        "author": "Himani (IITM)",
+        "platform": "GitHub",
+        "link": "https://github.com/himani-iitm/Quantum-Computing-Projects"
+      }
+    ],
+    "certified": [
+      {
+        "title": "Quantum Mechanics for Engineers",
+        "author": "University of Colorado Boulder",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/quantum-mechanics-engineers"
+      },
+      {
+        "title": "Quantum Computing Fundamentals",
+        "author": "IBM",
+        "platform": "SkillsBuild",
+        "link": "https://skillsbuild.org/students/course-catalog/quantum-computing"
+      },
+      {
+        "title": "M.Tech in Quantum Technology",
+        "author": "IISc Bangalore",
+        "platform": "IQTI",
+        "link": "https://iqti.iisc.ac.in/academics/"
+      },
+      {
+        "title": "AICTE QIP PG Certification Programme – Quantum Engineering",
+        "author": "AICTE",
+        "platform": "AICTE QIP",
+        "link": "https://qippg.aicte.gov.in/certification-programmes"
+      },
+      {
+        "title": "B.Tech in Quantum AI",
+        "author": "NorthCap University",
+        "platform": "NCU",
+        "link": "https://www.ncuindia.edu/programme/b-tech-cse-quantum-computing-in-ai/"
+      }
+    ]
+  }
+}
+
