@@ -1,0 +1,308 @@
+## machine learning
+{
+  "title": "Machine Learning",
+  "intro": {
+    "description": "Machine Learning is the science of getting computers to learn and act like humans by learning from data rather than being explicitly programmed. It powers automation, personalization, and complex decision-making across industries.",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/sravanthi_vadla/ML/IntroOnML.txt"
+  },
+  "roadmap": {
+    "summary": "Covers foundational math, supervised and unsupervised learning, model evaluation, hyperparameter tuning, NLP, deep learning, computer vision, and tools like Scikit-learn, TensorFlow, and PyTorch.",
+    "link": "https://www.geeksforgeeks.org/blogs/machine-learning-roadmap/",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/sravanthi_vadla/ML/ML%20Roadmap.pdf"
+  },
+  "tags": [
+    "Machine Learning",
+    "Supervised Learning",
+    "Unsupervised Learning",
+    "Deep Learning",
+    "NLP",
+    "Computer Vision",
+    "Scikit-learn",
+    "TensorFlow",
+    "PyTorch",
+    "Model Evaluation",
+    "Kaggle",
+    "Projects"
+  ],
+  "Machine Learning Learning Path": {
+    "notes_and_books": [
+      {
+        "title": "The Hundred-Page Machine Learning Book",
+        "author": "Andriy Burkov",
+        "link": "https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t"
+      },
+      {
+        "title": "Pattern Recognition and Machine Learning",
+        "author": "Christopher M. Bishop",
+        "link": "https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf"
+      },
+      {
+        "title": "An Introduction to Statistical Learning",
+        "author": "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani",
+        "link": "https://www.statlearning.com/"
+      },
+      {
+        "title": "Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow",
+        "author": "Aurélien Géron",
+        "link": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/"
+      },
+      {
+        "title": "Deep Learning with Python",
+        "author": "François Chollet",
+        "link": "https://www.manning.com/books/deep-learning-with-python"
+      }
+    ],
+    "courses_and_certifications": {
+      "free": [
+        {
+          "title": "Machine Learning Playlist",
+          "platform": "CampusX (YouTube)",
+          "link": "https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH"
+        },
+        {
+          "title": "Introduction to Machine Learning",
+          "platform": "NPTEL-NOC-IITM (YouTube)",
+          "link": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K"
+        }
+      ],
+      "free_certified": [
+        {
+          "title": "Machine Learning Specialization",
+          "platform": "Stanford University & DeepLearning.AI (Coursera)",
+          "link": "https://www.coursera.org/specializations/machine-learning-introduction"
+        },
+        {
+          "title": "Google Machine Learning Crash Course",
+          "platform": "Google AI",
+          "link": "https://developers.google.com/machine-learning/crash-course"
+        },
+        {
+          "title": "Intro to Machine Learning",
+          "platform": "Kaggle",
+          "link": "https://www.kaggle.com/learn/intro-to-machine-learning"
+        }
+      ],
+      "paid_certified": [
+        {
+          "title": "IBM Machine Learning Professional Certificate",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/professional-certificates/ibm-machine-learning"
+        },
+        {
+          "title": "Machine Learning A-Z™: AI, Python & R",
+          "author": "Kirill Eremenko & Hadelin de Ponteves",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/course/machinelearning/"
+        },
+        {
+          "title": "Machine Learning Engineer Nanodegree",
+          "platform": "Udacity",
+          "link": "https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t"
+        }
+      ]
+    }
+  }
+}
+
+### webdev
+{
+  "title": "Web Development",
+  "intro": {
+    "description": "Web Development is the art and science of building and maintaining websites and web applications. It combines design, programming, and problem-solving to create interactive digital experiences accessible across the globe.",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/sravanthi_vadla/webDev.txt"
+  },
+  "roadmap": {
+    "summary": "Covers front-end (HTML, CSS, JavaScript, frameworks), back-end (Node.js, databases, APIs), version control, testing, security, performance, architecture, and deployment. Includes MERN stack, DevOps integration, and mobile/web app optimization.",
+    "link": "Referenced from Web Development Road Map.pdf",
+    "source": "https://github.com/Sravanthi2727/OOP/blob/sravanthi_vadla/Web%20Development%20Road%20Map.pdf"
+  },
+  "tags": [
+    "Web Development",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "MERN Stack",
+    "Frontend",
+    "Backend",
+    "Fullstack",
+    "Version Control",
+    "DevOps",
+    "Security",
+    "Testing"
+  ],
+  "Web Development Learning Path": {
+    "books": {
+      "free": [
+        {
+          "title": "The Odin Project – Full Stack JavaScript",
+          "author": "The Odin Project Team",
+          "link": "https://www.theodinproject.com/paths/full-stack-javascript"
+        },
+        {
+          "title": "Fullstack Open",
+          "author": "University of Helsinki",
+          "link": "https://fullstackopen.com/en/"
+        },
+        {
+          "title": "The Little MongoDB Book",
+          "author": "Karl Seguin",
+          "link": "https://github.com/karlseguin/the-little-mongodb-book"
+        },
+        {
+          "title": "MongoDB Notes for Professionals",
+          "author": "GoalKicker",
+          "link": "https://goalkicker.com/MongoDBBook/"
+        },
+        {
+          "title": "Express.js Guide",
+          "author": "Azat Mardan",
+          "link": "https://github.com/azat-co/expressjs-guide"
+        },
+        {
+          "title": "The Road to React",
+          "author": "Robin Wieruch",
+          "link": "https://www.robinwieruch.de/the-road-to-react/"
+        },
+        {
+          "title": "React JS Notes for Professionals",
+          "author": "GoalKicker",
+          "link": "https://goalkicker.com/ReactJSBook/"
+        },
+        {
+          "title": "Node.js Succinctly",
+          "author": "Emanuele DelBono",
+          "link": "https://www.syncfusion.com/ebooks/nodejs-succinctly"
+        },
+        {
+          "title": "Node.js Notes for Professionals",
+          "author": "GoalKicker",
+          "link": "https://goalkicker.com/NodeJSBook/"
+        }
+      ],
+      "paid": [
+        {
+          "title": "Beginning MERN Stack",
+          "author": "Greg Lim",
+          "link": "Searchable on Amazon or Packt"
+        },
+        {
+          "title": "MERN Quick Start Guide",
+          "author": "Eddy Wilson Iriarte Koroliova",
+          "link": "Searchable on Amazon or Packt"
+        },
+        {
+          "title": "Pro MERN Stack",
+          "author": "Vasan Subramanian",
+          "link": "Searchable on Apress or Amazon"
+        },
+        {
+          "title": "Full-Stack React Projects",
+          "author": "Shama Hoque",
+          "link": "Searchable on Packt or Amazon"
+        },
+        {
+          "title": "MERN from Scratch: Build an eCommerce Platform",
+          "author": "Project-based guide",
+          "link": "Searchable on Amazon or GitHub"
+        }
+      ]
+    },
+    "courses_and_certifications": {
+      "free": [
+        {
+          "title": "MERN Stack Playlist",
+          "platform": "Sunfire Sensei (YouTube)",
+          "link": "https://www.youtube.com/playlist?list=PLMLLbuGXs6F4DfBeFI1sAyI85SdRCv7-H"
+        },
+        {
+          "title": "Fullstack Open",
+          "platform": "University of Helsinki",
+          "link": "https://fullstackopen.com/en/about"
+        },
+        {
+          "title": "MERN Stack Tutorial",
+          "platform": "The Net Ninja (YouTube)",
+          "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE"
+        },
+        {
+          "title": "CodeHelp MERN Stack",
+          "platform": "Love Babbar (YouTube)",
+          "link": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD"
+        }
+      ],
+      "paid": [
+        {
+          "title": "MERN Stack Front To Back",
+          "author": "Brad Traversy",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/course/mern-stack-front-to-back/"
+        },
+        {
+          "title": "MERN Fullstack Guide",
+          "author": "Maximilian Schwarzmüller (Academind)",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/"
+        },
+        {
+          "title": "Node.js Bootcamp",
+          "author": "Jonas Schmedtmann",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/"
+        }
+      ],
+      "certified": [
+        {
+          "title": "freeCodeCamp Certifications",
+          "platform": "freeCodeCamp",
+          "link": "https://www.freecodecamp.org/learn/"
+        },
+        {
+          "title": "Meta Front-End Developer Certificate",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/specializations/packt-mern-stack-front-to-back-full-stack-react-redux-and-node-js"
+        },
+        {
+          "title": "IBM Full Stack Software Developer Certificate",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer"
+        },
+        {
+          "title": "Simplilearn Full Stack Java Developer Program",
+          "platform": "Simplilearn",
+          "link": "https://www.simplilearn.com/full-stack-java-developer-certification-training-course"
+        }
+      ]
+    },
+    "official_docs": [
+      {
+        "title": "MongoDB Documentation",
+        "author": "MongoDB Inc.",
+        "link": "https://www.mongodb.com/docs/"
+      },
+      {
+        "title": "Node.js Documentation",
+        "author": "Node.js Foundation",
+        "link": "https://nodejs.org/docs/latest/api/documentation.html"
+      },
+      {
+        "title": "Express.js Documentation",
+        "author": "Express Team",
+        "link": "https://expressjs.com/"
+      },
+      {
+        "title": "React Documentation",
+        "author": "Meta (React Team)",
+        "link": "https://react.dev/learn"
+      },
+      {
+        "title": "JavaScript Documentation",
+        "author": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      }
+    ]
+  }
+}
