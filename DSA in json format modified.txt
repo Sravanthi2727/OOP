@@ -1,0 +1,317 @@
+{
+  "title": "Data Structures and Algorithms (DSA)",
+  "intro": {
+    "description": "Data Structures and Algorithms (DSA) is the study of organizing and processing data efficiently. It includes structures like arrays, trees, graphs, and algorithms for searching, sorting, and optimization.",
+    "source": "Intro to DSA.txt"
+  },
+  "roadmap": {
+    "summary": "Visual overview of key data structures (arrays, trees, graphs, hash tables) and algorithms (searching, sorting, traversal) with time complexities ranging from O(1) to O(2^n).",
+    "source": "Road map to DSA.pdf"
+  },
+,
+  "tags": [
+    "DSA",
+    "Algorithms",
+    "Data Structures",
+    "C++",
+    "Java",
+    "Python",
+    "Interview Prep",
+    "Competitive Programming"
+  ],
+  "DSA Course by Language": {
+    "C++": {
+      "books": [
+        {
+          "title": "Data Structures and Algorithms Made Easy (C++)",
+          "author": "Narasimha Karumanchi",
+          "read_online": "https://z-lib.gd/book/2855973/a7e557/data-structures-and-algorithmic-puzzles.html",
+          "alternate_pdf": "https://www.academia.edu/38289887/Data_Structures_and_Algorithms_Narasimha_Karumanchi_pdf"
+        },
+        {
+          "title": "Competitive Programming 3",
+          "author": "Steven Halim & Felix Halim",
+          "read_online": "https://en.z-library.sk/book/5102511/22d14a/competitive-programming-3-the-new-lower-bound-of-programming-contests.html",
+          "alternate_pdf": "https://github.com/prasadgujar/CompetitiveProgramming/blob/master/book/Competitive%20Programming%203.pdf"
+        },
+        {
+          "title": "Cracking the Coding Interview",
+          "author": "Gayle Laakmann McDowell",
+          "read_online": "https://archive.org/details/crackingcodingin0000mcdo_k7r4"
+        },
+        {
+          "title": "The C++ Programming Language (4th Edition)",
+          "author": "Bjarne Stroustrup",
+          "read_online": "https://archive.org/download/gate-2020-computer-science-and-technology-by-disha%20experts/The%20C%2B%2B%20Programming%20Language%2C%204th%20Edition%20by%20Stroustrup%20B..pdf",
+          "alternate_pdf": "https://github.com/deepmindd/Cppbooks/blob/main/The_C%2B%2B_Programming_Language_4th_Edition_Bjarne_Stroustrup.pdf"
+        },
+        {
+          "title": "Introduction to Algorithms (CLRS)",
+          "author": "Cormen, Leiserson, Rivest, Stein",
+          "read_online": "https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf",
+          "alternate_pdf": "https://github.com/HSIN-KUANG/IntroductionToAlgorithms/blob/main/Introduction.to.Algorithms.4th.pdf"
+        },
+        {
+          "title": "Open Data Structures (In C++)",
+          "author": "Pat Morin",
+          "read_online": "https://opendatastructures.org/ods-cpp.pdf"
+        },
+        {
+          "title": "Data Structures and Algorithm Analysis in C++",
+          "author": "Clifford A. Shaffer",
+          "read_online": "https://digitalcommons.liberty.edu/textbooks/6/"
+        },
+        {
+          "title": "Data Structures and Algorithms in C++",
+          "author": "Goodrich, Tamassia, Mount",
+          "read_online": "https://www.wiley-vch.de/en/areas-interest/computing-computer-sciences/data-structures-and-algorithms-in-c-978-0-470-38327-8"
+        }
+      ],
+      "courses_and_playlists": {
+        "free": [
+          {
+            "title": "CodeHelp by Love Babbar",
+            "platform": "YouTube",
+            "link": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA"
+          },
+          {
+            "title": "Apna College – C++ DSA by Shraddha Didi",
+            "platform": "YouTube",
+            "link": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ"
+          },
+          {
+            "title": "Take U Forward – Striver’s DSA Sheet",
+            "platform": "YouTube",
+            "link": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw"
+          }
+        ],
+        "paid": [
+          {
+            "title": "Apna College – C++ DSA Course",
+            "platform": "Apna College",
+            "link": "https://www.apnacollege.in/course/cpp-dsa"
+          },
+          {
+            "title": "PW Skills – Decode C++ with DSA",
+            "platform": "PW Skills",
+            "link": "https://pwskills.com/programming-courses/dsa-cpp/"
+          }
+        ],
+        "certified": [
+          {
+            "title": "Scaler Topics – DSA in C++",
+            "platform": "Scaler",
+            "link": "https://www.scaler.com/topics/course/cpp-data-structures/"
+          },
+          {
+            "title": "DataFlair – Free DSA in C++",
+            "platform": "DataFlair",
+            "link": "https://data-flair.training/courses/free-dsa-using-cpp-course-multilingual/"
+          },
+          {
+            "title": "Simplilearn – Basics of DSA",
+            "platform": "Simplilearn SkillUp",
+            "link": "https://www.simplilearn.com/free-data-structures-algorithms-course-skillup"
+          }
+        ]
+      }
+    },
+
+    "Java": {
+      "books": [
+        {
+          "title": "Data Structures and Algorithms Made Easy – Java Edition",
+          "author": "Narasimha Karumanchi",
+          "read_online": "https://z-lib.io/book/2855973/a7e557",
+          "alternate_pdf": "https://www.academia.edu/38289887/Data_Structures_and_Algorithms_Narasimha_Karumanchi_pdf"
+        },
+        {
+          "title": "Data Structures and Algorithms in Java",
+          "read_online": "https://archive.org/details/data-structures-and-algorithms-in-java-6th-edition",
+          "alternate_pdf": "https://books.google.com/books/about/Data_Structures_and_Algorithms_in_Java.html?id=9ZzGswEACAAJ"
+        },
+        {
+          "title": "The Algorithm Design Manual",
+          "read_online": "https://archive.org/details/TheAlgorithmDesignManual"
+        },
+        {
+          "title": "Introduction to Algorithms (CLRS)",
+          "read_online": "https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf",
+          "alternate_pdf": "https://github.com/HSIN-KUANG/IntroductionToAlgorithms/blob/main/Introduction.to.Algorithms.4th.pdf"
+        },
+        {
+          "title": "Java DSA Notes & Guides",
+          "read_online": "https://github.com/gowthamrajk/Java-Development-Guide/blob/main/DSA%20Handwritten%20Notes.pdf",
+          "alternate_pdf": "https://www.geeksforgeeks.org/dsa/dsa-in-java/"
+        },
+        {
+          "title": "Open Data Structures (in Java)",
+          "author": "Pat Morin",
+          "read_online": "https://opendatastructures.org/ods-java.pdf"
+        },
+        {
+          "title": "Data Structures and Algorithm Analysis in Java",
+          "author": "Clifford A. Shaffer",
+          "read_online": "https://freecomputerbooks.com/Data-Structures-and-Algorithm-Analysis-in-Java.html"
+        },
+        {
+          "title": "Data Structures & Algorithms in Java",
+          "author": "Robert Lafore",
+          "read_online": "https://www.cs.umb.edu/~siyer/teaching/dsaj.pdf"
+        }
+      ],
+      "courses_and_playlists": {
+        "free": [
+          {
+            "title": "College Wallah – Complete DSA in Java",
+            "platform": "YouTube",
+            "link": "https://www.youtube.com/playlist?list=PLxgZQoSe9cg2uGKIRzUbWaHRjEuZnAnhj"
+          },
+          {
+            "title": "Scaler Topics – Java DSA Course",
+            "platform": "Scaler",
+            "link": "https://www.scaler.com/topics/course/dsa-beginners-java/"
+          },
+          {
+            "title": "GeeksforGeeks – Java DSA Track",
+            "platform": "GeeksforGeeks",
+            "link": "https://www.geeksforgeeks.org/dsa/dsa-in-java/"
+          }
+        ],
+        "paid": [
+          {
+            "title": "Jenny’s Lectures – Mastering DSA with Java",
+            "platform": "JennysLectures",
+            "link": "https://www.jennyslectures.com/courses/Mastering-Data-Structures-and-Algorithms-with-JAVA-66d7fe06b4f7fa3fb969f5c5"
+      },
+      {
+        "title": "Udemy – Complete Core Java + DSA + Projects",
+        "platform": "Udemy",
+        "link": "https://www.udemy.com/course/2024-complete-java-with-dsa/"
+      }
+    ],
+    "certified": [
+      {
+        "title": "Scaler Topics – Java DSA Course",
+        "platform": "Scaler",
+        "link": "https://www.scaler.com/topics/course/dsa-beginners-java/"
+      },
+      {
+        "title": "Great Learning – DSA in Java",
+        "platform": "Great Learning",
+        "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/data-structures-and-algorithms-in-java"
+      },
+      {
+        "title": "GeeksforGeeks – Free Java DSA Modules",
+        "platform": "GeeksforGeeks",
+        "link": "https://www.geeksforgeeks.org/dsa/data-structures-and-algorithms-online-courses-free-and-paid/"
+      },
+      {
+        "title": "Coding Ninjas – Java DSA Course",
+        "platform": "Coding Ninjas",
+        "link": "https://www.codingninjas.com/programs/java-dsa-course"
+      },
+      {
+        "title": "TechVidvan – DSA Using Java with AI & ChatGPT",
+        "platform": "TechVidvan",
+        "link": "https://techvidvan.com/dsa-using-java-course-multilingual/"
+      }
+    ]
+  }
+},
+   "Python": {
+  "books": [
+    {
+      "title": "Problem Solving with Algorithms and Data Structures Using Python",
+      "author": "Brad Miller & David Ranum",
+      "read_online": "https://runestone.academy/ns/books/published/pythonds/index.html",
+      "alternate_pdf": "https://github.com/ranum/ProblemSolvingWithAlgorithmsAndDataStructures/blob/master/ProblemSolvingWithAlgorithmsAndDataStructures.pdf"
+    },
+    {
+      "title": "Data Structures and Algorithms in Python",
+      "author": "Michael T. Goodrich, Roberto Tamassia & Michael H. Goldwasser",
+      "read_online": "https://archive.org/details/data-structures-and-algorithms-in-python",
+      "alternate_pdf": "https://books.google.com/books/about/Data_Structures_and_Algorithms_in_Python.html?id=9ZzGswEACAAJ"
+    },
+    {
+      "title": "Grokking Algorithms",
+      "author": "Aditya Bhargava",
+      "read_online": "https://archive.org/details/grokking-algorithms-aditya-bhargava",
+      "alternate_pdf": "https://github.com/egonSchiele/grokking_algorithms"
+    },
+    {
+      "title": "Python Algorithms",
+      "author": "Magnus Lie Hetland",
+      "read_online": "https://archive.org/details/python-algorithms-magnus-hetland"
+    },
+    {
+      "title": "Introduction to Algorithms (CLRS)",
+      "author": "Cormen, Leiserson, Rivest, Stein",
+      "read_online": "https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf",
+      "alternate_pdf": "https://github.com/HSIN-KUANG/IntroductionToAlgorithms/blob/main/Introduction.to.Algorithms.4th.pdf"
+    },
+    {
+      "title": "Data Structures and Algorithms with Object‑Oriented Design Patterns in Python",
+      "author": "Bruno R. Preiss",
+      "read_online": "https://freecomputerbooks.com/Data-Structures-and-Algorithms-with-Object-Oriented-Design-Patterns-in-Python.html"
+    }
+  ],
+  "courses_and_playlists": {
+    "free": [
+      {
+        "title": "Code & Debug – DSA with Python",
+        "platform": "YouTube",
+        "link": "https://www.youtube.com/playlist?list=PLhR2IpV1b2FwWwviBHRrR118YAaSlyhTU"
+      },
+      {
+        "title": "freeCodeCamp – Python DSA Modules",
+        "platform": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+      },
+      {
+        "title": "GeeksforGeeks – Python DSA Track",
+        "platform": "GeeksforGeeks",
+        "link": "https://www.geeksforgeeks.org/data-structures-and-algorithms-in-python/"
+      }
+    ],
+    "paid": [
+      {
+        "title": "Udemy – Complete Python With DSA Bootcamp",
+        "platform": "Udemy",
+        "link": "https://www.udemy.com/course/complete-python-dsa-bootcamp/"
+      },
+      {
+        "title": "Tutedude – DSA with Python",
+        "platform": "Tutedude",
+        "link": "https://tutedude.com/category/dsawithpython"
+      },
+      {
+        "title": "PW Skills – Decode Python with DSA",
+        "platform": "PW Skills",
+        "link": "https://pwskills.com/programming-courses/dsa-in-python/"
+      }
+    ],
+    "certified": [
+      {
+        "title": "DataFlair – Free DSA in Python",
+        "platform": "DataFlair",
+        "link": "https://data-flair.training/courses/free-dsa-using-python-course-multilingual/"
+      },
+      {
+        "title": "Simplilearn SkillUp – DSA in Python",
+        "platform": "Simplilearn",
+        "link": "https://www.simplilearn.com/data-structures-and-algorithms-in-python-free-certification-course-skillup"
+      },
+      {
+        "title": "ScholarHat – Free DSA Course with Certification",
+        "platform": "ScholarHat",
+        "link": "https://www.scholarhat.com/free-course/data-structures-algorithms-course"
+      },
+      {
+        "title": "Coding Ninjas – Python DSA Course",
+        "platform": "Coding Ninjas",
+        "link": "https://www.codingninjas.com/programs/python-dsa-course"
+      }
+    ]
+  }
+}
