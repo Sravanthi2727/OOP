@@ -8,7 +8,7 @@
       },
       "roadmap": {
         "summary": "Start with arrays and strings, progress through recursion, linked lists, stacks, queues, trees, graphs, and dynamic programming. Includes complexity analysis and STL usage.",
-        "source": "public/assets/DSA with C++.pdf"
+        "source": "/assets/DSA%20with%20C%2B%2B.pdf"
       },
       "tags": ["DSA", "C++", "Interview Prep", "OOP"],
       "books": [
@@ -103,7 +103,7 @@
       },
       "roadmap": {
         "summary": "Begin with Java basics, then dive into arrays, recursion, linked lists, stacks, queues, trees, graphs, and dynamic programming. Includes Java collections and algorithmic patterns.",
-        "source": "public/assets/DSA with Java.pdf"
+        "source": "/assets/DSA%20with%20Java.pdf"
       },
       "tags": ["DSA", "Java", "Interview Prep", "OOP"],
       "books": [
@@ -214,7 +214,7 @@
       "books": [
         {
           "title": "Problem Solving with Algorithms and Data Structures Using Python",
-          "link": "publicassetsDSA with python.pdf"
+          "link": "/assets/DSA%20with%20python.pdf"
         },
         {
           "title": "Data Structures and Algorithms in Python",
@@ -305,7 +305,7 @@
       },
       "roadmap": {
         "summary": "Covers foundational math, data handling, machine learning, deep learning, NLP, computer vision, tools, and portfolio projects. Includes Python/R, libraries like NumPy, Pandas, TensorFlow, and visualization tools like Power BI and Tableau.",
-        "source": "publicassetsData science.pdf"
+        "source": "/assets/Data%20science.pdf"
       },
       "tags": [
         "Data Science",
@@ -322,7 +322,7 @@
       "books": [
         {
           "title": "Principles of Data Science",
-          "link": "https://assets.openstax.org/oscms-prodcms/media/documents/Principles-of-Data-Science-WEB.pdf"
+          "link": "https://openstax.org/oscms-prodcms/media/documents/Principles-of-Data-Science-WEB.pdf"
         },
         {
           "title": "Data Science and Machine Learning: Mathematical & Statistical Methods",
@@ -390,7 +390,7 @@
           {
             "title": "Udacity – Machine Learning Nanodegree",
             "platform": "Udacity",
-            "link": "https://www.udacity.com/"
+            "link": "https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t"
           }
         ]
       },
@@ -404,7 +404,7 @@
       },
       "roadmap": {
         "summary": "Covers foundational topics like programming, operating systems, probability, and cybersecurity concepts. Reinforces basics with ethics, vulnerabilities, and network security. Advances into cloud, encryption, endpoint security, threat intelligence, and digital forensics. Includes certifications and hands-on projects like CTFs and bug bounty.",
-        "source": "publicassetsCyber security.pdf"
+        "source": "/assets/Cyber%20security.pdf"
       },
       "tags": [
         "Cybersecurity",
@@ -469,35 +469,6 @@
             "platform": "YouTube",
             "link": "https://www.youtube.com/@NetworkChuck"
           }
-        ],
-        "paid": [
-          {
-            "title": "Apna Security – Learn Cybersecurity",
-            "platform": "Apna College (Community Project)",
-            "link": "https://shibnath31.github.io/apnasecurity/"
-          },
-          {
-            "title": "PW Skills – Cybersecurity Course",
-            "platform": "PW Skills",
-            "link": "https://pwskills.com/cybersecurity-courses/"
-          }
-        ],
-        "certified": [
-          {
-            "title": "Simplilearn – Introduction to Cyber Security",
-            "platform": "Simplilearn SkillUp",
-            "link": "https://www.simplilearn.com/learn-cyber-security-basics-skillup"
-          },
-          {
-            "title": "DataFlair – Free Cyber Security Course",
-            "platform": "DataFlair",
-            "link": "https://data-flair.training/courses/free-cyber-security-course/"
-          },
-          {
-            "title": "Coursera – Introduction to Cyber Security Specialization",
-            "platform": "Coursera (by NYU)",
-            "link": "https://www.coursera.org/specializations/intro-cyber-security"
-          }
         ]
       },
       "id": 5
@@ -510,7 +481,7 @@
       },
       "roadmap": {
         "summary": "Covers Java/Kotlin, Android Studio, UI/UX, activity lifecycle, Firebase, and publishing apps.",
-        "source": "publicassetsAndroid Developer.pdf"
+        "source": "/assets/Android%20Developer.pdf"
       },
       "books": [
         {
@@ -570,7 +541,7 @@
       },
       "roadmap": {
         "summary": "Covers Swift, Xcode, SwiftUI/UIKit, navigation, data persistence, and App Store deployment.",
-        "source": "publicassetsIOS Developer.pdf"
+        "source": "/assets/IOS%20Developer.pdf"
       },
       "books": [
         {
@@ -630,7 +601,7 @@
       },
       "roadmap": {
         "summary": "Covers Dart/JavaScript basics, Flutter or React Native setup, UI components, navigation, state management, API integration, and deployment.",
-        "source": "publicassetscross platform.pdf"
+        "source": "/assets/cross%20platform.pdf"
       },
       "tags": [
         "Flutter",
@@ -698,7 +669,7 @@
       },
       "roadmap": {
         "summary": "Covers EC2, S3, IAM, Lambda, CloudFormation, networking, DevOps, security, and certification paths like Cloud Practitioner and Solutions Architect.",
-        "source": "publicassetsAWS.pdf"
+        "source": "/assets/AWS.pdf"
       },
       "tags": [
         "AWS",
@@ -759,7 +730,7 @@
       },
       "roadmap": {
         "summary": "Covers Azure fundamentals, virtual machines, storage, networking, Azure AD, DevOps, and certifications like AZ-900 and Azure Developer Associate.",
-        "source": "publicassetsAzure.pdf"
+        "source": "/assets/Azure.pdf"
       },
       "tags": [
         "Azure",
@@ -818,7 +789,7 @@
       },
       "roadmap": {
         "summary": "Covers Compute Engine, App Engine, BigQuery, Cloud Storage, Kubernetes, IAM, and certifications like Associate Cloud Engineer and Professional Data Engineer.",
-        "source": "publicassetsGoogle Cloud.pdf"
+        "source": "/assets/Google%20Cloud.pdf"
       },
       "tags": [
         "GCP",
@@ -877,7 +848,7 @@
       },
       "roadmap": {
         "summary": "The DevOps roadmap focuses on Linux Fundamentals and Scripting (Bash/Python), Version Control (Git), CI/CD concepts and tools (e.g., Jenkins, GitLab CI), Infrastructure as Code (IaC) (e.g., Terraform, Ansible), Containerization (Docker) and Orchestration (Kubernetes), Cloud Platforms (AWS/Azure/GCP), and Monitoring/Logging/Observability (e.g., Prometheus, ELK Stack).",
-        "source": "publicassetsDevops.pdf"
+        "source": "/assets/Devops.pdf"
       },
       "tags": [
         "DevOps",
@@ -979,7 +950,7 @@
       },
       "roadmap": {
         "summary": "A comprehensive roadmap covers: Foundational Cryptography (Hashing, Asymmetric Encryption), Core Concepts (Consensus Mechanisms - PoW/PoS, DLT, Blocks, Transactions), Smart Contract Development (Solidity/Rust), dApp Development (Web3.js, Ethers.js, Front-end integration), Layer 2 Solutions (Rollups), and Advanced topics (DeFi, NFTs, Security Auditing, Governance).",
-        "source": "publicassetsBlock chain.pdf"
+        "source": "/assets/Block%20chain.pdf"
       },
       "tags": [
         "BlockChain",
@@ -1036,7 +1007,7 @@
           {
             "title": "Blockchain Developer Nanodegree",
             "platform": "Udacity",
-            "link": "https://www.udacity.com/course/blockchain-developer--nd1310"
+            "link": "https://www.udacity.com/course/blockchain-developer-nanodegree--nd1309"
           }
         ],
         "certified": [
@@ -1048,7 +1019,7 @@
           {
             "title": "Ethereum Developer Bootcamp",
             "platform": "Alchemy University",
-            "link": "https://www.quicknode.com/"
+            "link": "https://www.alchemy.com/"
           },
           {
             "title": "IBM Blockchain Developer Certification",
@@ -1067,7 +1038,7 @@
       },
       "roadmap": {
         "summary": "The ML roadmap includes Linear Algebra, Probability & Statistics, Python Programming, Data Preprocessing, Supervised & Unsupervised Learning, Model Evaluation, Deep Learning, NLP, Computer Vision, and Deployment. Key tools include Scikit-learn, TensorFlow, PyTorch, and platforms like Kaggle and Google Colab.",
-        "source": "publicassetsML Roadmap.pdf"
+        "source": "/assets/ML%20Roadmap.pdf"
       },
       "tags": [
         "Machine Learning",
@@ -1140,7 +1111,7 @@
           {
             "title": "Google Professional ML Engineer",
             "platform": "Google Cloud Certification",
-            "link": "https://cloud.google.com/certification/machine-learning-engineer"
+            "link": "https://cloud.google.com/learn/certification/machine-learning-engineer"
           }
         ]
       },
@@ -1154,7 +1125,7 @@
       },
       "roadmap": {
         "summary": "Covers front-end (HTML, CSS, JavaScript, frameworks), back-end (Node.js, databases, APIs), version control, testing, security, performance, architecture, and deployment. Includes MERN stack, DevOps integration, and mobile/web app optimization.",
-        "source": "publicassetsWeb Development Road Map.pdf"
+        "source": "/assets/Web%20Development%20Road%20Map.pdf"
       },
       "tags": [
         "Web Development",
@@ -1261,7 +1232,7 @@
           {
             "title": "Meta Front-End Developer Certificate",
             "platform": "Coursera",
-            "link": "https://www.coursera.org/specializations/packt-mern-stack-front-to-back-full-stack-react-redux-and-node-js"
+            "link": "https://www.coursera.org/professional-certificates/meta-front-end-developer"
           },
           {
             "title": "IBM Full Stack Software Developer Certificate",
@@ -1285,7 +1256,7 @@
       },
       "roadmap": {
         "summary": "The roadmap centers on Statistical Fundamentals, Spreadsheets (Advanced Excel/Google Sheets), Database Querying (SQL), Programming (Python/R) with libraries (Pandas, NumPy, Tidyverse), Data Visualization and Business Intelligence (BI) Tools (Tableau, Power BI), and Storytelling with data. It emphasizes hands-on projects and domain knowledge.",
-        "source": "publicassetsData Analytics.pdf"
+        "source": "/assets/Data%20Analytics.pdf"
       },
       "tags": [
         "Data Analytics",
@@ -1373,7 +1344,7 @@
           {
             "title": "Microsoft Certified: Power BI Data Analyst Associate (PL-300)",
             "platform": "Microsoft Certification",
-            "link": "https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/"
+            "link": "https://learn.microsoft.com/en-us/training/courses/dp-203t00"
           },
           {
             "title": "Tableau Desktop Specialist Certification",
@@ -1392,7 +1363,7 @@
       },
       "roadmap": {
         "summary": "The roadmap covers Foundational LLM Concepts (Tokenization, Attention Mechanism, Transformer Architecture), Prompting Techniques (Zero-shot, Few-shot, Chain-of-Thought - CoT, Tree-of-Thought - ToT, Retrieval-Augmented Generation - RAG), Tool Integration (Function Calling, Plugins), Model Evaluation Metrics (Perplexity, ROUGE, BLEU), and Safety/Ethical Hacking (Prompt Injection, Jailbreaking). Mastery requires hands-on practice with various LLM APIs.",
-        "source": "publicassetsPrompt Engineering.pdf"
+        "source": "/assets/Prompt%20Engineering.pdf"
       },
       "tags": [
         "Prompt Engineering",
@@ -1477,7 +1448,7 @@
       },
       "roadmap": {
         "summary": "Includes IoT architecture, sensors, embedded systems, communication protocols (MQTT, HTTP, CoAP), microcontrollers (Arduino, ESP32, Raspberry Pi), IoT cloud services (AWS, Azure, Google Cloud), edge computing, and IoT security.",
-        "source": "publicassetsIOT.pdf"
+        "source": "/assets/IOT.pdf"
       },
       "tags": [
         "IoT",
@@ -1524,7 +1495,7 @@
       },
       "roadmap": {
         "summary": "The path to Big Data expertise focuses on Distributed Systems and Cloud Platforms (AWS/Azure/GCP), Data Warehousing/Lakes, NoSQL Databases (MongoDB, Cassandra), Programming (Python/Scala/Java), and key frameworks: Apache Hadoop (HDFS, MapReduce), Apache Spark (for fast processing), Apache Kafka (for real-time streaming), and Data Orchestration (e.g., Airflow).",
-        "source": "publicassetsBig Data.pdf"
+        "source": "/assets/Big%20Data.pdf"
       },
       "tags": [
         "Big Data",
@@ -1625,7 +1596,7 @@
       },
       "roadmap": {
         "summary": "Covers foundational concepts like search algorithms and knowledge representation, progresses to machine learning and deep learning (including neural networks, CNNs for computer vision, and sequence models for NLP), and includes practical application and societal implications.",
-        "source": "publicassetsAI.pdf"
+        "source": "/assets/AI.pdf"
       },
       "tags": [
         "AI",
@@ -1688,13 +1659,13 @@
         "certified": [
           {
             "title": "Deep Learning Specialization",
-            "platform": "DeepLearning.AI / Coursera",
+            "platform": "Coursera",
             "link": "https://www.coursera.org/specializations/deep-learning"
           },
           {
             "title": "IBM AI Engineering Professional Certificate",
-            "platform": "IBM / Coursera",
-            "link": "https://www.coursera.org/professional-certificates/ai-engineering"
+            "platform": "Coursera",
+            "link": "https://www.coursera.org/professional-certificates/ai-engineer"
           }
         ]
       },
