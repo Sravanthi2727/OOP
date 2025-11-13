@@ -12,8 +12,7 @@ const courseRoutes = require("./routes/courses");
 require("dotenv").config();
 
 // --- DB connect
-const MONGO_URL =
-  process.env.MONGO_URI;
+const MONGO_URL = process.env.MONGO_URI;
 mongoose
   .connect(MONGO_URL)
   .then(() => console.log("Mongo connected"))
@@ -39,21 +38,11 @@ app.use(
 );
 
 // --- Require route modules (may not exist)
-let authRoutes, hackRoutes, regRoutes;
+let authRoutes;
 try {
   authRoutes = require("./routes/auth");
 } catch (e) {
   console.error("require ./routes/auth failed:", e.message);
-}
-try {
-  hackRoutes = require("./routes/hackathons");
-} catch (e) {
-  console.warn("require ./routes/hackathons failed:", e.message);
-}
-try {
-  regRoutes = require("./routes/registrations");
-} catch (e) {
-  console.warn("require ./routes/registrations failed:", e.message);
 }
 
 // --- Diagnostic: print types/keys
@@ -77,8 +66,6 @@ function inspectModule(name, mod) {
   }
 }
 inspectModule("authRoutes", authRoutes);
-inspectModule("hackRoutes", hackRoutes);
-inspectModule("regRoutes", regRoutes);
 
 // --- helper to test if value is mountable router/middleware
 function isMountable(x) {
@@ -119,9 +106,6 @@ function safeMount(path, maybeMod) {
 
 // --- Mount routes (only if valid)
 safeMount("/auth", authRoutes); // auth routes (signup/login/verify)
-safeMount("/api/hackathons", hackRoutes);
-safeMount("/hackathons", hackRoutes);
-safeMount("/auth", regRoutes); // registration recording endpoint
 app.use("/courses", courseRoutes);
 console.log("Mounted router at /courses (from app.js)");
 
@@ -136,7 +120,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/hackathons", (req, res) => {
-  res.render("hackathons");
+  res.render("listings/hackathons");
 });
 
 // Catch-all 404
@@ -154,4 +138,3 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => console.log("Listening to port", PORT));
-
