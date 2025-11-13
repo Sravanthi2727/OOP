@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GRE 2025 Details - VisionVault</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Custom colors and variables based on the quiz image style */
+    :root{ 
+      --bright-blue: #00d9ff; /* A standard, bright, vibrant blue like the quiz image */
+      --dark-blue: #0a1e2e; /* Original dark blue background */
+      --card-bg: #ffffff; /* Main Content Card is White */
+      --text-main: #111827; /* Darker black/gray for main body text (ensuring all main data is this color) */
+      --text-secondary: #374151; /* Darker black/gray for subtle text */
+      --border-light: #e5e7eb; /* Light gray border for separation */
+    }
+    body{ 
+      font-family: Inter, system-ui; 
+      /* Keep the original dark blue/gradient background */
+      background: linear-gradient(180deg, var(--dark-blue), #0d2838, #0f3240); 
+      color: var(--text-main); 
+      min-height:100vh; 
+    }
+    .glass-card{ 
+      /* Updated Card Styling: White background, subtle shadow, light border */
+      background:var(--card-bg); 
+      border: 1px solid var(--border-light); 
+      border-radius:12px; 
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+      color: var(--text-main); 
+    }
+    /* Key Date Table Styling */
+    .key-date-table th, .key-date-table td { 
+      padding: 8px 12px; 
+    }
+    .key-date-table th { 
+      text-align: left; 
+      color: var(--bright-blue); /* Bright blue for date headers */
+      font-weight: 600; 
+    }
+    .key-date-table td { 
+      text-align: right; 
+      color: var(--text-main); /* Uniform dark text color for date values */
+    }
+    /* Specific styling for the detailed data tables */
+    .styled-table thead tr {
+        background-color: #f3f4f6; /* Very light gray header background */
+    }
+    .styled-table th, .styled-table td {
+        border-color: var(--border-light);
+    }
+    .styled-table tbody tr.bg-white\/5 {
+        background-color: #fafafa; /* Subtle off-white for alternating rows */
+    }
+    .starry-background {position:fixed; inset:0; pointer-events:none; z-index:-20;}
+    .stars-layer-1,.stars-layer-2,.stars-layer-3{position:absolute;inset:0;background-repeat:repeat;}
+    .stars-layer-1{background-image:radial-gradient(1px 1px at 20px 30px,white,transparent);background-size:200px 200px;animation:tw1 3s infinite;opacity:0.6;}
+    .stars-layer-2{background-image:radial-gradient(1px 1px at 40px 60px,var(--primary),transparent);background-size:250px 250px;animation:tw2 5s infinite reverse;opacity:0.45;}
+    .stars-layer-3{background-image:radial-gradient(2px 2px at 100px 120px,white,transparent);background-size:300px 300px;animation:tw3 7s infinite;opacity:0.55;}
+    @keyframes tw1{0%,100%{opacity:.3}50%{opacity:1}} @keyframes tw2{0%,100%{opacity:.25}50%{opacity:1}} @keyframes tw3{0%,100%{opacity:.35}50%{opacity:1}}
+  </style>
+</head>
+<body>
+
+  <div class="starry-background">
+    <div class="stars-layer-1"></div>
+    <div class="stars-layer-2"></div>
+    <div class="stars-layer-3"></div>
+  </div>
+
+  <nav class="sticky top-0 z-40 bg-[rgba(10,30,46,0.8)] backdrop-blur-md border-b border-white/10"></nav>
+
+  <main class="max-w-4xl mx-auto px-6 py-20 relative z-10">
+    <div class="mb-6">
+      <a href="exams.html" class="text-[var(--bright-blue)] hover:text-gray-700 transition-colors duration-200 text-lg font-medium inline-flex items-center">
+        &larr; Go Back
+      </a>
+    </div>
+
+    <div class="glass-card p-8 text-center">
+      <h1 class="text-4xl font-['Rajdhani'] text-[var(--bright-blue)] mb-3 tracking-wide">GRE Exam Details</h1>
+      <p class="text-[var(--text-secondary)] mb-6">The Graduate Record Examination (GRE) is an international standardized test conducted by ETS, required for admission to many graduate and business schools worldwide. It assesses verbal reasoning, quantitative reasoning, and analytical writing.</p>
+
+      <div class="space-y-2 text-left inline-block mb-10 text-[var(--text-main)]">
+        <p><strong>Mode:</strong> <span>Computer-Based / Home-Based</span></p>
+        <p><strong>Sections:</strong> <span>Verbal Reasoning, Quantitative Reasoning, Analytical Writing</span></p>
+        <p><strong>Total Questions:</strong> <span>54 (varies slightly by test version)</span></p>
+        <p><strong>Duration:</strong> <span>~1 hour 58 minutes</span></p>
+      </div>
+
+      <div class="text-left">
+        <h3 class="text-2xl font-['Rajdhani'] text-[var(--bright-blue)] mb-4 border-b border-[var(--border-light)] pb-2">Key Dates for GRE 2025</h3>
+        <div class="overflow-x-auto">
+          <table class="key-date-table w-full text-[var(--text-main)] text-sm">
+            <tbody>
+              <tr><th>Registration Opens</th><td>Available Year-Round</td></tr>
+              <tr><th>Exam Availability</th><td>Throughout the Year (by Appointment)</td></tr>
+              <tr><th>Score Validity</th><td>5 Years from Test Date</td></tr>
+              <tr><th>Result Time</th><td>10–15 Days after Test</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 class="text-2xl font-['Rajdhani'] text-[var(--bright-blue)] mt-10 mb-4 border-b border-[var(--border-light)] pb-2">📝 Exam Pattern & Marking</h2>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm text-[var(--text-main)] styled-table border-collapse border border-[var(--border-light)]">
+            <thead>
+              <tr class="bg-gray-100">
+                <th class="py-3 px-4 border border-[var(--border-light)] text-[var(--bright-blue)]">Section</th>
+                <th class="py-3 px-4 border border-[var(--border-light)] text-[var(--bright-blue)]">Total Qs</th>
+                <th class="py-3 px-4 border border-[var(--border-light)] text-[var(--bright-blue)]">Time (Mins)</th>
+                <th class="py-3 px-4 border border-[var(--border-light)] text-[var(--bright-blue)]">Score Range</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="py-2 px-4 border border-[var(--border-light)] text-left font-medium">Analytical Writing</td>
+                <td class="py-2 px-4 border border-[var(--border-light)] font-bold text-[var(--text-main)]">2 Tasks</td> <td class="py-2 px-4 border border-[var(--border-light)]">30</td>
+                <td class="py-2 px-4 border border-[var(--border-light)]">0–6</td>
+              </tr>
+              <tr class="bg-white/5">
+                <td class="py-2 px-4 border border-[var(--border-light)] text-left font-medium">Verbal Reasoning</td>
+                <td class="py-2 px-4 border border-[var(--border-light)] font-bold text-[var(--text-main)]">27</td> <td class="py-2 px-4 border border-[var(--border-light)]">41</td>
+                <td class="py-2 px-4 border border-[var(--border-light)]">130–170</td>
+              </tr>
+              <tr>
+                <td class="py-2 px-4 border border-[var(--border-light)] text-left font-medium">Quantitative Reasoning</td>
+                <td class="py-2 px-4 border border-[var(--border-light)] font-bold text-[var(--text-main)]">27</td> <td class="py-2 px-4 border border-[var(--border-light)]">47</td>
+                <td class="py-2 px-4 border border-[var(--border-light)]">130–170</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="text-xs text-[var(--text-secondary)] mt-3">*Scores for Verbal & Quantitative are reported separately; Analytical Writing is scored on a scale of 0–6.</p>
+        </div>
+      </div>
+
+      <div class="mt-8 space-y-4">
+        <a href="https://www.ets.org/gre" target="_blank" 
+          class="block bg-white text-[var(--bright-blue)] border-2 border-[var(--bright-blue)] px-6 py-3 rounded-full font-semibold hover:bg-[var(--bright-blue)] hover:text-white transition text-center">
+          Official GRE Website
+        </a>
+
+        <a href="https://www.imsindia.com/blog/gre/gre-syllabus/" target="_blank" 
+          class="block bg-white text-[var(--bright-blue)] border-2 border-[var(--bright-blue)] px-6 py-3 rounded-full font-semibold hover:bg-[var(--bright-blue)] hover:text-white transition text-center">
+          View Syllabus
+        </a>
+
+        <a href="https://www.ets.org/pdfs/gre/gre-sample-questions.pdf" target="_blank" 
+          class="block bg-white text-[var(--bright-blue)] border-2 border-[var(--bright-blue)] px-6 py-3 rounded-full font-semibold hover:bg-[var(--bright-blue)] hover:text-white transition text-center">
+          View PYQs
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

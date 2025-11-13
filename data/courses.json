@@ -1,1675 +1,1673 @@
-{
-  "courses": [
-    {
-      "title": "DSA with C++",
-      "intro": {
-        "description": "This course focuses on mastering Data Structures and Algorithms using C++. It covers arrays, linked lists, trees, graphs, sorting, searching, and problem-solving techniques tailored for competitive programming and interviews.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/PravallikaGanta15/DSA/In%20C%2B%2B/Intro%20to%20DSA%20in%20C%2B%2B"
+[
+  {
+    "title": "DSA with C++",
+    "intro": {
+      "description": "This course focuses on mastering Data Structures and Algorithms using C++. It covers arrays, linked lists, trees, graphs, sorting, searching, and problem-solving techniques tailored for competitive programming and interviews.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/PravallikaGanta15/DSA/In%20C%2B%2B/Intro%20to%20DSA%20in%20C%2B%2B"
+    },
+    "roadmap": {
+      "summary": "Start with arrays and strings, progress through recursion, linked lists, stacks, queues, trees, graphs, and dynamic programming. Includes complexity analysis and STL usage.",
+      "source": "/assets/DSA%20with%20C%2B%2B.pdf"
+    },
+    "tags": ["DSA", "C++", "Interview Prep", "OOP"],
+    "books": [
+      {
+        "title": "Data Structures and Algorithms Made Easy (C++)",
+        "link": "https://z-lib.gd/book/2855973/a7e557/data-structures-and-algorithmic-puzzles.html"
       },
-      "roadmap": {
-        "summary": "Start with arrays and strings, progress through recursion, linked lists, stacks, queues, trees, graphs, and dynamic programming. Includes complexity analysis and STL usage.",
-        "source": "/assets/DSA%20with%20C%2B%2B.pdf"
+      {
+        "title": "Competitive Programming 3",
+        "link": "https://en.z-library.sk/book/5102511/22d14a/competitive-programming-3-the-new-lower-bound-of-programming-contests.html"
       },
-      "tags": ["DSA", "C++", "Interview Prep", "OOP"],
-      "books": [
+      {
+        "title": "Cracking the Coding Interview",
+        "link": "https://archive.org/details/crackingcodingin0000mcdo_k7r4"
+      },
+      {
+        "title": "The C++ Programming Language (4th Edition)",
+        "link": "https://archive.org/download/gate-2020-computer-science-and-technology-by-disha%20experts/The%20C%2B%2B%20Programming%20Language%2C%204th%20Edition%20by%20Stroustrup%20B.pdf"
+      },
+      {
+        "title": "Introduction to Algorithms (CLRS)",
+        "link": "https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf"
+      },
+      {
+        "title": "Open Data Structures (In C++)",
+        "link": "https://opendatastructures.org/ods-cpp.pdf"
+      },
+      {
+        "title": "Data Structures and Algorithm Analysis in C++",
+        "link": "https://digitalcommons.liberty.edu/textbooks/6/"
+      },
+      {
+        "title": "Data Structures and Algorithms in C++",
+        "link": "https://www.wiley-vch.de/en/areas-interest/computing-computer-sciences/data-structures-and-algorithms-in-c-978-0-470-38327-8"
+      }
+    ],
+    "courses": {
+      "free": [
         {
-          "title": "Data Structures and Algorithms Made Easy (C++)",
-          "link": "https://z-lib.gd/book/2855973/a7e557/data-structures-and-algorithmic-puzzles.html"
+          "title": "CodeHelp by Love Babbar",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA"
         },
         {
-          "title": "Competitive Programming 3",
-          "link": "https://en.z-library.sk/book/5102511/22d14a/competitive-programming-3-the-new-lower-bound-of-programming-contests.html"
+          "title": "Apna College – C++ DSA by Shraddha Didi",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ"
         },
         {
-          "title": "Cracking the Coding Interview",
-          "link": "https://archive.org/details/crackingcodingin0000mcdo_k7r4"
-        },
-        {
-          "title": "The C++ Programming Language (4th Edition)",
-          "link": "https://archive.org/download/gate-2020-computer-science-and-technology-by-disha%20experts/The%20C%2B%2B%20Programming%20Language%2C%204th%20Edition%20by%20Stroustrup%20B.pdf"
-        },
-        {
-          "title": "Introduction to Algorithms (CLRS)",
-          "link": "https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf"
-        },
-        {
-          "title": "Open Data Structures (In C++)",
-          "link": "https://opendatastructures.org/ods-cpp.pdf"
-        },
-        {
-          "title": "Data Structures and Algorithm Analysis in C++",
-          "link": "https://digitalcommons.liberty.edu/textbooks/6/"
-        },
-        {
-          "title": "Data Structures and Algorithms in C++",
-          "link": "https://www.wiley-vch.de/en/areas-interest/computing-computer-sciences/data-structures-and-algorithms-in-c-978-0-470-38327-8"
+          "title": "Take U Forward – Striver’s DSA Sheet",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw"
         }
       ],
-      "courses": {
-        "free": [
-          {
-            "title": "CodeHelp by Love Babbar",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA"
-          },
-          {
-            "title": "Apna College – C++ DSA by Shraddha Didi",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ"
-          },
-          {
-            "title": "Take U Forward – Striver’s DSA Sheet",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw"
-          }
-        ],
-        "paid": [
-          {
-            "title": "Apna College – C++ DSA Course",
-            "platform": "Apna College",
-            "link": "https://www.apnacollege.in/course/cpp-dsa"
-          },
-          {
-            "title": "PW Skills – Decode C++ with DSA",
-            "platform": "PW Skills",
-            "link": "https://pwskills.com/programming-courses/dsa-cpp/"
-          }
-        ],
-        "certified": [
-          {
-            "title": "Scaler Topics – DSA in C++",
-            "platform": "Scaler",
-            "link": "https://www.scaler.com/topics/course/cpp-data-structures/"
-          },
-          {
-            "title": "DataFlair – Free DSA in C++",
-            "platform": "DataFlair",
-            "link": "https://data-flair.training/courses/free-dsa-using-cpp-course-multilingual/"
-          },
-          {
-            "title": "Simplilearn – Basics of DSA",
-            "platform": "Simplilearn SkillUp",
-            "link": "https://www.simplilearn.com/free-data-structures-algorithms-course-skillup"
-          }
-        ]
-      },
-      "id": 1
-    },
-    {
-      "title": "DSA with Java",
-      "intro": {
-        "description": "This course teaches Data Structures and Algorithms using Java. It includes object-oriented design, recursion, sorting, searching, trees, graphs, and algorithmic problem-solving for interviews and development.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/PravallikaGanta15/DSA/In%20Java/Intro%20to%20DSA%20in%20Java"
-      },
-      "roadmap": {
-        "summary": "Begin with Java basics, then dive into arrays, recursion, linked lists, stacks, queues, trees, graphs, and dynamic programming. Includes Java collections and algorithmic patterns.",
-        "source": "/assets/DSA%20with%20Java.pdf"
-      },
-      "tags": ["DSA", "Java", "Interview Prep", "OOP"],
-      "books": [
+      "paid": [
         {
-          "title": "Data Structures and Algorithms Made Easy – Java Edition",
-          "link": "https://z-lib.io/book/2855973/a7e557"
+          "title": "Apna College – C++ DSA Course",
+          "platform": "Apna College",
+          "link": "https://www.apnacollege.in/course/cpp-dsa"
         },
         {
-          "title": "Data Structures and Algorithms in Java",
-          "link": "https://archive.org/details/data-structures-and-algorithms-in-java-6th-edition"
-        },
-        {
-          "title": "The Algorithm Design Manual",
-          "link": "https://archive.org/details/TheAlgorithmDesignManual"
-        },
-        {
-          "title": "Introduction to Algorithms (CLRS)",
-          "link": "https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf"
-        },
-        {
-          "title": "Java DSA Notes & Guides",
-          "link": "https://github.com/gowthamrajk/Java-Development-Guide/blob/main/DSA%20Handwritten%20Notes.pdf"
-        },
-        {
-          "title": "Open Data Structures (in Java)",
-          "link": "https://opendatastructures.org/ods-java.pdf"
-        },
-        {
-          "title": "Data Structures and Algorithm Analysis in Java",
-          "link": "https://freecomputerbooks.com/Data-Structures-and-Algorithm-Analysis-in-Java.html"
-        },
-        {
-          "title": "Data Structures & Algorithms in Java",
-          "link": "https://www.cs.umb.edu/~siyer/teaching/dsaj.pdf"
+          "title": "PW Skills – Decode C++ with DSA",
+          "platform": "PW Skills",
+          "link": "https://pwskills.com/programming-courses/dsa-cpp/"
         }
       ],
-      "courses": {
-        "free": [
-          {
-            "title": "College Wallah – Complete DSA in Java",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/playlist?list=PLxgZQoSe9cg2uGKIRzUbWaHRjEuZnAnhj"
-          },
-          {
-            "title": "Scaler Topics – Java DSA Course",
-            "platform": "Scaler",
-            "link": "https://www.scaler.com/topics/course/dsa-beginners-java/"
-          },
-          {
-            "title": "GeeksforGeeks – Java DSA Track",
-            "platform": "GeeksforGeeks",
-            "link": "https://www.geeksforgeeks.org/dsa/dsa-in-java/"
-          }
-        ],
-        "paid": [
-          {
-            "title": "Jenny’s Lectures – Mastering DSA with Java",
-            "platform": "JennysLectures",
-            "link": "https://www.jennyslectures.com/courses/Mastering-Data-Structures-and-Algorithms-with-JAVA-66d7fe06b4f7fa3fb969f5c5"
-          },
-          {
-            "title": "Udemy – Complete Core Java + DSA + Projects",
-            "platform": "Udemy",
-            "link": "https://www.udemy.com/course/2024-complete-java-with-dsa/"
-          }
-        ],
-        "certified": [
-          {
-            "title": "Scaler Topics – Java DSA Course",
-            "platform": "Scaler",
-            "link": "https://www.scaler.com/topics/course/dsa-beginners-java/"
-          },
-          {
-            "title": "Great Learning – DSA in Java",
-            "platform": "Great Learning",
-            "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/data-structures-and-algorithms-in-java"
-          },
-          {
-            "title": "GeeksforGeeks – Free Java DSA Modules",
-            "platform": "GeeksforGeeks",
-            "link": "https://www.geeksforgeeks.org/dsa/data-structures-and-algorithms-online-courses-free-and-paid/"
-          },
-          {
-            "title": "Coding Ninjas – Java DSA Course",
-            "platform": "Coding Ninjas",
-            "link": "https://www.codingninjas.com/programs/java-dsa-course"
-          },
-          {
-            "title": "TechVidvan – DSA Using Java with AI & ChatGPT",
-            "platform": "TechVidvan",
-            "link": "https://techvidvan.com/dsa-using-java-course-multilingual/"
-          }
-        ]
-      },
-      "id": 2
+      "certified": [
+        {
+          "title": "Scaler Topics – DSA in C++",
+          "platform": "Scaler",
+          "link": "https://www.scaler.com/topics/course/cpp-data-structures/"
+        },
+        {
+          "title": "DataFlair – Free DSA in C++",
+          "platform": "DataFlair",
+          "link": "https://data-flair.training/courses/free-dsa-using-cpp-course-multilingual/"
+        },
+        {
+          "title": "Simplilearn – Basics of DSA",
+          "platform": "Simplilearn SkillUp",
+          "link": "https://www.simplilearn.com/free-data-structures-algorithms-course-skillup"
+        }
+      ]
     },
-    {
-      "title": "DSA with Python",
-      "intro": {
-        "description": "This course explores Data Structures and Algorithms using Python. It emphasizes readability, problem-solving, recursion, sorting, searching, and algorithmic thinking for real-world applications and interviews.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/PravallikaGanta15/DSA/In%20Python/Intro%20to%20DSA%20in%20python"
+    "id": 1
+  },
+  {
+    "title": "DSA with Java",
+    "intro": {
+      "description": "This course teaches Data Structures and Algorithms using Java. It includes object-oriented design, recursion, sorting, searching, trees, graphs, and algorithmic problem-solving for interviews and development.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/PravallikaGanta15/DSA/In%20Java/Intro%20to%20DSA%20in%20Java"
+    },
+    "roadmap": {
+      "summary": "Begin with Java basics, then dive into arrays, recursion, linked lists, stacks, queues, trees, graphs, and dynamic programming. Includes Java collections and algorithmic patterns.",
+      "source": "/assets/DSA%20with%20Java.pdf"
+    },
+    "tags": ["DSA", "Java", "Interview Prep", "OOP"],
+    "books": [
+      {
+        "title": "Data Structures and Algorithms Made Easy – Java Edition",
+        "link": "https://z-lib.io/book/2855973/a7e557"
       },
-      "roadmap": {
-        "summary": "Start with Python basics, then cover arrays, recursion, linked lists, stacks, queues, trees, graphs, and dynamic programming. Includes object-oriented design and Pythonic approaches.",
-        "source": "https://roadmap.sh/datastructures-and-algorithms"
+      {
+        "title": "Data Structures and Algorithms in Java",
+        "link": "https://archive.org/details/data-structures-and-algorithms-in-java-6th-edition"
       },
-      "tags": ["DSA", "Python", "Problem Solving", "Interview Prep"],
-      "books": [
+      {
+        "title": "The Algorithm Design Manual",
+        "link": "https://archive.org/details/TheAlgorithmDesignManual"
+      },
+      {
+        "title": "Introduction to Algorithms (CLRS)",
+        "link": "https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf"
+      },
+      {
+        "title": "Java DSA Notes & Guides",
+        "link": "https://github.com/gowthamrajk/Java-Development-Guide/blob/main/DSA%20Handwritten%20Notes.pdf"
+      },
+      {
+        "title": "Open Data Structures (in Java)",
+        "link": "https://opendatastructures.org/ods-java.pdf"
+      },
+      {
+        "title": "Data Structures and Algorithm Analysis in Java",
+        "link": "https://freecomputerbooks.com/Data-Structures-and-Algorithm-Analysis-in-Java.html"
+      },
+      {
+        "title": "Data Structures & Algorithms in Java",
+        "link": "https://www.cs.umb.edu/~siyer/teaching/dsaj.pdf"
+      }
+    ],
+    "courses": {
+      "free": [
         {
-          "title": "Problem Solving with Algorithms and Data Structures Using Python",
-          "link": "/assets/DSA%20with%20python.pdf"
+          "title": "College Wallah – Complete DSA in Java",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/playlist?list=PLxgZQoSe9cg2uGKIRzUbWaHRjEuZnAnhj"
         },
         {
-          "title": "Data Structures and Algorithms in Python",
-          "link": "https://archive.org/details/data-structures-and-algorithms-in-python"
+          "title": "Scaler Topics – Java DSA Course",
+          "platform": "Scaler",
+          "link": "https://www.scaler.com/topics/course/dsa-beginners-java/"
         },
         {
-          "title": "Grokking Algorithms",
-          "link": "https://archive.org/details/grokking-algorithms-aditya-bhargava"
-        },
-        {
-          "title": "Python Algorithms",
-          "link": "https://archive.org/details/python-algorithms-magnus-hetland"
-        },
-        {
-          "title": "Introduction to Algorithms (CLRS)",
-          "link": "https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf"
-        },
-        {
-          "title": "Data Structures and Algorithms with Object-Oriented Design Patterns in Python",
-          "link": "https://freecomputerbooks.com/Data-Structures-and-Algorithms-with-Object-Oriented-Design-Patterns-in-Python.html"
+          "title": "GeeksforGeeks – Java DSA Track",
+          "platform": "GeeksforGeeks",
+          "link": "https://www.geeksforgeeks.org/dsa/dsa-in-java/"
         }
       ],
-      "courses": {
-        "free": [
-          {
-            "title": "Code & Debug – DSA with Python",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/playlist?list=PLhR2IpV1b2FwWwviBHRrR118YAaSlyhTU"
-          },
-          {
-            "title": "freeCodeCamp – Python DSA Modules",
-            "platform": "freeCodeCamp",
-            "link": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
-          },
-          {
-            "title": "GeeksforGeeks – Python DSA Track",
-            "platform": "GeeksforGeeks",
-            "link": "https://www.geeksforgeeks.org/data-structures-and-algorithms-in-python/"
-          }
-        ],
-        "paid": [
-          {
-            "title": "Udemy – Complete Python With DSA Bootcamp",
-            "platform": "Udemy",
-            "link": "https://www.udemy.com/course/complete-python-dsa-bootcamp/"
-          },
-          {
-            "title": "Tutedude – DSA with Python",
-            "platform": "Tutedude",
-            "link": "https://tutedude.com/category/dsawithpython"
-          },
-          {
-            "title": "PW Skills – Decode Python with DSA",
-            "platform": "PW Skills",
-            "link": "https://pwskills.com/programming-courses/dsa-in-python/"
-          }
-        ],
-        "certified": [
-          {
-            "title": "DataFlair – Free DSA in Python",
-            "platform": "DataFlair",
-            "link": "https://data-flair.training/courses/free-dsa-using-python-course-multilingual/"
-          },
-          {
-            "title": "Simplilearn SkillUp – DSA in Python",
-            "platform": "Simplilearn",
-            "link": "https://www.simplilearn.com/data-structures-and-algorithms-in-python-free-certification-course-skillup"
-          },
-          {
-            "title": "ScholarHat – Free DSA Course with Certification",
-            "platform": "ScholarHat",
-            "link": "https://www.scholarhat.com/free-course/data-structures-algorithms-course"
-          },
-          {
-            "title": "Coding Ninjas – Python DSA Course",
-            "platform": "Coding Ninjas",
-            "link": "https://www.codingninjas.com/programs/python-dsa-course"
-          }
-        ]
-      },
-      "id": 3
-    },
-    {
-      "title": "Data Science",
-      "intro": {
-        "description": "Data Science is the field of extracting meaningful insights from data using statistics, programming, and domain expertise. It helps in decision-making across industries like business, healthcare, and government.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/enjamoorpranitha/DS/IntroOnDS"
-      },
-      "roadmap": {
-        "summary": "Covers foundational math, data handling, machine learning, deep learning, NLP, computer vision, tools, and portfolio projects. Includes Python/R, libraries like NumPy, Pandas, TensorFlow, and visualization tools like Power BI and Tableau.",
-        "source": "/assets/Data%20science.pdf"
-      },
-      "tags": [
-        "Data Science",
-        "Machine Learning",
-        "Python",
-        "R",
-        "Statistics",
-        "AI",
-        "Deep Learning",
-        "NLP",
-        "Computer Vision",
-        "Portfolio Projects"
-      ],
-      "books": [
+      "paid": [
         {
-          "title": "Principles of Data Science",
-          "link": "https://openstax.org/oscms-prodcms/media/documents/Principles-of-Data-Science-WEB.pdf"
+          "title": "Jenny’s Lectures – Mastering DSA with Java",
+          "platform": "JennysLectures",
+          "link": "https://www.jennyslectures.com/courses/Mastering-Data-Structures-and-Algorithms-with-JAVA-66d7fe06b4f7fa3fb969f5c5"
         },
         {
-          "title": "Data Science and Machine Learning: Mathematical & Statistical Methods",
-          "link": "https://people.smp.uq.edu.au/DirkKroese/DSML/DSML.pdf"
-        },
-        {
-          "title": "R for Data Science",
-          "link": "https://r4ds.had.co.nz/"
-        },
-        {
-          "title": "100+ Free Data Science Books",
-          "link": "https://www.learndatasci.com/free-data-science-books/"
-        },
-        {
-          "title": "Top Data Science Books (Free)",
-          "link": "https://freecomputerbooks.com/top-data-science-books.html"
+          "title": "Udemy – Complete Core Java + DSA + Projects",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/course/2024-complete-java-with-dsa/"
         }
       ],
-      "courses": {
-        "free": [
-          {
-            "title": "CampusX – Data Science Playlist",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH"
-          },
-          {
-            "title": "NPTEL-NOC / IIT Madras",
-            "platform": "YouTube / SWAYAM",
-            "link": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K"
-          }
-        ],
-        "paid": [
-          {
-            "title": "Apna College – Sigma 10 (DSA + Web + Aptitude)",
-            "platform": "Apna College",
-            "link": "https://www.apnacollege.in/course/sigma-8"
-          },
-          {
-            "title": "PW Skills – Data Science with Generative AI",
-            "platform": "PW Skills",
-            "link": "https://pwskills.com/data-science-and-analytics/data-science-course/"
-          }
-        ],
-        "certified": [
-          {
-            "title": "Machine Learning Specialization",
-            "platform": "Coursera (Stanford Online ↔ DeepLearning.AI)",
-            "link": "https://www.coursera.org/specializations/machine-learning-introduction"
-          },
-          {
-            "title": "Google ML Crash Course",
-            "platform": "Google",
-            "link": "https://developers.google.com/machine-learning/crash-course"
-          },
-          {
-            "title": "Kaggle – Intro to Machine Learning",
-            "platform": "Kaggle",
-            "link": "https://www.kaggle.com/learn/intro-to-machine-learning"
-          },
-          {
-            "title": "IBM – Machine Learning Professional Certificate",
-            "platform": "Coursera",
-            "link": "https://www.coursera.org/professional-certificates/ibm-machine-learning"
-          },
-          {
-            "title": "Udacity – Machine Learning Nanodegree",
-            "platform": "Udacity",
-            "link": "https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t"
-          }
-        ]
-      },
-      "id": 4
-    },
-    {
-      "title": "Cybersecurity",
-      "intro": {
-        "description": "Cybersecurity is the practice of protecting systems, networks, and data from digital attacks. It involves firewalls, encryption, antivirus tools, and ethical practices to defend against threats like hacking, ransomware, and data breaches.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/enjamoorpranitha/CS/IntroOnCS"
-      },
-      "roadmap": {
-        "summary": "Covers foundational topics like programming, operating systems, probability, and cybersecurity concepts. Reinforces basics with ethics, vulnerabilities, and network security. Advances into cloud, encryption, endpoint security, threat intelligence, and digital forensics. Includes certifications and hands-on projects like CTFs and bug bounty.",
-        "source": "/assets/Cyber%20security.pdf"
-      },
-      "tags": [
-        "Cybersecurity",
-        "Ethical Hacking",
-        "Network Security",
-        "Bug Bounty",
-        "Digital Forensics",
-        "Encryption",
-        "Threat Intelligence",
-        "CTF",
-        "Security Certifications",
-        "Python",
-        "Linux",
-        "Cloud Security"
-      ],
-      "books": {
-        "free": [
-          {
-            "title": "The Cyber Security Body Of Knowledge (CyBOK)",
-            "link": "https://www.cybok.org/media/downloads/CyBOK-version-1.0.pdf"
-          },
-          {
-            "title": "Cyber Security for Beginners",
-            "link": "https://heimdalsecurity.com/pdf/cyber_security_for_beginners_ebook.pdf"
-          },
-          {
-            "title": "Introduction to Cyber Security (UOU)",
-            "link": "https://uou.ac.in/sites/default/files/slm/Introduction-cyber-security.pdf"
-          },
-          {
-            "title": "Cybersecurity Handbook – Greek National Cybersecurity Authority",
-            "link": "https://cyber.gov.gr/wp-content/uploads/2025/03/Cybersecurity-Handbook-English-version-compressed.pdf"
-          },
-          {
-            "title": "FreeCybersecurity-books list/resource",
-            "link": "https://freecomputerbooks.com/compscspecialSecurityBooks.html"
-          },
-          {
-            "title": "Simplilearn Cybersecurity eBooks",
-            "link": "https://www.simplilearn.com/resources/cyber-security/ebooks"
-          },
-          {
-            "title": "GitHub – FREE Cybersecurity Books Collection",
-            "link": "https://github.com/DoS0x99/cyber-security-books"
-          }
-        ]
-      },
-      "courses": {
-        "free": [
-          {
-            "title": "Cybersecurity Roadmap for Beginners – Meera Tamboli",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/watch?v=0c2G4PM6oF4"
-          },
-          {
-            "title": "CYBERSECURITY RoadMap – Apna College",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/watch?v=vK4Mno4QYqk"
-          },
-          {
-            "title": "NetworkChuck – Cybersecurity & Ethical Hacking",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/@NetworkChuck"
-          }
-        ]
-      },
-      "id": 5
-    },
-    {
-      "title": "Android",
-      "intro": {
-        "description": "Android development focuses on building mobile applications for Android devices using Java or Kotlin.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/Satvik-Reddypally/introonandorid"
-      },
-      "roadmap": {
-        "summary": "Covers Java/Kotlin, Android Studio, UI/UX, activity lifecycle, Firebase, and publishing apps.",
-        "source": "/assets/Android%20Developer.pdf"
-      },
-      "books": [
+      "certified": [
         {
-          "title": "Android Programming: The Big Nerd Ranch Guide",
-          "link": "https://archive.org/details/android-programming-big-nerd-ranch-guide"
+          "title": "Scaler Topics – Java DSA Course",
+          "platform": "Scaler",
+          "link": "https://www.scaler.com/topics/course/dsa-beginners-java/"
         },
         {
-          "title": "Head First Android Development",
-          "link": "https://archive.org/details/head-first-android-development"
+          "title": "Great Learning – DSA in Java",
+          "platform": "Great Learning",
+          "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/data-structures-and-algorithms-in-java"
+        },
+        {
+          "title": "GeeksforGeeks – Free Java DSA Modules",
+          "platform": "GeeksforGeeks",
+          "link": "https://www.geeksforgeeks.org/dsa/data-structures-and-algorithms-online-courses-free-and-paid/"
+        },
+        {
+          "title": "Coding Ninjas – Java DSA Course",
+          "platform": "Coding Ninjas",
+          "link": "https://www.codingninjas.com/programs/java-dsa-course"
+        },
+        {
+          "title": "TechVidvan – DSA Using Java with AI & ChatGPT",
+          "platform": "TechVidvan",
+          "link": "https://techvidvan.com/dsa-using-java-course-multilingual/"
+        }
+      ]
+    },
+    "id": 2
+  },
+  {
+    "title": "DSA with Python",
+    "intro": {
+      "description": "This course explores Data Structures and Algorithms using Python. It emphasizes readability, problem-solving, recursion, sorting, searching, and algorithmic thinking for real-world applications and interviews.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/PravallikaGanta15/DSA/In%20Python/Intro%20to%20DSA%20in%20python"
+    },
+    "roadmap": {
+      "summary": "Start with Python basics, then cover arrays, recursion, linked lists, stacks, queues, trees, graphs, and dynamic programming. Includes object-oriented design and Pythonic approaches.",
+      "source": "https://roadmap.sh/datastructures-and-algorithms"
+    },
+    "tags": ["DSA", "Python", "Problem Solving", "Interview Prep"],
+    "books": [
+      {
+        "title": "Problem Solving with Algorithms and Data Structures Using Python",
+        "link": "/assets/DSA%20with%20python.pdf"
+      },
+      {
+        "title": "Data Structures and Algorithms in Python",
+        "link": "https://archive.org/details/data-structures-and-algorithms-in-python"
+      },
+      {
+        "title": "Grokking Algorithms",
+        "link": "https://archive.org/details/grokking-algorithms-aditya-bhargava"
+      },
+      {
+        "title": "Python Algorithms",
+        "link": "https://archive.org/details/python-algorithms-magnus-hetland"
+      },
+      {
+        "title": "Introduction to Algorithms (CLRS)",
+        "link": "https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf"
+      },
+      {
+        "title": "Data Structures and Algorithms with Object-Oriented Design Patterns in Python",
+        "link": "https://freecomputerbooks.com/Data-Structures-and-Algorithms-with-Object-Oriented-Design-Patterns-in-Python.html"
+      }
+    ],
+    "courses": {
+      "free": [
+        {
+          "title": "Code & Debug – DSA with Python",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/playlist?list=PLhR2IpV1b2FwWwviBHRrR118YAaSlyhTU"
+        },
+        {
+          "title": "freeCodeCamp – Python DSA Modules",
+          "platform": "freeCodeCamp",
+          "link": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+        },
+        {
+          "title": "GeeksforGeeks – Python DSA Track",
+          "platform": "GeeksforGeeks",
+          "link": "https://www.geeksforgeeks.org/data-structures-and-algorithms-in-python/"
         }
       ],
-      "courses": {
-        "free": [
-          {
-            "title": "Android App Development Full Course – Saumya Singh",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/watch?v=NMOdEHyMXBo"
-          },
-          {
-            "title": "Android Development Tutorial – Great Learning",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/watch?v=fis26HvvDII"
-          }
-        ],
-        "paid": [
-          {
-            "title": "PW Skills – Android Development Program",
-            "platform": "PW Skills",
-            "link": "https://pwskills.com/"
-          },
-          {
-            "title": "Apna College – Delta Batch (Web + App)",
-            "platform": "Apna College",
-            "link": "https://www.apnacollege.in/course/delta-batch-3"
-          }
-        ],
-        "certified": [
-          {
-            "title": "Meta Android Developer – Coursera",
-            "platform": "Coursera",
-            "link": "https://www.coursera.org/professional-certificates/meta-android-developer"
-          },
-          {
-            "title": "Android Basics with Compose – Google",
-            "platform": "Android Developers",
-            "link": "https://developer.android.com/courses/pathways/android-basics-compose"
-          }
-        ]
-      },
-      "id": 6
-    },
-    {
-      "title": "iOS Development",
-      "intro": {
-        "description": "iOS development involves creating apps for Apple devices using Swift or Objective-C.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/Satvik-Reddypally/introonios"
-      },
-      "roadmap": {
-        "summary": "Covers Swift, Xcode, SwiftUI/UIKit, navigation, data persistence, and App Store deployment.",
-        "source": "/assets/IOS%20Developer.pdf"
-      },
-      "books": [
+      "paid": [
         {
-          "title": "iOS Programming: The Big Nerd Ranch Guide",
-          "link": "https://archive.org/details/ios-programming-big-nerd-ranch-guide"
+          "title": "Udemy – Complete Python With DSA Bootcamp",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/course/complete-python-dsa-bootcamp/"
         },
         {
-          "title": "Swift Programming: The Big Nerd Ranch Guide",
-          "link": "https://archive.org/details/swift-programming-big-nerd-ranch-guide"
+          "title": "Tutedude – DSA with Python",
+          "platform": "Tutedude",
+          "link": "https://tutedude.com/category/dsawithpython"
+        },
+        {
+          "title": "PW Skills – Decode Python with DSA",
+          "platform": "PW Skills",
+          "link": "https://pwskills.com/programming-courses/dsa-in-python/"
         }
       ],
-      "courses": {
-        "free": [
-          {
-            "title": "Learn iOS App Development – Digi Dookan",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/watch?v=LD_oDI-IKkw"
-          },
-          {
-            "title": "SwiftUI Tutorial – CodeWithChris",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/watch?v=F2ojC6TNwws"
-          }
-        ],
-        "paid": [
-          {
-            "title": "PW Skills – iOS Development Program",
-            "platform": "PW Skills",
-            "link": "https://pwskills.com/"
-          },
-          {
-            "title": "Apna College – Delta Batch (Web + App)",
-            "platform": "Apna College",
-            "link": "https://www.apnacollege.in/course/delta-batch-3"
-          }
-        ],
-        "certified": [
-          {
-            "title": "Meta iOS Developer – Coursera",
-            "platform": "Coursera",
-            "link": "https://www.coursera.org/professional-certificates/meta-ios-developer"
-          },
-          {
-            "title": "iOS Development Bootcamp – Udemy",
-            "platform": "Udemy",
-            "link": "https://www.udemy.com/course/ios-13-app-development-bootcamp/"
-          }
-        ]
-      },
-      "id": 7
-    },
-    {
-      "title": "Cross Platform Development",
-      "intro": {
-        "description": "Cross-platform development enables building apps that run on both Android and iOS using frameworks like Flutter, React Native, and Xamarin.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/Satvik-Reddypally/introoncross"
-      },
-      "roadmap": {
-        "summary": "Covers Dart/JavaScript basics, Flutter or React Native setup, UI components, navigation, state management, API integration, and deployment.",
-        "source": "/assets/cross%20platform.pdf"
-      },
-      "tags": [
-        "Flutter",
-        "React Native",
-        "Dart",
-        "JavaScript",
-        "Mobile Apps",
-        "Cross-Platform"
-      ],
-      "books": [
+      "certified": [
         {
-          "title": "Flutter for Beginners",
-          "link": "https://archive.org/details/flutter-for-beginners"
+          "title": "DataFlair – Free DSA in Python",
+          "platform": "DataFlair",
+          "link": "https://data-flair.training/courses/free-dsa-using-python-course-multilingual/"
         },
         {
-          "title": "React Native Cookbook",
-          "link": "https://archive.org/details/react-native-cookbook"
+          "title": "Simplilearn SkillUp – DSA in Python",
+          "platform": "Simplilearn",
+          "link": "https://www.simplilearn.com/data-structures-and-algorithms-in-python-free-certification-course-skillup"
+        },
+        {
+          "title": "ScholarHat – Free DSA Course with Certification",
+          "platform": "ScholarHat",
+          "link": "https://www.scholarhat.com/free-course/data-structures-algorithms-course"
+        },
+        {
+          "title": "Coding Ninjas – Python DSA Course",
+          "platform": "Coding Ninjas",
+          "link": "https://www.codingninjas.com/programs/python-dsa-course"
+        }
+      ]
+    },
+    "id": 3
+  },
+  {
+    "title": "Data Science",
+    "intro": {
+      "description": "Data Science is the field of extracting meaningful insights from data using statistics, programming, and domain expertise. It helps in decision-making across industries like business, healthcare, and government.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/enjamoorpranitha/DS/IntroOnDS"
+    },
+    "roadmap": {
+      "summary": "Covers foundational math, data handling, machine learning, deep learning, NLP, computer vision, tools, and portfolio projects. Includes Python/R, libraries like NumPy, Pandas, TensorFlow, and visualization tools like Power BI and Tableau.",
+      "source": "/assets/Data%20science.pdf"
+    },
+    "tags": [
+      "Data Science",
+      "Machine Learning",
+      "Python",
+      "R",
+      "Statistics",
+      "AI",
+      "Deep Learning",
+      "NLP",
+      "Computer Vision",
+      "Portfolio Projects"
+    ],
+    "books": [
+      {
+        "title": "Principles of Data Science",
+        "link": "https://openstax.org/oscms-prodcms/media/documents/Principles-of-Data-Science-WEB.pdf"
+      },
+      {
+        "title": "Data Science and Machine Learning: Mathematical & Statistical Methods",
+        "link": "https://people.smp.uq.edu.au/DirkKroese/DSML/DSML.pdf"
+      },
+      {
+        "title": "R for Data Science",
+        "link": "https://r4ds.had.co.nz/"
+      },
+      {
+        "title": "100+ Free Data Science Books",
+        "link": "https://www.learndatasci.com/free-data-science-books/"
+      },
+      {
+        "title": "Top Data Science Books (Free)",
+        "link": "https://freecomputerbooks.com/top-data-science-books.html"
+      }
+    ],
+    "courses": {
+      "free": [
+        {
+          "title": "CampusX – Data Science Playlist",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH"
+        },
+        {
+          "title": "NPTEL-NOC / IIT Madras",
+          "platform": "YouTube / SWAYAM",
+          "link": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K"
         }
       ],
-      "courses": {
-        "free": [
-          {
-            "title": "Flutter Course for Beginners – freeCodeCamp",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/watch?v=VPvVD8t02U8"
-          },
-          {
-            "title": "React Native Tutorial – Programming with Mosh",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/watch?v=0-S5a0eXPoc"
-          }
-        ],
-        "paid": [
-          {
-            "title": "PW Skills – Full Stack with Cross-Platform App Dev",
-            "platform": "PW Skills",
-            "link": "https://pwskills.com/"
-          },
-          {
-            "title": "Apna College – Delta Batch (Web + App)",
-            "platform": "Apna College",
-            "link": "https://www.apnacollege.in/course/delta-batch-3"
-          }
-        ],
-        "certified": [
-          {
-            "title": "React Native Masterclass – Udemy",
-            "platform": "Udemy",
-            "link": "https://www.udemy.com/course/react-native-master-cross-platform-app-development/"
-          },
-          {
-            "title": "Flutter Developer Certification – Coursera",
-            "platform": "Coursera",
-            "link": "https://www.coursera.org/learn/flutter"
-          }
-        ]
-      },
-      "id": 8
-    },
-    {
-      "title": "Amazon Web Services",
-      "intro": {
-        "description": "AWS (Amazon Web Services) is the world’s most comprehensive cloud platform offering over 200 services including computing, storage, databases, machine learning, and analytics.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/Satvik-Reddypally/introonaws"
-      },
-      "roadmap": {
-        "summary": "Covers EC2, S3, IAM, Lambda, CloudFormation, networking, DevOps, security, and certification paths like Cloud Practitioner and Solutions Architect.",
-        "source": "/assets/AWS.pdf"
-      },
-      "tags": [
-        "AWS",
-        "Cloud Computing",
-        "EC2",
-        "S3",
-        "IAM",
-        "Lambda",
-        "DevOps",
-        "Security",
-        "Certification"
-      ],
-      "books": [
+      "paid": [
         {
-          "title": "Amazon Web Services in Action",
-          "link": "https://archive.org/details/aws-in-action"
+          "title": "Apna College – Sigma 10 (DSA + Web + Aptitude)",
+          "platform": "Apna College",
+          "link": "https://www.apnacollege.in/course/sigma-8"
         },
         {
-          "title": "AWS Certified Solutions Architect Study Guide",
-          "link": "https://archive.org/details/aws-certified-solutions-architect-study-guide"
+          "title": "PW Skills – Data Science with Generative AI",
+          "platform": "PW Skills",
+          "link": "https://pwskills.com/data-science-and-analytics/data-science-course/"
         }
       ],
-      "courses": {
-        "free": [
-          {
-            "title": "AWS Cloud Essentials – W3Schools",
-            "platform": "W3Schools",
-            "link": "https://www.w3schools.com/aws/aws_cloudessentials_cloudcomputing.php"
-          },
-          {
-            "title": "AWS Cloud Practitioner Essentials",
-            "platform": "AWS Training",
-            "link": "https://aws.amazon.com/training/"
-          }
-        ],
-        "paid": [
-          {
-            "title": "AWS Cloud Computing Course – GUVI",
-            "platform": "GUVI",
-            "link": "https://www.guvi.in/blog/best-aws-cloud-computing-courses/"
-          }
-        ],
-        "certified": [
-          {
-            "title": "AWS Certified Cloud Practitioner",
-            "platform": "Coursera",
-            "link": "https://www.coursera.org/learn/aws-cloud-practitioner-essentials"
-          }
-        ]
-      },
-      "id": 9
-    },
-    {
-      "title": "Microsoft Azure",
-      "intro": {
-        "description": "Microsoft Azure is a cloud computing platform offering services like virtual machines, databases, AI, and analytics across a global network of Microsoft-managed data centers.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/Satvik-Reddypally/introonmicro"
-      },
-      "roadmap": {
-        "summary": "Covers Azure fundamentals, virtual machines, storage, networking, Azure AD, DevOps, and certifications like AZ-900 and Azure Developer Associate.",
-        "source": "/assets/Azure.pdf"
-      },
-      "tags": [
-        "Azure",
-        "Cloud Computing",
-        "Virtual Machines",
-        "Azure AD",
-        "DevOps",
-        "Networking",
-        "Certification"
-      ],
-      "books": [
+      "certified": [
         {
-          "title": "Exam Ref AZ-900 Microsoft Azure Fundamentals",
-          "link": "https://archive.org/details/exam-ref-az-900"
+          "title": "Machine Learning Specialization",
+          "platform": "Coursera (Stanford Online ↔ DeepLearning.AI)",
+          "link": "https://www.coursera.org/specializations/machine-learning-introduction"
         },
         {
-          "title": "Microsoft Azure Essentials",
-          "link": "https://archive.org/details/microsoft-azure-essentials"
+          "title": "Google ML Crash Course",
+          "platform": "Google",
+          "link": "https://developers.google.com/machine-learning/crash-course"
+        },
+        {
+          "title": "Kaggle – Intro to Machine Learning",
+          "platform": "Kaggle",
+          "link": "https://www.kaggle.com/learn/intro-to-machine-learning"
+        },
+        {
+          "title": "IBM – Machine Learning Professional Certificate",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/professional-certificates/ibm-machine-learning"
+        },
+        {
+          "title": "Udacity – Machine Learning Nanodegree",
+          "platform": "Udacity",
+          "link": "https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t"
+        }
+      ]
+    },
+    "id": 4
+  },
+  {
+    "title": "Cybersecurity",
+    "intro": {
+      "description": "Cybersecurity is the practice of protecting systems, networks, and data from digital attacks. It involves firewalls, encryption, antivirus tools, and ethical practices to defend against threats like hacking, ransomware, and data breaches.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/enjamoorpranitha/CS/IntroOnCS"
+    },
+    "roadmap": {
+      "summary": "Covers foundational topics like programming, operating systems, probability, and cybersecurity concepts. Reinforces basics with ethics, vulnerabilities, and network security. Advances into cloud, encryption, endpoint security, threat intelligence, and digital forensics. Includes certifications and hands-on projects like CTFs and bug bounty.",
+      "source": "/assets/Cyber%20security.pdf"
+    },
+    "tags": [
+      "Cybersecurity",
+      "Ethical Hacking",
+      "Network Security",
+      "Bug Bounty",
+      "Digital Forensics",
+      "Encryption",
+      "Threat Intelligence",
+      "CTF",
+      "Security Certifications",
+      "Python",
+      "Linux",
+      "Cloud Security"
+    ],
+    "books": {
+      "free": [
+        {
+          "title": "The Cyber Security Body Of Knowledge (CyBOK)",
+          "link": "https://www.cybok.org/media/downloads/CyBOK-version-1.0.pdf"
+        },
+        {
+          "title": "Cyber Security for Beginners",
+          "link": "https://heimdalsecurity.com/pdf/cyber_security_for_beginners_ebook.pdf"
+        },
+        {
+          "title": "Introduction to Cyber Security (UOU)",
+          "link": "https://uou.ac.in/sites/default/files/slm/Introduction-cyber-security.pdf"
+        },
+        {
+          "title": "Cybersecurity Handbook – Greek National Cybersecurity Authority",
+          "link": "https://cyber.gov.gr/wp-content/uploads/2025/03/Cybersecurity-Handbook-English-version-compressed.pdf"
+        },
+        {
+          "title": "FreeCybersecurity-books list/resource",
+          "link": "https://freecomputerbooks.com/compscspecialSecurityBooks.html"
+        },
+        {
+          "title": "Simplilearn Cybersecurity eBooks",
+          "link": "https://www.simplilearn.com/resources/cyber-security/ebooks"
+        },
+        {
+          "title": "GitHub – FREE Cybersecurity Books Collection",
+          "link": "https://github.com/DoS0x99/cyber-security-books"
+        }
+      ]
+    },
+    "courses": {
+      "free": [
+        {
+          "title": "Cybersecurity Roadmap for Beginners – Meera Tamboli",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/watch?v=0c2G4PM6oF4"
+        },
+        {
+          "title": "CYBERSECURITY RoadMap – Apna College",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/watch?v=vK4Mno4QYqk"
+        },
+        {
+          "title": "NetworkChuck – Cybersecurity & Ethical Hacking",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/@NetworkChuck"
+        }
+      ]
+    },
+    "id": 5
+  },
+  {
+    "title": "Android",
+    "intro": {
+      "description": "Android development focuses on building mobile applications for Android devices using Java or Kotlin.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/Satvik-Reddypally/introonandorid"
+    },
+    "roadmap": {
+      "summary": "Covers Java/Kotlin, Android Studio, UI/UX, activity lifecycle, Firebase, and publishing apps.",
+      "source": "/assets/Android%20Developer.pdf"
+    },
+    "books": [
+      {
+        "title": "Android Programming: The Big Nerd Ranch Guide",
+        "link": "https://archive.org/details/android-programming-big-nerd-ranch-guide"
+      },
+      {
+        "title": "Head First Android Development",
+        "link": "https://archive.org/details/head-first-android-development"
+      }
+    ],
+    "courses": {
+      "free": [
+        {
+          "title": "Android App Development Full Course – Saumya Singh",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/watch?v=NMOdEHyMXBo"
+        },
+        {
+          "title": "Android Development Tutorial – Great Learning",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/watch?v=fis26HvvDII"
         }
       ],
-      "courses": {
-        "free": [
-          {
-            "title": "Microsoft Azure Essentials – Great Learning",
-            "platform": "Great Learning",
-            "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/microsoft-azure-essentials"
-          },
-          {
-            "title": "Free Azure Courses – Udemy",
-            "platform": "Udemy",
-            "link": "https://www.udemy.com/topic/microsoft-azure/free/"
-          }
-        ],
-        "paid": [
-          {
-            "title": "Azure Training & Certifications – Microsoft",
-            "platform": "Microsoft",
-            "link": "https://azure.microsoft.com/en-in/resources/training-and-certifications/"
-          }
-        ],
-        "certified": [
-          {
-            "title": "Microsoft Certified: Azure Fundamentals (AZ-900)",
-            "platform": "Coursera",
-            "link": "https://www.coursera.org/learn/microsoft-azure-fundamentals"
-          }
-        ]
-      },
-      "id": 10
-    },
-    {
-      "title": "Google Cloud Platform",
-      "intro": {
-        "description": "Google Cloud Platform (GCP) provides scalable cloud services for computing, storage, machine learning, and data analytics, integrated with Google’s global infrastructure.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/Satvik-Reddypally/introongoggle"
-      },
-      "roadmap": {
-        "summary": "Covers Compute Engine, App Engine, BigQuery, Cloud Storage, Kubernetes, IAM, and certifications like Associate Cloud Engineer and Professional Data Engineer.",
-        "source": "/assets/Google%20Cloud.pdf"
-      },
-      "tags": [
-        "GCP",
-        "Cloud Computing",
-        "BigQuery",
-        "Kubernetes",
-        "Compute Engine",
-        "IAM",
-        "Certification"
-      ],
-      "books": [
+      "paid": [
         {
-          "title": "Google Cloud Platform for Architects",
-          "link": "https://archive.org/details/google-cloud-platform-for-architects"
+          "title": "PW Skills – Android Development Program",
+          "platform": "PW Skills",
+          "link": "https://pwskills.com/"
         },
         {
-          "title": "Data Science on the Google Cloud Platform",
-          "link": "https://archive.org/details/data-science-on-google-cloud-platform"
+          "title": "Apna College – Delta Batch (Web + App)",
+          "platform": "Apna College",
+          "link": "https://www.apnacollege.in/course/delta-batch-3"
         }
       ],
-      "courses": {
-        "free": [
-          {
-            "title": "Google Cloud Computing Foundations",
-            "platform": "Google Skills",
-            "link": "https://www.skills.google/paths/36"
-          },
-          {
-            "title": "Free Google Cloud Courses – Great Learning",
-            "platform": "Great Learning",
-            "link": "https://www.mygreatlearning.com/google-cloud/free-courses"
-          }
-        ],
-        "paid": [
-          {
-            "title": "Google Cloud Training Resources",
-            "platform": "Google Cloud",
-            "link": "https://cloud.google.com/learn/training"
-          }
-        ],
-        "certified": [
-          {
-            "title": "Google Cloud Associate Engineer Certification",
-            "platform": "Coursera",
-            "link": "https://www.coursera.org/learn/gcp-fundamentals"
-          }
-        ]
-      },
-      "id": 11
+      "certified": [
+        {
+          "title": "Meta Android Developer – Coursera",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/professional-certificates/meta-android-developer"
+        },
+        {
+          "title": "Android Basics with Compose – Google",
+          "platform": "Android Developers",
+          "link": "https://developer.android.com/courses/pathways/android-basics-compose"
+        }
+      ]
     },
-    {
-      "title": "DevOps",
-      "intro": {
-        "description": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the system development lifecycle and provide continuous delivery with high software quality. It focuses on communication, collaboration, integration, and automation using various tools.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/sathwik8923/devops"
+    "id": 6
+  },
+  {
+    "title": "iOS Development",
+    "intro": {
+      "description": "iOS development involves creating apps for Apple devices using Swift or Objective-C.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/Satvik-Reddypally/introonios"
+    },
+    "roadmap": {
+      "summary": "Covers Swift, Xcode, SwiftUI/UIKit, navigation, data persistence, and App Store deployment.",
+      "source": "/assets/IOS%20Developer.pdf"
+    },
+    "books": [
+      {
+        "title": "iOS Programming: The Big Nerd Ranch Guide",
+        "link": "https://archive.org/details/ios-programming-big-nerd-ranch-guide"
       },
-      "roadmap": {
-        "summary": "The DevOps roadmap focuses on Linux Fundamentals and Scripting (Bash/Python), Version Control (Git), CI/CD concepts and tools (e.g., Jenkins, GitLab CI), Infrastructure as Code (IaC) (e.g., Terraform, Ansible), Containerization (Docker) and Orchestration (Kubernetes), Cloud Platforms (AWS/Azure/GCP), and Monitoring/Logging/Observability (e.g., Prometheus, ELK Stack).",
-        "source": "/assets/Devops.pdf"
-      },
-      "tags": [
-        "DevOps",
-        "CI/CD",
-        "Automation",
-        "IaC",
-        "Cloud Computing",
-        "Docker",
-        "Kubernetes",
-        "Git",
-        "Scripting",
-        "Linux",
-        "Monitoring",
-        "DevSecOps"
-      ],
-      "books": [
+      {
+        "title": "Swift Programming: The Big Nerd Ranch Guide",
+        "link": "https://archive.org/details/swift-programming-big-nerd-ranch-guide"
+      }
+    ],
+    "courses": {
+      "free": [
         {
-          "title": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win",
-          "link": "https://www.haio.ir/app/uploads/2021/12/The-Phoenix-Project-A-Novel-about-IT-DevOps-and-Helping-Your-Business-Win-by-Gene-Kim-George-Spafford-Kevin-Behr-z-lib.org_.pdf"
+          "title": "Learn iOS App Development – Digi Dookan",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/watch?v=LD_oDI-IKkw"
         },
         {
-          "title": "The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations",
-          "link": "https://dl.faghatketab.ir/Books/Computer/Programming/WebProgramming/The.DevOps.Handbook_faghatketab.ir.pdf"
-        },
-        {
-          "title": "Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation",
-          "link": "https://unidel.edu.ng/focelibrary/books/Continuous%20Delivery%20Reliable%20Software%20Releases%20through%20Build,%20Test,%20and%20Deployment%20Automation%20by%20Jez%20Humble,%20David%20Farley%20(z-lib.org).pdf"
-        },
-        {
-          "title": "Automate the Boring Stuff with Python",
-          "link": "https://ia803407.us.archive.org/31/items/automatetheboringstuffwithpython_new/automatetheboringstuffwithpython_new.pdf"
+          "title": "SwiftUI Tutorial – CodeWithChris",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/watch?v=F2ojC6TNwws"
         }
       ],
-      "courses": {
-        "free": [
-          {
-            "title": "Introduction to JSON for new DevOps engineers!",
-            "platform": "YouTube (TechWorld with Nana)",
-            "link": "https://www.youtube.com/watch?v=6ak9FbnI40g"
-          },
-          {
-            "title": "Introduction to DevOps (with Certificate)",
-            "platform": "Great Learning Academy",
-            "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-devops1"
-          },
-          {
-            "title": "Continuous Delivery and DevOps (Audit Track)",
-            "platform": "Coursera",
-            "link": "https://www.coursera.org/learn/uva-darden-continous-delivery-devops"
-          },
-          {
-            "title": "Free DevOps Courses",
-            "platform": "HeyDevops (Live Sessions)",
-            "link": "https://www.heydevops.in/free-devopscourse"
-          }
-        ],
-        "paid": [
-          {
-            "title": "DevOps Mastery",
-            "platform": "KodeKloud",
-            "link": "https://kodekloud.com/"
-          },
-          {
-            "title": "Master DevOps: CI/CD, Automation & Monitoring",
-            "platform": "Edureka / Udemy",
-            "link": "https://www.edureka.co/"
-          }
-        ],
-        "certified": [
-          {
-            "title": "Certified Kubernetes Administrator (CKA)",
-            "platform": "Linux Foundation / CNCF",
-            "link": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"
-          },
-          {
-            "title": "AWS Certified DevOps Engineer - Professional",
-            "platform": "AWS Certification",
-            "link": "https://aws.amazon.com/certification/certified-devops-engineer-professional/"
-          },
-          {
-            "title": "Google Professional Cloud DevOps Engineer",
-            "platform": "Google Cloud Certification",
-            "link": "https://cloud.google.com/learn/certification/cloud-devops-engineer"
-          },
-          {
-            "title": "Microsoft Certified: DevOps Engineer Expert (AZ-400)",
-            "platform": "Microsoft Certification",
-            "link": "https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/"
-          }
-        ]
-      },
-      "id": 12
-    },
-    {
-      "title": "Blockchain",
-      "intro": {
-        "description": "Block Chain is a decentralized, distributed ledger technology (DLT) that securely records transactions across many computers (nodes) in an immutable sequence of blocks. It enables trustless systems like cryptocurrencies (Bitcoin, Ethereum), smart contracts, and decentralized finance (DeFi).",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/sathwik8923/blockchain"
-      },
-      "roadmap": {
-        "summary": "A comprehensive roadmap covers: Foundational Cryptography (Hashing, Asymmetric Encryption), Core Concepts (Consensus Mechanisms - PoW/PoS, DLT, Blocks, Transactions), Smart Contract Development (Solidity/Rust), dApp Development (Web3.js, Ethers.js, Front-end integration), Layer 2 Solutions (Rollups), and Advanced topics (DeFi, NFTs, Security Auditing, Governance).",
-        "source": "/assets/Block%20chain.pdf"
-      },
-      "tags": [
-        "BlockChain",
-        "Decentralization",
-        "Smart Contracts",
-        "Solidity",
-        "Ethereum",
-        "Web3",
-        "dApps",
-        "DeFi",
-        "NFTs",
-        "Cryptography",
-        "Consensus Mechanisms",
-        "Rust"
-      ],
-      "books": [
+      "paid": [
         {
-          "title": "Mastering Bitcoin: Programming the Open Blockchain",
-          "link": "https://www.oreilly.com/library/view/mastering-bitcoin/9781491954379/"
+          "title": "PW Skills – iOS Development Program",
+          "platform": "PW Skills",
+          "link": "https://pwskills.com/"
         },
         {
-          "title": "Mastering Ethereum: Building Smart Contracts and DApps",
-          "link": "https://www.oreilly.com/library/view/mastering-ethereum/9781491971932/"
-        },
-        {
-          "title": "Mastering Blockchain",
-          "link": "https://www.oreilly.com/library/view/mastering-blockchain/9781839213199/"
+          "title": "Apna College – Delta Batch (Web + App)",
+          "platform": "Apna College",
+          "link": "https://www.apnacollege.in/course/delta-batch-3"
         }
       ],
-      "courses": {
-        "free": [
-          {
-            "title": "Learn Blockchain, Solidity, and Full Stack Web3 Development",
-            "platform": "freeCodeCamp / YouTube (by Patrick Collins)",
-            "link": "https://youtu.be/gyMwXuJrbJQ?si=qbXVzbI0plfYg0FN"
-          },
-          {
-            "title": "Bitcoin and Cryptocurrency Technologies",
-            "platform": "Princeton University / Coursera (Audit Track)",
-            "link": "https://www.coursera.org/learn/cryptocurrency"
-          },
-          {
-            "title": "Blockchain Fundamentals",
-            "platform": "UC Berkeley / edX (Audit Track)",
-            "link": "https://www.edx.org/learn/blockchain"
-          }
-        ],
-        "paid": [
-          {
-            "title": "Certified Blockchain Expert™ Program",
-            "platform": "Blockchain Council",
-            "link": "https://www.blockchain-council.org/certifications/certified-blockchain-professional-expert/"
-          },
-          {
-            "title": "Blockchain Developer Nanodegree",
-            "platform": "Udacity",
-            "link": "https://www.udacity.com/course/blockchain-developer-nanodegree--nd1309"
-          }
-        ],
-        "certified": [
-          {
-            "title": "Blockchain Specialization",
-            "platform": "Coursera (University at Buffalo)",
-            "link": "https://www.coursera.org/specializations/blockchain"
-          },
-          {
-            "title": "Ethereum Developer Bootcamp",
-            "platform": "Alchemy University",
-            "link": "https://www.alchemy.com/"
-          },
-          {
-            "title": "IBM Blockchain Developer Certification",
-            "platform": "Coursera / IBM",
-            "link": "https://www.coursera.org/courses?=&query=blockchain"
-          }
-        ]
-      },
-      "id": 13
+      "certified": [
+        {
+          "title": "Meta iOS Developer – Coursera",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/professional-certificates/meta-ios-developer"
+        },
+        {
+          "title": "iOS Development Bootcamp – Udemy",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/course/ios-13-app-development-bootcamp/"
+        }
+      ]
     },
-    {
-      "title": "Machine Learning",
-      "intro": {
-        "description": "Machine Learning (ML) is a subset of artificial intelligence that enables systems to learn patterns from data and make decisions or predictions without being explicitly programmed. It powers applications like recommendation engines, fraud detection, and autonomous vehicles.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/sravanthi_vadla/ML/IntroOnML.txt"
+    "id": 7
+  },
+  {
+    "title": "Cross Platform Development",
+    "intro": {
+      "description": "Cross-platform development enables building apps that run on both Android and iOS using frameworks like Flutter, React Native, and Xamarin.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/Satvik-Reddypally/introoncross"
+    },
+    "roadmap": {
+      "summary": "Covers Dart/JavaScript basics, Flutter or React Native setup, UI components, navigation, state management, API integration, and deployment.",
+      "source": "/assets/cross%20platform.pdf"
+    },
+    "tags": [
+      "Flutter",
+      "React Native",
+      "Dart",
+      "JavaScript",
+      "Mobile Apps",
+      "Cross-Platform"
+    ],
+    "books": [
+      {
+        "title": "Flutter for Beginners",
+        "link": "https://archive.org/details/flutter-for-beginners"
       },
-      "roadmap": {
-        "summary": "The ML roadmap includes Linear Algebra, Probability & Statistics, Python Programming, Data Preprocessing, Supervised & Unsupervised Learning, Model Evaluation, Deep Learning, NLP, Computer Vision, and Deployment. Key tools include Scikit-learn, TensorFlow, PyTorch, and platforms like Kaggle and Google Colab.",
-        "source": "/assets/ML%20Roadmap.pdf"
-      },
-      "tags": [
-        "Machine Learning",
-        "AI",
-        "Python",
-        "Deep Learning",
-        "Supervised Learning",
-        "Unsupervised Learning",
-        "TensorFlow",
-        "PyTorch",
-        "NLP",
-        "Computer Vision",
-        "Model Deployment"
-      ],
-      "books": [
+      {
+        "title": "React Native Cookbook",
+        "link": "https://archive.org/details/react-native-cookbook"
+      }
+    ],
+    "courses": {
+      "free": [
         {
-          "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
-          "link": "https://archive.org/details/hands-on-machine-learning-with-scikit-learn-keras-and-tensorflow"
+          "title": "Flutter Course for Beginners – freeCodeCamp",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/watch?v=VPvVD8t02U8"
         },
         {
-          "title": "Pattern Recognition and Machine Learning",
-          "link": "https://archive.org/details/pattern-recognition-and-machine-learning"
-        },
-        {
-          "title": "Machine Learning Yearning",
-          "link": "https://www.deeplearning.ai/machine-learning-yearning/"
+          "title": "React Native Tutorial – Programming with Mosh",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/watch?v=0-S5a0eXPoc"
         }
       ],
-      "courses": {
-        "free": [
-          {
-            "title": "Machine Learning Crash Course – Google",
-            "platform": "Google Developers",
-            "link": "https://developers.google.com/machine-learning/crash-course"
-          },
-          {
-            "title": "Machine Learning with Python – Coursera (Audit)",
-            "platform": "Coursera / IBM",
-            "link": "https://www.coursera.org/learn/machine-learning-with-python"
-          },
-          {
-            "title": "Free ML Courses – Great Learning",
-            "platform": "Great Learning",
-            "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/machine-learning"
-          }
-        ],
-        "paid": [
-          {
-            "title": "Machine Learning A-Z™: Hands-On Python & R",
-            "platform": "Udemy",
-            "link": "https://www.udemy.com/course/machinelearning/"
-          },
-          {
-            "title": "Professional Certificate in ML & AI",
-            "platform": "edX / IBM",
-            "link": "https://www.edx.org/professional-certificate/ibm-machine-learning-ai"
-          }
-        ],
-        "certified": [
-          {
-            "title": "Machine Learning Specialization",
-            "platform": "Coursera / Stanford & DeepLearning.AI",
-            "link": "https://www.coursera.org/specializations/machine-learning-introduction"
-          },
-          {
-            "title": "AWS Certified Machine Learning – Specialty",
-            "platform": "AWS Certification",
-            "link": "https://aws.amazon.com/certification/certified-machine-learning-specialty/"
-          },
-          {
-            "title": "Google Professional ML Engineer",
-            "platform": "Google Cloud Certification",
-            "link": "https://cloud.google.com/learn/certification/machine-learning-engineer"
-          }
-        ]
-      },
-      "id": 14
-    },
-    {
-      "title": "Web Development",
-      "intro": {
-        "description": "Web Development is the art and science of building and maintaining websites and web applications. It combines design, programming, and problem-solving to create interactive digital experiences accessible across the globe.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/sravanthi_vadla/webDev.txt"
-      },
-      "roadmap": {
-        "summary": "Covers front-end (HTML, CSS, JavaScript, frameworks), back-end (Node.js, databases, APIs), version control, testing, security, performance, architecture, and deployment. Includes MERN stack, DevOps integration, and mobile/web app optimization.",
-        "source": "/assets/Web%20Development%20Road%20Map.pdf"
-      },
-      "tags": [
-        "Web Development",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "MERN Stack",
-        "Frontend",
-        "Backend",
-        "Fullstack",
-        "Version Control",
-        "DevOps",
-        "Security",
-        "Testing"
-      ],
-      "books": [
+      "paid": [
         {
-          "title": "The Odin Project – Full Stack JavaScript",
-          "link": "https://www.theodinproject.com/paths/full-stack-javascript"
+          "title": "PW Skills – Full Stack with Cross-Platform App Dev",
+          "platform": "PW Skills",
+          "link": "https://pwskills.com/"
+        },
+        {
+          "title": "Apna College – Delta Batch (Web + App)",
+          "platform": "Apna College",
+          "link": "https://www.apnacollege.in/course/delta-batch-3"
+        }
+      ],
+      "certified": [
+        {
+          "title": "React Native Masterclass – Udemy",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/course/react-native-master-cross-platform-app-development/"
+        },
+        {
+          "title": "Flutter Developer Certification – Coursera",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/learn/flutter"
+        }
+      ]
+    },
+    "id": 8
+  },
+  {
+    "title": "Amazon Web Services",
+    "intro": {
+      "description": "AWS (Amazon Web Services) is the world’s most comprehensive cloud platform offering over 200 services including computing, storage, databases, machine learning, and analytics.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/Satvik-Reddypally/introonaws"
+    },
+    "roadmap": {
+      "summary": "Covers EC2, S3, IAM, Lambda, CloudFormation, networking, DevOps, security, and certification paths like Cloud Practitioner and Solutions Architect.",
+      "source": "/assets/AWS.pdf"
+    },
+    "tags": [
+      "AWS",
+      "Cloud Computing",
+      "EC2",
+      "S3",
+      "IAM",
+      "Lambda",
+      "DevOps",
+      "Security",
+      "Certification"
+    ],
+    "books": [
+      {
+        "title": "Amazon Web Services in Action",
+        "link": "https://archive.org/details/aws-in-action"
+      },
+      {
+        "title": "AWS Certified Solutions Architect Study Guide",
+        "link": "https://archive.org/details/aws-certified-solutions-architect-study-guide"
+      }
+    ],
+    "courses": {
+      "free": [
+        {
+          "title": "AWS Cloud Essentials – W3Schools",
+          "platform": "W3Schools",
+          "link": "https://www.w3schools.com/aws/aws_cloudessentials_cloudcomputing.php"
+        },
+        {
+          "title": "AWS Cloud Practitioner Essentials",
+          "platform": "AWS Training",
+          "link": "https://aws.amazon.com/training/"
+        }
+      ],
+      "paid": [
+        {
+          "title": "AWS Cloud Computing Course – GUVI",
+          "platform": "GUVI",
+          "link": "https://www.guvi.in/blog/best-aws-cloud-computing-courses/"
+        }
+      ],
+      "certified": [
+        {
+          "title": "AWS Certified Cloud Practitioner",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/learn/aws-cloud-practitioner-essentials"
+        }
+      ]
+    },
+    "id": 9
+  },
+  {
+    "title": "Microsoft Azure",
+    "intro": {
+      "description": "Microsoft Azure is a cloud computing platform offering services like virtual machines, databases, AI, and analytics across a global network of Microsoft-managed data centers.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/Satvik-Reddypally/introonmicro"
+    },
+    "roadmap": {
+      "summary": "Covers Azure fundamentals, virtual machines, storage, networking, Azure AD, DevOps, and certifications like AZ-900 and Azure Developer Associate.",
+      "source": "/assets/Azure.pdf"
+    },
+    "tags": [
+      "Azure",
+      "Cloud Computing",
+      "Virtual Machines",
+      "Azure AD",
+      "DevOps",
+      "Networking",
+      "Certification"
+    ],
+    "books": [
+      {
+        "title": "Exam Ref AZ-900 Microsoft Azure Fundamentals",
+        "link": "https://archive.org/details/exam-ref-az-900"
+      },
+      {
+        "title": "Microsoft Azure Essentials",
+        "link": "https://archive.org/details/microsoft-azure-essentials"
+      }
+    ],
+    "courses": {
+      "free": [
+        {
+          "title": "Microsoft Azure Essentials – Great Learning",
+          "platform": "Great Learning",
+          "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/microsoft-azure-essentials"
+        },
+        {
+          "title": "Free Azure Courses – Udemy",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/topic/microsoft-azure/free/"
+        }
+      ],
+      "paid": [
+        {
+          "title": "Azure Training & Certifications – Microsoft",
+          "platform": "Microsoft",
+          "link": "https://azure.microsoft.com/en-in/resources/training-and-certifications/"
+        }
+      ],
+      "certified": [
+        {
+          "title": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/learn/microsoft-azure-fundamentals"
+        }
+      ]
+    },
+    "id": 10
+  },
+  {
+    "title": "Google Cloud Platform",
+    "intro": {
+      "description": "Google Cloud Platform (GCP) provides scalable cloud services for computing, storage, machine learning, and data analytics, integrated with Google’s global infrastructure.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/Satvik-Reddypally/introongoggle"
+    },
+    "roadmap": {
+      "summary": "Covers Compute Engine, App Engine, BigQuery, Cloud Storage, Kubernetes, IAM, and certifications like Associate Cloud Engineer and Professional Data Engineer.",
+      "source": "/assets/Google%20Cloud.pdf"
+    },
+    "tags": [
+      "GCP",
+      "Cloud Computing",
+      "BigQuery",
+      "Kubernetes",
+      "Compute Engine",
+      "IAM",
+      "Certification"
+    ],
+    "books": [
+      {
+        "title": "Google Cloud Platform for Architects",
+        "link": "https://archive.org/details/google-cloud-platform-for-architects"
+      },
+      {
+        "title": "Data Science on the Google Cloud Platform",
+        "link": "https://archive.org/details/data-science-on-google-cloud-platform"
+      }
+    ],
+    "courses": {
+      "free": [
+        {
+          "title": "Google Cloud Computing Foundations",
+          "platform": "Google Skills",
+          "link": "https://www.skills.google/paths/36"
+        },
+        {
+          "title": "Free Google Cloud Courses – Great Learning",
+          "platform": "Great Learning",
+          "link": "https://www.mygreatlearning.com/google-cloud/free-courses"
+        }
+      ],
+      "paid": [
+        {
+          "title": "Google Cloud Training Resources",
+          "platform": "Google Cloud",
+          "link": "https://cloud.google.com/learn/training"
+        }
+      ],
+      "certified": [
+        {
+          "title": "Google Cloud Associate Engineer Certification",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/learn/gcp-fundamentals"
+        }
+      ]
+    },
+    "id": 11
+  },
+  {
+    "title": "DevOps",
+    "intro": {
+      "description": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the system development lifecycle and provide continuous delivery with high software quality. It focuses on communication, collaboration, integration, and automation using various tools.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/sathwik8923/devops"
+    },
+    "roadmap": {
+      "summary": "The DevOps roadmap focuses on Linux Fundamentals and Scripting (Bash/Python), Version Control (Git), CI/CD concepts and tools (e.g., Jenkins, GitLab CI), Infrastructure as Code (IaC) (e.g., Terraform, Ansible), Containerization (Docker) and Orchestration (Kubernetes), Cloud Platforms (AWS/Azure/GCP), and Monitoring/Logging/Observability (e.g., Prometheus, ELK Stack).",
+      "source": "/assets/Devops.pdf"
+    },
+    "tags": [
+      "DevOps",
+      "CI/CD",
+      "Automation",
+      "IaC",
+      "Cloud Computing",
+      "Docker",
+      "Kubernetes",
+      "Git",
+      "Scripting",
+      "Linux",
+      "Monitoring",
+      "DevSecOps"
+    ],
+    "books": [
+      {
+        "title": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win",
+        "link": "https://www.haio.ir/app/uploads/2021/12/The-Phoenix-Project-A-Novel-about-IT-DevOps-and-Helping-Your-Business-Win-by-Gene-Kim-George-Spafford-Kevin-Behr-z-lib.org_.pdf"
+      },
+      {
+        "title": "The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations",
+        "link": "https://dl.faghatketab.ir/Books/Computer/Programming/WebProgramming/The.DevOps.Handbook_faghatketab.ir.pdf"
+      },
+      {
+        "title": "Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation",
+        "link": "https://unidel.edu.ng/focelibrary/books/Continuous%20Delivery%20Reliable%20Software%20Releases%20through%20Build,%20Test,%20and%20Deployment%20Automation%20by%20Jez%20Humble,%20David%20Farley%20(z-lib.org).pdf"
+      },
+      {
+        "title": "Automate the Boring Stuff with Python",
+        "link": "https://ia803407.us.archive.org/31/items/automatetheboringstuffwithpython_new/automatetheboringstuffwithpython_new.pdf"
+      }
+    ],
+    "courses": {
+      "free": [
+        {
+          "title": "Introduction to JSON for new DevOps engineers!",
+          "platform": "YouTube (TechWorld with Nana)",
+          "link": "https://www.youtube.com/watch?v=6ak9FbnI40g"
+        },
+        {
+          "title": "Introduction to DevOps (with Certificate)",
+          "platform": "Great Learning Academy",
+          "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-devops1"
+        },
+        {
+          "title": "Continuous Delivery and DevOps (Audit Track)",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/learn/uva-darden-continous-delivery-devops"
+        },
+        {
+          "title": "Free DevOps Courses",
+          "platform": "HeyDevops (Live Sessions)",
+          "link": "https://www.heydevops.in/free-devopscourse"
+        }
+      ],
+      "paid": [
+        {
+          "title": "DevOps Mastery",
+          "platform": "KodeKloud",
+          "link": "https://kodekloud.com/"
+        },
+        {
+          "title": "Master DevOps: CI/CD, Automation & Monitoring",
+          "platform": "Edureka / Udemy",
+          "link": "https://www.edureka.co/"
+        }
+      ],
+      "certified": [
+        {
+          "title": "Certified Kubernetes Administrator (CKA)",
+          "platform": "Linux Foundation / CNCF",
+          "link": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"
+        },
+        {
+          "title": "AWS Certified DevOps Engineer - Professional",
+          "platform": "AWS Certification",
+          "link": "https://aws.amazon.com/certification/certified-devops-engineer-professional/"
+        },
+        {
+          "title": "Google Professional Cloud DevOps Engineer",
+          "platform": "Google Cloud Certification",
+          "link": "https://cloud.google.com/learn/certification/cloud-devops-engineer"
+        },
+        {
+          "title": "Microsoft Certified: DevOps Engineer Expert (AZ-400)",
+          "platform": "Microsoft Certification",
+          "link": "https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/"
+        }
+      ]
+    },
+    "id": 12
+  },
+  {
+    "title": "Blockchain",
+    "intro": {
+      "description": "Block Chain is a decentralized, distributed ledger technology (DLT) that securely records transactions across many computers (nodes) in an immutable sequence of blocks. It enables trustless systems like cryptocurrencies (Bitcoin, Ethereum), smart contracts, and decentralized finance (DeFi).",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/sathwik8923/blockchain"
+    },
+    "roadmap": {
+      "summary": "A comprehensive roadmap covers: Foundational Cryptography (Hashing, Asymmetric Encryption), Core Concepts (Consensus Mechanisms - PoW/PoS, DLT, Blocks, Transactions), Smart Contract Development (Solidity/Rust), dApp Development (Web3.js, Ethers.js, Front-end integration), Layer 2 Solutions (Rollups), and Advanced topics (DeFi, NFTs, Security Auditing, Governance).",
+      "source": "/assets/Block%20chain.pdf"
+    },
+    "tags": [
+      "BlockChain",
+      "Decentralization",
+      "Smart Contracts",
+      "Solidity",
+      "Ethereum",
+      "Web3",
+      "dApps",
+      "DeFi",
+      "NFTs",
+      "Cryptography",
+      "Consensus Mechanisms",
+      "Rust"
+    ],
+    "books": [
+      {
+        "title": "Mastering Bitcoin: Programming the Open Blockchain",
+        "link": "https://www.oreilly.com/library/view/mastering-bitcoin/9781491954379/"
+      },
+      {
+        "title": "Mastering Ethereum: Building Smart Contracts and DApps",
+        "link": "https://www.oreilly.com/library/view/mastering-ethereum/9781491971932/"
+      },
+      {
+        "title": "Mastering Blockchain",
+        "link": "https://www.oreilly.com/library/view/mastering-blockchain/9781839213199/"
+      }
+    ],
+    "courses": {
+      "free": [
+        {
+          "title": "Learn Blockchain, Solidity, and Full Stack Web3 Development",
+          "platform": "freeCodeCamp / YouTube (by Patrick Collins)",
+          "link": "https://youtu.be/gyMwXuJrbJQ?si=qbXVzbI0plfYg0FN"
+        },
+        {
+          "title": "Bitcoin and Cryptocurrency Technologies",
+          "platform": "Princeton University / Coursera (Audit Track)",
+          "link": "https://www.coursera.org/learn/cryptocurrency"
+        },
+        {
+          "title": "Blockchain Fundamentals",
+          "platform": "UC Berkeley / edX (Audit Track)",
+          "link": "https://www.edx.org/learn/blockchain"
+        }
+      ],
+      "paid": [
+        {
+          "title": "Certified Blockchain Expert™ Program",
+          "platform": "Blockchain Council",
+          "link": "https://www.blockchain-council.org/certifications/certified-blockchain-professional-expert/"
+        },
+        {
+          "title": "Blockchain Developer Nanodegree",
+          "platform": "Udacity",
+          "link": "https://www.udacity.com/course/blockchain-developer-nanodegree--nd1309"
+        }
+      ],
+      "certified": [
+        {
+          "title": "Blockchain Specialization",
+          "platform": "Coursera (University at Buffalo)",
+          "link": "https://www.coursera.org/specializations/blockchain"
+        },
+        {
+          "title": "Ethereum Developer Bootcamp",
+          "platform": "Alchemy University",
+          "link": "https://www.alchemy.com/"
+        },
+        {
+          "title": "IBM Blockchain Developer Certification",
+          "platform": "Coursera / IBM",
+          "link": "https://www.coursera.org/courses?=&query=blockchain"
+        }
+      ]
+    },
+    "id": 13
+  },
+  {
+    "title": "Machine Learning",
+    "intro": {
+      "description": "Machine Learning (ML) is a subset of artificial intelligence that enables systems to learn patterns from data and make decisions or predictions without being explicitly programmed. It powers applications like recommendation engines, fraud detection, and autonomous vehicles.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/sravanthi_vadla/ML/IntroOnML.txt"
+    },
+    "roadmap": {
+      "summary": "The ML roadmap includes Linear Algebra, Probability & Statistics, Python Programming, Data Preprocessing, Supervised & Unsupervised Learning, Model Evaluation, Deep Learning, NLP, Computer Vision, and Deployment. Key tools include Scikit-learn, TensorFlow, PyTorch, and platforms like Kaggle and Google Colab.",
+      "source": "/assets/ML%20Roadmap.pdf"
+    },
+    "tags": [
+      "Machine Learning",
+      "AI",
+      "Python",
+      "Deep Learning",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "TensorFlow",
+      "PyTorch",
+      "NLP",
+      "Computer Vision",
+      "Model Deployment"
+    ],
+    "books": [
+      {
+        "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+        "link": "https://archive.org/details/hands-on-machine-learning-with-scikit-learn-keras-and-tensorflow"
+      },
+      {
+        "title": "Pattern Recognition and Machine Learning",
+        "link": "https://archive.org/details/pattern-recognition-and-machine-learning"
+      },
+      {
+        "title": "Machine Learning Yearning",
+        "link": "https://www.deeplearning.ai/machine-learning-yearning/"
+      }
+    ],
+    "courses": {
+      "free": [
+        {
+          "title": "Machine Learning Crash Course – Google",
+          "platform": "Google Developers",
+          "link": "https://developers.google.com/machine-learning/crash-course"
+        },
+        {
+          "title": "Machine Learning with Python – Coursera (Audit)",
+          "platform": "Coursera / IBM",
+          "link": "https://www.coursera.org/learn/machine-learning-with-python"
+        },
+        {
+          "title": "Free ML Courses – Great Learning",
+          "platform": "Great Learning",
+          "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/machine-learning"
+        }
+      ],
+      "paid": [
+        {
+          "title": "Machine Learning A-Z™: Hands-On Python & R",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/course/machinelearning/"
+        },
+        {
+          "title": "Professional Certificate in ML & AI",
+          "platform": "edX / IBM",
+          "link": "https://www.edx.org/professional-certificate/ibm-machine-learning-ai"
+        }
+      ],
+      "certified": [
+        {
+          "title": "Machine Learning Specialization",
+          "platform": "Coursera / Stanford & DeepLearning.AI",
+          "link": "https://www.coursera.org/specializations/machine-learning-introduction"
+        },
+        {
+          "title": "AWS Certified Machine Learning – Specialty",
+          "platform": "AWS Certification",
+          "link": "https://aws.amazon.com/certification/certified-machine-learning-specialty/"
+        },
+        {
+          "title": "Google Professional ML Engineer",
+          "platform": "Google Cloud Certification",
+          "link": "https://cloud.google.com/learn/certification/machine-learning-engineer"
+        }
+      ]
+    },
+    "id": 14
+  },
+  {
+    "title": "Web Development",
+    "intro": {
+      "description": "Web Development is the art and science of building and maintaining websites and web applications. It combines design, programming, and problem-solving to create interactive digital experiences accessible across the globe.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/sravanthi_vadla/webDev.txt"
+    },
+    "roadmap": {
+      "summary": "Covers front-end (HTML, CSS, JavaScript, frameworks), back-end (Node.js, databases, APIs), version control, testing, security, performance, architecture, and deployment. Includes MERN stack, DevOps integration, and mobile/web app optimization.",
+      "source": "/assets/Web%20Development%20Road%20Map.pdf"
+    },
+    "tags": [
+      "Web Development",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "MERN Stack",
+      "Frontend",
+      "Backend",
+      "Fullstack",
+      "Version Control",
+      "DevOps",
+      "Security",
+      "Testing"
+    ],
+    "books": [
+      {
+        "title": "The Odin Project – Full Stack JavaScript",
+        "link": "https://www.theodinproject.com/paths/full-stack-javascript"
+      },
+      {
+        "title": "Fullstack Open",
+        "link": "https://fullstackopen.com/en/"
+      },
+      {
+        "title": "The Little MongoDB Book",
+        "link": "https://github.com/karlseguin/the-little-mongodb-book"
+      },
+      {
+        "title": "MongoDB Notes for Professionals",
+        "link": "https://goalkicker.com/MongoDBBook/"
+      },
+      {
+        "title": "Express.js Guide",
+        "link": "https://github.com/azat-co/expressjs-guide"
+      },
+      {
+        "title": "The Road to React",
+        "link": "https://www.robinwieruch.de/the-road-to-react/"
+      },
+      {
+        "title": "React JS Notes for Professionals",
+        "link": "https://goalkicker.com/ReactJSBook/"
+      },
+      {
+        "title": "Node.js Succinctly",
+        "link": "https://www.syncfusion.com/ebooks/nodejs-succinctly"
+      },
+      {
+        "title": "Node.js Notes for Professionals",
+        "link": "https://goalkicker.com/NodeJSBook/"
+      }
+    ],
+    "courses": {
+      "free": [
+        {
+          "title": "MERN Stack Playlist",
+          "platform": "Sunfire Sensei (YouTube)",
+          "link": "https://www.youtube.com/playlist?list=PLMLLbuGXs6F4DfBeFI1sAyI85SdRCv7-H"
         },
         {
           "title": "Fullstack Open",
-          "link": "https://fullstackopen.com/en/"
+          "platform": "University of Helsinki",
+          "link": "https://fullstackopen.com/en/about"
         },
         {
-          "title": "The Little MongoDB Book",
-          "link": "https://github.com/karlseguin/the-little-mongodb-book"
+          "title": "MERN Stack Tutorial",
+          "platform": "The Net Ninja (YouTube)",
+          "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE"
         },
         {
-          "title": "MongoDB Notes for Professionals",
-          "link": "https://goalkicker.com/MongoDBBook/"
-        },
-        {
-          "title": "Express.js Guide",
-          "link": "https://github.com/azat-co/expressjs-guide"
-        },
-        {
-          "title": "The Road to React",
-          "link": "https://www.robinwieruch.de/the-road-to-react/"
-        },
-        {
-          "title": "React JS Notes for Professionals",
-          "link": "https://goalkicker.com/ReactJSBook/"
-        },
-        {
-          "title": "Node.js Succinctly",
-          "link": "https://www.syncfusion.com/ebooks/nodejs-succinctly"
-        },
-        {
-          "title": "Node.js Notes for Professionals",
-          "link": "https://goalkicker.com/NodeJSBook/"
+          "title": "CodeHelp MERN Stack",
+          "platform": "Love Babbar (YouTube)",
+          "link": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD"
         }
       ],
-      "courses": {
-        "free": [
-          {
-            "title": "MERN Stack Playlist",
-            "platform": "Sunfire Sensei (YouTube)",
-            "link": "https://www.youtube.com/playlist?list=PLMLLbuGXs6F4DfBeFI1sAyI85SdRCv7-H"
-          },
-          {
-            "title": "Fullstack Open",
-            "platform": "University of Helsinki",
-            "link": "https://fullstackopen.com/en/about"
-          },
-          {
-            "title": "MERN Stack Tutorial",
-            "platform": "The Net Ninja (YouTube)",
-            "link": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE"
-          },
-          {
-            "title": "CodeHelp MERN Stack",
-            "platform": "Love Babbar (YouTube)",
-            "link": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD"
-          }
-        ],
-        "paid": [
-          {
-            "title": "MERN Stack Front To Back",
-            "platform": "Udemy",
-            "link": "https://www.udemy.com/course/mern-stack-front-to-back/"
-          },
-          {
-            "title": "MERN Fullstack Guide",
-            "platform": "Udemy",
-            "link": "https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/"
-          },
-          {
-            "title": "Node.js Bootcamp",
-            "platform": "Udemy",
-            "link": "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/"
-          }
-        ],
-        "certified": [
-          {
-            "title": "freeCodeCamp Certifications",
-            "platform": "freeCodeCamp",
-            "link": "https://www.freecodecamp.org/learn/"
-          },
-          {
-            "title": "Meta Front-End Developer Certificate",
-            "platform": "Coursera",
-            "link": "https://www.coursera.org/professional-certificates/meta-front-end-developer"
-          },
-          {
-            "title": "IBM Full Stack Software Developer Certificate",
-            "platform": "Coursera",
-            "link": "https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer"
-          },
-          {
-            "title": "Simplilearn Full Stack Java Developer Program",
-            "platform": "Simplilearn",
-            "link": "https://www.simplilearn.com/full-stack-java-developer-certification-training-course"
-          }
-        ]
-      },
-      "id": 15
+      "paid": [
+        {
+          "title": "MERN Stack Front To Back",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/course/mern-stack-front-to-back/"
+        },
+        {
+          "title": "MERN Fullstack Guide",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/"
+        },
+        {
+          "title": "Node.js Bootcamp",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/"
+        }
+      ],
+      "certified": [
+        {
+          "title": "freeCodeCamp Certifications",
+          "platform": "freeCodeCamp",
+          "link": "https://www.freecodecamp.org/learn/"
+        },
+        {
+          "title": "Meta Front-End Developer Certificate",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/professional-certificates/meta-front-end-developer"
+        },
+        {
+          "title": "IBM Full Stack Software Developer Certificate",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer"
+        },
+        {
+          "title": "Simplilearn Full Stack Java Developer Program",
+          "platform": "Simplilearn",
+          "link": "https://www.simplilearn.com/full-stack-java-developer-certification-training-course"
+        }
+      ]
     },
-    {
-      "title": "Data Analytics",
-      "intro": {
-        "description": "Data Analytics is the process of inspecting, cleaning, transforming, and modeling data to discover useful information, draw conclusions, and support decision-making. It is the bridge between raw data and business intelligence, focusing on what has happened and why.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/keerthan/introonDA"
-      },
-      "roadmap": {
-        "summary": "The roadmap centers on Statistical Fundamentals, Spreadsheets (Advanced Excel/Google Sheets), Database Querying (SQL), Programming (Python/R) with libraries (Pandas, NumPy, Tidyverse), Data Visualization and Business Intelligence (BI) Tools (Tableau, Power BI), and Storytelling with data. It emphasizes hands-on projects and domain knowledge.",
-        "source": "/assets/Data%20Analytics.pdf"
-      },
-      "tags": [
-        "Data Analytics",
-        "SQL",
-        "Excel",
-        "Python",
-        "R",
-        "Statistics",
-        "Data Visualization",
-        "Tableau",
-        "Power BI",
-        "Business Intelligence",
-        "ETL",
-        "Data Cleaning"
-      ],
-      "books": [
-        {
-          "title": "The Elements of Data Analytic Style",
-          "link": "https://www.scribd.com/document/437827031/The-Elements-of-Data-Analytic-Style-Jeff-Leek-v01"
-        },
-        {
-          "title": "R for Data Science",
-          "link": "https://r4ds.had.co.nz/"
-        },
-        {
-          "title": "A Beginner's Guide to Data & Analytics",
-          "link": "https://info.email.online.hbs.edu/data-analytics-ebook"
-        },
-        {
-          "title": "Python for Data Analysis",
-          "link": "https://www.lkhibra.ma/books/Python-for-Data-Analysis.pdf"
-        }
-      ],
-      "courses": {
-        "free": [
-          {
-            "title": "Complete Statistics For Data Science In 6 hours",
-            "platform": "YouTube (by Krish Naik)",
-            "link": "https://www.youtube.com/watch?v=LZzq1zSL1bs"
-          },
-          {
-            "title": "Complete Excel Tutorial in one video",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/watch?v=OX-iyb-21tk"
-          },
-          {
-            "title": "SQL tutorial in one video",
-            "platform": "YouTube",
-            "link": "https://www.youtube.com/watch?v=On9eSN3F8w0"
-          },
-          {
-            "title": "Python for Data Science, AI & Development",
-            "platform": "Coursera (IBM - Audit Track)",
-            "link": "https://www.coursera.org/learn/python-for-applied-data-science-ai"
-          },
-          {
-            "title": "Data Analytics Essentials",
-            "platform": "Cisco Networking Academy",
-            "link": "https://www.netacad.com/courses/data-analytics-essentials"
-          }
-        ],
-        "paid": [
-          {
-            "title": "Data Analyst Master's Program",
-            "platform": "Simplilearn",
-            "link": "https://www.simplilearn.com/in/data-analyst-course"
-          },
-          {
-            "title": "Professional Data Analyst Certification",
-            "platform": "DataCamp",
-            "link": "https://www.datacamp.com/certification/data-analyst"
-          }
-        ],
-        "certified": [
-          {
-            "title": "Google Data Analytics Professional Certificate",
-            "platform": "Coursera (Google)",
-            "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
-          },
-          {
-            "title": "IBM Data Analyst Professional Certificate",
-            "platform": "Coursera (IBM)",
-            "link": "https://www.coursera.org/professional-certificates/ibm-data-analyst"
-          },
-          {
-            "title": "Microsoft Certified: Power BI Data Analyst Associate (PL-300)",
-            "platform": "Microsoft Certification",
-            "link": "https://learn.microsoft.com/en-us/training/courses/dp-203t00"
-          },
-          {
-            "title": "Tableau Desktop Specialist Certification",
-            "platform": "Tableau Certification",
-            "link": "https://www.tableau.com/learn/certification"
-          }
-        ]
-      },
-      "id": 16
+    "id": 15
+  },
+  {
+    "title": "Data Analytics",
+    "intro": {
+      "description": "Data Analytics is the process of inspecting, cleaning, transforming, and modeling data to discover useful information, draw conclusions, and support decision-making. It is the bridge between raw data and business intelligence, focusing on what has happened and why.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/keerthan/introonDA"
     },
-    {
-      "title": "Prompt Engineering",
-      "intro": {
-        "description": "Prompt Engineering is the discipline of designing and refining input prompts for Large Language Models (LLMs) to achieve more accurate, relevant, and desired outputs. It involves understanding LLM capabilities and limitations to effectively guide their behavior for specific tasks.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/pavan/introonprompt"
-      },
-      "roadmap": {
-        "summary": "The roadmap covers Foundational LLM Concepts (Tokenization, Attention Mechanism, Transformer Architecture), Prompting Techniques (Zero-shot, Few-shot, Chain-of-Thought - CoT, Tree-of-Thought - ToT, Retrieval-Augmented Generation - RAG), Tool Integration (Function Calling, Plugins), Model Evaluation Metrics (Perplexity, ROUGE, BLEU), and Safety/Ethical Hacking (Prompt Injection, Jailbreaking). Mastery requires hands-on practice with various LLM APIs.",
-        "source": "/assets/Prompt%20Engineering.pdf"
-      },
-      "tags": [
-        "Prompt Engineering",
-        "LLM",
-        "Generative AI",
-        "NLP",
-        "Chain-of-Thought",
-        "RAG",
-        "In-Context Learning",
-        "Few-Shot Learning",
-        "Prompt Injection",
-        "AI Safety"
-      ],
-      "books": [
-        {
-          "title": "The Art of Prompt Engineering: A Guide to Communicating with AI",
-          "link": "https://cloud.google.com/discover/what-is-prompt-engineering?hl=en"
-        },
-        {
-          "title": "Prompt Engineering for Large Language Models",
-          "link": "https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/"
-        },
-        {
-          "title": "Patterns for Prompt Engineering",
-          "link": "https://www.coursera.org/articles/prompt-pattern"
-        },
-        {
-          "title": "Generative AI: The Beginner’s Guide",
-          "link": "https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/"
-        }
-      ],
-      "courses": {
-        "free": [
-          {
-            "title": "Prompt Engineering for Developers",
-            "platform": "DeepLearning.AI / Coursera (Audit Track)",
-            "link": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/"
-          },
-          {
-            "title": "Introduction to Generative AI",
-            "platform": "Google Cloud / Coursera (Audit Track)",
-            "link": "https://www.coursera.org/learn/introduction-to-generative-ai"
-          },
-          {
-            "title": "Prompt Engineering in simple terms for Beginners",
-            "platform": "YouTube (TechLead)",
-            "link": "https://www.youtube.com/TechLead"
-          },
-          {
-            "title": "Prompt Engineering Guide",
-            "platform": "PromptingGuide.ai",
-            "link": "https://www.promptingguide.ai/"
-          }
-        ],
-        "paid": [
-          {
-            "title": "Advanced Prompt Engineering Specialization",
-            "platform": "DeepLearning.AI / Coursera",
-            "link": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/"
-          },
-          {
-            "title": "Prompt Engineering with ChatGPT, Midjourney, and other LLMs",
-            "platform": "Udemy",
-            "link": "https://www.udemy.com/topic/prompt-engineering/"
-          }
-        ],
-        "certified": [
-          {
-            "title": "Generative AI with Large Language Models Specialization",
-            "platform": "DeepLearning.AI / AWS / Coursera",
-            "link": "https://www.coursera.org/learn/generative-ai-with-llms"
-          }
-        ]
-      },
-      "id": 17
+    "roadmap": {
+      "summary": "The roadmap centers on Statistical Fundamentals, Spreadsheets (Advanced Excel/Google Sheets), Database Querying (SQL), Programming (Python/R) with libraries (Pandas, NumPy, Tidyverse), Data Visualization and Business Intelligence (BI) Tools (Tableau, Power BI), and Storytelling with data. It emphasizes hands-on projects and domain knowledge.",
+      "source": "/assets/Data%20Analytics.pdf"
     },
-    {
-      "title": "Internet of Things (IoT)",
-      "intro": {
-        "description": "The Internet of Things (IoT) connects physical devices to the internet, enabling them to collect, share, and act on data. It powers smart homes, cities, agriculture, healthcare, and industrial automation.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/Sreevathsa-Thalluri/introoniot"
+    "tags": [
+      "Data Analytics",
+      "SQL",
+      "Excel",
+      "Python",
+      "R",
+      "Statistics",
+      "Data Visualization",
+      "Tableau",
+      "Power BI",
+      "Business Intelligence",
+      "ETL",
+      "Data Cleaning"
+    ],
+    "books": [
+      {
+        "title": "The Elements of Data Analytic Style",
+        "link": "https://www.scribd.com/document/437827031/The-Elements-of-Data-Analytic-Style-Jeff-Leek-v01"
       },
-      "roadmap": {
-        "summary": "Includes IoT architecture, sensors, embedded systems, communication protocols (MQTT, HTTP, CoAP), microcontrollers (Arduino, ESP32, Raspberry Pi), IoT cloud services (AWS, Azure, Google Cloud), edge computing, and IoT security.",
-        "source": "/assets/IOT.pdf"
+      {
+        "title": "R for Data Science",
+        "link": "https://r4ds.had.co.nz/"
       },
-      "tags": [
-        "IoT",
-        "Internet of Things",
-        "Embedded Systems",
-        "Sensors",
-        "Arduino",
-        "ESP32",
-        "MQTT",
-        "Cloud IoT",
-        "Edge Computing",
-        "IoT Security"
-      ],
-      "books": [
+      {
+        "title": "A Beginner's Guide to Data & Analytics",
+        "link": "https://info.email.online.hbs.edu/data-analytics-ebook"
+      },
+      {
+        "title": "Python for Data Analysis",
+        "link": "https://www.lkhibra.ma/books/Python-for-Data-Analysis.pdf"
+      }
+    ],
+    "courses": {
+      "free": [
         {
-          "title": "Getting Started with the Internet of Things",
-          "link": "https://www.oreilly.com/library/view/getting-started-with/9781449378979/"
+          "title": "Complete Statistics For Data Science In 6 hours",
+          "platform": "YouTube (by Krish Naik)",
+          "link": "https://www.youtube.com/watch?v=LZzq1zSL1bs"
         },
         {
-          "title": "IoT Fundamentals",
-          "link": "https://www.ciscopress.com/store/iot-fundamentals-connecting-devices-and-data-with-the-9781587144569"
+          "title": "Complete Excel Tutorial in one video",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/watch?v=OX-iyb-21tk"
         },
         {
-          "title": "Building the Internet of Things",
-          "link": "https://www.wiley.com/en-us/Building+the+Internet+of+Things%2C+2nd+Edition-p-9781119548195"
+          "title": "SQL tutorial in one video",
+          "platform": "YouTube",
+          "link": "https://www.youtube.com/watch?v=On9eSN3F8w0"
+        },
+        {
+          "title": "Python for Data Science, AI & Development",
+          "platform": "Coursera (IBM - Audit Track)",
+          "link": "https://www.coursera.org/learn/python-for-applied-data-science-ai"
+        },
+        {
+          "title": "Data Analytics Essentials",
+          "platform": "Cisco Networking Academy",
+          "link": "https://www.netacad.com/courses/data-analytics-essentials"
         }
       ],
-      "courses": {
-        "free": [
-          {
-            "title": "Introduction to AWS IoT",
-            "platform": "AWS Skill Builder",
-            "link": "https://explore"
-          }
-        ]
-      },
-      "id": 18
+      "paid": [
+        {
+          "title": "Data Analyst Master's Program",
+          "platform": "Simplilearn",
+          "link": "https://www.simplilearn.com/in/data-analyst-course"
+        },
+        {
+          "title": "Professional Data Analyst Certification",
+          "platform": "DataCamp",
+          "link": "https://www.datacamp.com/certification/data-analyst"
+        }
+      ],
+      "certified": [
+        {
+          "title": "Google Data Analytics Professional Certificate",
+          "platform": "Coursera (Google)",
+          "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
+        },
+        {
+          "title": "IBM Data Analyst Professional Certificate",
+          "platform": "Coursera (IBM)",
+          "link": "https://www.coursera.org/professional-certificates/ibm-data-analyst"
+        },
+        {
+          "title": "Microsoft Certified: Power BI Data Analyst Associate (PL-300)",
+          "platform": "Microsoft Certification",
+          "link": "https://learn.microsoft.com/en-us/training/courses/dp-203t00"
+        },
+        {
+          "title": "Tableau Desktop Specialist Certification",
+          "platform": "Tableau Certification",
+          "link": "https://www.tableau.com/learn/certification"
+        }
+      ]
     },
-    {
-      "title": "Big Data",
-      "intro": {
-        "description": "Big Data refers to extremely large data sets that may be analyzed computationally to reveal patterns, trends, and associations, especially relating to human behavior and interactions. It is characterized by the 5 Vs: Volume, Velocity, Variety, Veracity, and Value.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/pavan/introonbig"
-      },
-      "roadmap": {
-        "summary": "The path to Big Data expertise focuses on Distributed Systems and Cloud Platforms (AWS/Azure/GCP), Data Warehousing/Lakes, NoSQL Databases (MongoDB, Cassandra), Programming (Python/Scala/Java), and key frameworks: Apache Hadoop (HDFS, MapReduce), Apache Spark (for fast processing), Apache Kafka (for real-time streaming), and Data Orchestration (e.g., Airflow).",
-        "source": "/assets/Big%20Data.pdf"
-      },
-      "tags": [
-        "Big Data",
-        "Distributed Systems",
-        "Hadoop",
-        "Apache Spark",
-        "NoSQL",
-        "Data Lakes",
-        "ETL",
-        "Cloud Computing",
-        "Kafka",
-        "Data Engineering",
-        "PySpark"
-      ],
-      "books": [
-        {
-          "title": "Hadoop: The Definitive Guide",
-          "link": "https://piazza-resources.s3.amazonaws.com/ist3pwd6k8p5t/iu5gqbsh8re6mj/OReilly.Hadoop.The.Definitive.Guide.4th.Edition.2015.pdf"
-        },
-        {
-          "title": "Designing Data-Intensive Applications",
-          "link": "https://unidel.edu.ng/focelibrary/books/Designing%20Data-Intensive%20Applications%20The%20Big%20Ideas%20Behind%20Reliable,%20Scalable,%20and%20Maintainable%20Systems%20by%20Martin%20Kleppmann%20(z-lib.org).pdf"
-        },
-        {
-          "title": "Spark: The Definitive Guide",
-          "link": "https://analyticsdata24.wordpress.com/wp-content/uploads/2020/02/spark-the-definitive-guide40www.bigdatabugs.com_.pdf"
-        },
-        {
-          "title": "Big Data: Principles and Best Practices of Scalable Real-Time Data and Stream Analytics",
-          "link": "https://www.scribd.com/document/923588098/Big-Data-Principles-and-best-practices-of-scalable-realtime-data-systems-1st-Edition-Nathan-Marz-all-chapters-available"
-        }
-      ],
-      "courses": {
-        "free": [
-          {
-            "title": "Big Data Fundamentals with PySpark",
-            "platform": "Cognitive Class (IBM)",
-            "link": "https://cognitiveclass.ai/courses/what-is-big-data"
-          },
-          {
-            "title": "Introduction to Big Data",
-            "platform": "Coursera (IBM - Audit Track)",
-            "link": "https://www.coursera.org/learn/big-data-introduction"
-          },
-          {
-            "title": "Hadoop and Spark Full Course",
-            "platform": "YouTube (various channels)",
-            "link": "https://www.youtube.com/playlist?list=PL6UwySlcwEYJ2hFuGIvr4VEHUAfl-GCNT"
-          },
-          {
-            "title": "Introduction to Google Cloud BigQuery",
-            "platform": "Coursera / Google Cloud",
-            "link": "https://www.coursera.org/courses?query=bigquery"
-          }
-        ],
-        "paid": [
-          {
-            "title": "Big Data Analytics with Spark and Hadoop",
-            "platform": "Simplilearn / Edureka",
-            "link": "https://www.simplilearn.com/free-big-data-hadoop-certification-skillup"
-          },
-          {
-            "title": "Big Data Engineering with Databricks",
-            "platform": "Udemy",
-            "link": "https://www.udemy.com/topic/databricks-certified-data-engineer-associate/"
-          }
-        ],
-        "certified": [
-          {
-            "title": "IBM Data Engineering Professional Certificate",
-            "platform": "Coursera (IBM)",
-            "link": "https://www.coursera.org/professional-certificates/ibm-data-engineer"
-          },
-          {
-            "title": "AWS Certified Data Analytics – Specialty (DAS-C01)",
-            "platform": "AWS Certification",
-            "link": "https://aws.amazon.com/training/learn-about/data-analytics/"
-          },
-          {
-            "title": "Cloudera Certified Professional (CCP) Data Engineer",
-            "platform": "Cloudera",
-            "link": "https://www.cloudera.com/services-and-support/training/cdhhdp-certification/ccp-data-engineer.html"
-          },
-          {
-            "title": "Microsoft Certified: Azure Data Engineer Associate (DP-203)",
-            "platform": "Microsoft",
-            "link": "https://learn.microsoft.com/en-us/training/courses/dp-203t00"
-          }
-        ]
-      },
-      "id": 19
+    "id": 16
+  },
+  {
+    "title": "Prompt Engineering",
+    "intro": {
+      "description": "Prompt Engineering is the discipline of designing and refining input prompts for Large Language Models (LLMs) to achieve more accurate, relevant, and desired outputs. It involves understanding LLM capabilities and limitations to effectively guide their behavior for specific tasks.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/pavan/introonprompt"
     },
-    {
-      "title": "Artificial Intelligence",
-      "intro": {
-        "description": "Artificial Intelligence (AI) is a branch of computer science focused on building smart machines capable of performing tasks that typically require human intelligence, such as learning, problem-solving, and perception.",
-        "source": "https://github.com/Sravanthi2727/OOP/blob/surya/introonAI"
+    "roadmap": {
+      "summary": "The roadmap covers Foundational LLM Concepts (Tokenization, Attention Mechanism, Transformer Architecture), Prompting Techniques (Zero-shot, Few-shot, Chain-of-Thought - CoT, Tree-of-Thought - ToT, Retrieval-Augmented Generation - RAG), Tool Integration (Function Calling, Plugins), Model Evaluation Metrics (Perplexity, ROUGE, BLEU), and Safety/Ethical Hacking (Prompt Injection, Jailbreaking). Mastery requires hands-on practice with various LLM APIs.",
+      "source": "/assets/Prompt%20Engineering.pdf"
+    },
+    "tags": [
+      "Prompt Engineering",
+      "LLM",
+      "Generative AI",
+      "NLP",
+      "Chain-of-Thought",
+      "RAG",
+      "In-Context Learning",
+      "Few-Shot Learning",
+      "Prompt Injection",
+      "AI Safety"
+    ],
+    "books": [
+      {
+        "title": "The Art of Prompt Engineering: A Guide to Communicating with AI",
+        "link": "https://cloud.google.com/discover/what-is-prompt-engineering?hl=en"
       },
-      "roadmap": {
-        "summary": "Covers foundational concepts like search algorithms and knowledge representation, progresses to machine learning and deep learning (including neural networks, CNNs for computer vision, and sequence models for NLP), and includes practical application and societal implications.",
-        "source": "/assets/AI.pdf"
+      {
+        "title": "Prompt Engineering for Large Language Models",
+        "link": "https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/"
       },
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Deep Learning",
-        "Neural Networks",
-        "Python",
-        "NLP",
-        "Computer Vision",
-        "MLOps",
-        "TensorFlow",
-        "PyTorch",
-        "Kaggle",
-        "Data Science"
-      ],
-      "books": [
+      {
+        "title": "Patterns for Prompt Engineering",
+        "link": "https://www.coursera.org/articles/prompt-pattern"
+      },
+      {
+        "title": "Generative AI: The Beginner’s Guide",
+        "link": "https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/"
+      }
+    ],
+    "courses": {
+      "free": [
         {
-          "title": "Artificial Intelligence: A Modern Approach (AIMA)",
-          "link": "https://aima.cs.berkeley.edu/"
+          "title": "Prompt Engineering for Developers",
+          "platform": "DeepLearning.AI / Coursera (Audit Track)",
+          "link": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/"
         },
         {
-          "title": "Deep Learning",
-          "link": "https://www.deeplearningbook.org/"
+          "title": "Introduction to Generative AI",
+          "platform": "Google Cloud / Coursera (Audit Track)",
+          "link": "https://www.coursera.org/learn/introduction-to-generative-ai"
         },
         {
-          "title": "The Hundred-Page Machine Learning Book",
-          "link": "https://themlbook.com/wiki/"
+          "title": "Prompt Engineering in simple terms for Beginners",
+          "platform": "YouTube (TechLead)",
+          "link": "https://www.youtube.com/TechLead"
+        },
+        {
+          "title": "Prompt Engineering Guide",
+          "platform": "PromptingGuide.ai",
+          "link": "https://www.promptingguide.ai/"
         }
       ],
-      "courses": {
-        "free": [
-          {
-            "title": "CS50's Introduction to AI with Python",
-            "platform": "HarvardX / edX",
-            "link": "https://www.edx.org/course/cs50s-introduction-to-artificial-intelligence-with-python"
-          },
-          {
-            "title": "AI for Everyone",
-            "platform": "DeepLearning.AI / Coursera",
-            "link": "https://www.coursera.org/learn/ai-for-everyone"
-          },
-          {
-            "title": "Machine Learning Crash Course",
-            "platform": "Google for Developers",
-            "link": "https://developers.google.com/machine-learning/crash-course"
-          },
-          {
-            "title": "Elements of AI",
-            "platform": "University of Helsinki",
-            "link": "https://www.elementsofai.com/"
-          }
-        ],
-        "paid": [
-          {
-            "title": "Data Scientist with Python (Skill Track)",
-            "platform": "DataCamp",
-            "link": "https://www.datacamp.com/tracks/data-scientist-with-python"
-          }
-        ],
-        "certified": [
-          {
-            "title": "Deep Learning Specialization",
-            "platform": "Coursera",
-            "link": "https://www.coursera.org/specializations/deep-learning"
-          },
-          {
-            "title": "IBM AI Engineering Professional Certificate",
-            "platform": "Coursera",
-            "link": "https://www.coursera.org/professional-certificates/ai-engineer"
-          }
-        ]
+      "paid": [
+        {
+          "title": "Advanced Prompt Engineering Specialization",
+          "platform": "DeepLearning.AI / Coursera",
+          "link": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/"
+        },
+        {
+          "title": "Prompt Engineering with ChatGPT, Midjourney, and other LLMs",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/topic/prompt-engineering/"
+        }
+      ],
+      "certified": [
+        {
+          "title": "Generative AI with Large Language Models Specialization",
+          "platform": "DeepLearning.AI / AWS / Coursera",
+          "link": "https://www.coursera.org/learn/generative-ai-with-llms"
+        }
+      ]
+    },
+    "id": 17
+  },
+  {
+    "title": "Internet of Things (IoT)",
+    "intro": {
+      "description": "The Internet of Things (IoT) connects physical devices to the internet, enabling them to collect, share, and act on data. It powers smart homes, cities, agriculture, healthcare, and industrial automation.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/Sreevathsa-Thalluri/introoniot"
+    },
+    "roadmap": {
+      "summary": "Includes IoT architecture, sensors, embedded systems, communication protocols (MQTT, HTTP, CoAP), microcontrollers (Arduino, ESP32, Raspberry Pi), IoT cloud services (AWS, Azure, Google Cloud), edge computing, and IoT security.",
+      "source": "/assets/IOT.pdf"
+    },
+    "tags": [
+      "IoT",
+      "Internet of Things",
+      "Embedded Systems",
+      "Sensors",
+      "Arduino",
+      "ESP32",
+      "MQTT",
+      "Cloud IoT",
+      "Edge Computing",
+      "IoT Security"
+    ],
+    "books": [
+      {
+        "title": "Getting Started with the Internet of Things",
+        "link": "https://www.oreilly.com/library/view/getting-started-with/9781449378979/"
       },
-      "id": 20
-    }
-  ]
-}
+      {
+        "title": "IoT Fundamentals",
+        "link": "https://www.ciscopress.com/store/iot-fundamentals-connecting-devices-and-data-with-the-9781587144569"
+      },
+      {
+        "title": "Building the Internet of Things",
+        "link": "https://www.wiley.com/en-us/Building+the+Internet+of+Things%2C+2nd+Edition-p-9781119548195"
+      }
+    ],
+    "courses": {
+      "free": [
+        {
+          "title": "Introduction to AWS IoT",
+          "platform": "AWS Skill Builder",
+          "link": "https://explore"
+        }
+      ]
+    },
+    "id": 18
+  },
+  {
+    "title": "Big Data",
+    "intro": {
+      "description": "Big Data refers to extremely large data sets that may be analyzed computationally to reveal patterns, trends, and associations, especially relating to human behavior and interactions. It is characterized by the 5 Vs: Volume, Velocity, Variety, Veracity, and Value.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/pavan/introonbig"
+    },
+    "roadmap": {
+      "summary": "The path to Big Data expertise focuses on Distributed Systems and Cloud Platforms (AWS/Azure/GCP), Data Warehousing/Lakes, NoSQL Databases (MongoDB, Cassandra), Programming (Python/Scala/Java), and key frameworks: Apache Hadoop (HDFS, MapReduce), Apache Spark (for fast processing), Apache Kafka (for real-time streaming), and Data Orchestration (e.g., Airflow).",
+      "source": "/assets/Big%20Data.pdf"
+    },
+    "tags": [
+      "Big Data",
+      "Distributed Systems",
+      "Hadoop",
+      "Apache Spark",
+      "NoSQL",
+      "Data Lakes",
+      "ETL",
+      "Cloud Computing",
+      "Kafka",
+      "Data Engineering",
+      "PySpark"
+    ],
+    "books": [
+      {
+        "title": "Hadoop: The Definitive Guide",
+        "link": "https://piazza-resources.s3.amazonaws.com/ist3pwd6k8p5t/iu5gqbsh8re6mj/OReilly.Hadoop.The.Definitive.Guide.4th.Edition.2015.pdf"
+      },
+      {
+        "title": "Designing Data-Intensive Applications",
+        "link": "https://unidel.edu.ng/focelibrary/books/Designing%20Data-Intensive%20Applications%20The%20Big%20Ideas%20Behind%20Reliable,%20Scalable,%20and%20Maintainable%20Systems%20by%20Martin%20Kleppmann%20(z-lib.org).pdf"
+      },
+      {
+        "title": "Spark: The Definitive Guide",
+        "link": "https://analyticsdata24.wordpress.com/wp-content/uploads/2020/02/spark-the-definitive-guide40www.bigdatabugs.com_.pdf"
+      },
+      {
+        "title": "Big Data: Principles and Best Practices of Scalable Real-Time Data and Stream Analytics",
+        "link": "https://www.scribd.com/document/923588098/Big-Data-Principles-and-best-practices-of-scalable-realtime-data-systems-1st-Edition-Nathan-Marz-all-chapters-available"
+      }
+    ],
+    "courses": {
+      "free": [
+        {
+          "title": "Big Data Fundamentals with PySpark",
+          "platform": "Cognitive Class (IBM)",
+          "link": "https://cognitiveclass.ai/courses/what-is-big-data"
+        },
+        {
+          "title": "Introduction to Big Data",
+          "platform": "Coursera (IBM - Audit Track)",
+          "link": "https://www.coursera.org/learn/big-data-introduction"
+        },
+        {
+          "title": "Hadoop and Spark Full Course",
+          "platform": "YouTube (various channels)",
+          "link": "https://www.youtube.com/playlist?list=PL6UwySlcwEYJ2hFuGIvr4VEHUAfl-GCNT"
+        },
+        {
+          "title": "Introduction to Google Cloud BigQuery",
+          "platform": "Coursera / Google Cloud",
+          "link": "https://www.coursera.org/courses?query=bigquery"
+        }
+      ],
+      "paid": [
+        {
+          "title": "Big Data Analytics with Spark and Hadoop",
+          "platform": "Simplilearn / Edureka",
+          "link": "https://www.simplilearn.com/free-big-data-hadoop-certification-skillup"
+        },
+        {
+          "title": "Big Data Engineering with Databricks",
+          "platform": "Udemy",
+          "link": "https://www.udemy.com/topic/databricks-certified-data-engineer-associate/"
+        }
+      ],
+      "certified": [
+        {
+          "title": "IBM Data Engineering Professional Certificate",
+          "platform": "Coursera (IBM)",
+          "link": "https://www.coursera.org/professional-certificates/ibm-data-engineer"
+        },
+        {
+          "title": "AWS Certified Data Analytics – Specialty (DAS-C01)",
+          "platform": "AWS Certification",
+          "link": "https://aws.amazon.com/training/learn-about/data-analytics/"
+        },
+        {
+          "title": "Cloudera Certified Professional (CCP) Data Engineer",
+          "platform": "Cloudera",
+          "link": "https://www.cloudera.com/services-and-support/training/cdhhdp-certification/ccp-data-engineer.html"
+        },
+        {
+          "title": "Microsoft Certified: Azure Data Engineer Associate (DP-203)",
+          "platform": "Microsoft",
+          "link": "https://learn.microsoft.com/en-us/training/courses/dp-203t00"
+        }
+      ]
+    },
+    "id": 19
+  },
+  {
+    "title": "Artificial Intelligence",
+    "intro": {
+      "description": "Artificial Intelligence (AI) is a branch of computer science focused on building smart machines capable of performing tasks that typically require human intelligence, such as learning, problem-solving, and perception.",
+      "source": "https://github.com/Sravanthi2727/OOP/blob/surya/introonAI"
+    },
+    "roadmap": {
+      "summary": "Covers foundational concepts like search algorithms and knowledge representation, progresses to machine learning and deep learning (including neural networks, CNNs for computer vision, and sequence models for NLP), and includes practical application and societal implications.",
+      "source": "/assets/AI.pdf"
+    },
+    "tags": [
+      "AI",
+      "Machine Learning",
+      "Deep Learning",
+      "Neural Networks",
+      "Python",
+      "NLP",
+      "Computer Vision",
+      "MLOps",
+      "TensorFlow",
+      "PyTorch",
+      "Kaggle",
+      "Data Science"
+    ],
+    "books": [
+      {
+        "title": "Artificial Intelligence: A Modern Approach (AIMA)",
+        "link": "https://aima.cs.berkeley.edu/"
+      },
+      {
+        "title": "Deep Learning",
+        "link": "https://www.deeplearningbook.org/"
+      },
+      {
+        "title": "The Hundred-Page Machine Learning Book",
+        "link": "https://themlbook.com/wiki/"
+      }
+    ],
+    "courses": {
+      "free": [
+        {
+          "title": "CS50's Introduction to AI with Python",
+          "platform": "HarvardX / edX",
+          "link": "https://www.edx.org/course/cs50s-introduction-to-artificial-intelligence-with-python"
+        },
+        {
+          "title": "AI for Everyone",
+          "platform": "DeepLearning.AI / Coursera",
+          "link": "https://www.coursera.org/learn/ai-for-everyone"
+        },
+        {
+          "title": "Machine Learning Crash Course",
+          "platform": "Google for Developers",
+          "link": "https://developers.google.com/machine-learning/crash-course"
+        },
+        {
+          "title": "Elements of AI",
+          "platform": "University of Helsinki",
+          "link": "https://www.elementsofai.com/"
+        }
+      ],
+      "paid": [
+        {
+          "title": "Data Scientist with Python (Skill Track)",
+          "platform": "DataCamp",
+          "link": "https://www.datacamp.com/tracks/data-scientist-with-python"
+        }
+      ],
+      "certified": [
+        {
+          "title": "Deep Learning Specialization",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/specializations/deep-learning"
+        },
+        {
+          "title": "IBM AI Engineering Professional Certificate",
+          "platform": "Coursera",
+          "link": "https://www.coursera.org/professional-certificates/ai-engineer"
+        }
+      ]
+    },
+    "id": 20
+  }
+]

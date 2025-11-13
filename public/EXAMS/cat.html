@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CAT 2025 Details - VisionVault</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Custom colors and variables matching the established style (GRE/GATE/GMAT/CEED) */
+    :root{ 
+      --bright-blue: #00d9ff; /* The vibrant blue for accents */
+      --dark-blue: #0a1e2e; /* Original dark blue background */
+      --card-bg: #ffffff; /* Main Content Card is White */
+      --text-main: #111827; /* Darker black/gray for main body text */
+      --text-secondary: #374151; /* Darker black/gray for subtle text */
+      --border-light: #e5e7eb; /* Light gray border for separation */
+    }
+    body{ 
+      font-family: Inter, system-ui; 
+      /* Dark blue gradient background */
+      background: linear-gradient(180deg, var(--dark-blue), #0d2838, #0f3240); 
+      color: var(--text-main); 
+      min-height:100vh; 
+    }
+    .glass-card{ 
+      /* Card Styling: White background, subtle shadow, light border */
+      background:var(--card-bg); 
+      border: 1px solid var(--border-light); 
+      border-radius:12px; 
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+      color: var(--text-main); 
+      /* Overriding the previous dark card properties */
+      backdrop-filter: none;
+    }
+    /* Key Date Table Styling */
+    .key-date-table th, .key-date-table td { 
+      padding: 8px 12px; 
+    }
+    .key-date-table th { 
+      text-align: left; 
+      color: var(--bright-blue); /* Bright blue for date headers */
+      font-weight: 600; 
+    }
+    .key-date-table td { 
+      text-align: right; 
+      color: var(--text-main); /* Uniform dark text color for date values */
+    }
+    /* Specific styling for the detailed data tables */
+    .styled-table thead tr, .styled-table tfoot tr {
+        background-color: #f3f4f6; /* Very light gray header/footer background */
+    }
+    .styled-table th, .styled-table td {
+        border-color: var(--border-light);
+    }
+    .styled-table tbody tr.bg-white\/5 {
+        background-color: #fafafa; /* Subtle off-white for alternating rows */
+    }
+    /* Ensuring all header text uses the bright blue color */
+    .styled-table th, .styled-table tfoot tr {
+        color: var(--bright-blue) !important;
+    }
+    .starry-background {position:fixed; inset:0; pointer-events:none; z-index:-20;}
+    .stars-layer-1,.stars-layer-2,.stars-layer-3{position:absolute;inset:0;background-repeat:repeat;}
+    .stars-layer-1{background-image:radial-gradient(1px 1px at 20px 30px,white,transparent);background-size:200px 200px;animation:tw1 3s infinite;opacity:0.6;}
+    .stars-layer-2{background-image:radial-gradient(1px 1px at 40px 60px,var(--primary),transparent);background-size:250px 250px;animation:tw2 5s infinite reverse;opacity:0.45;}
+    .stars-layer-3{background-image:radial-gradient(2px 2px at 100px 120px,white,transparent);background-size:300px 300px;animation:tw3 7s infinite;opacity:0.55;}
+    @keyframes tw1{0%,100%{opacity:.3}50%{opacity:1}} @keyframes tw2{0%,100%{opacity:.25}50%{opacity:1}} @keyframes tw3{0%,100%{opacity:.35}50%{opacity:1}}
+  </style>
+</head>
+<body>
+
+  <div class="starry-background">
+    <div class="stars-layer-1"></div>
+    <div class="stars-layer-2"></div>
+    <div class="stars-layer-3"></div>
+  </div>
+
+  <nav class="sticky top-0 z-40 bg-[rgba(10,30,46,0.8)] backdrop-blur-md border-b border-white/10">
+  </nav>
+
+  <main class="max-w-4xl mx-auto px-6 py-20 relative z-10">
+    <div class="mb-6">
+      <a href="exams.html" class="text-[var(--bright-blue)] hover:text-[var(--text-secondary)] transition-colors duration-200 text-lg font-medium inline-flex items-center">
+        &larr; Go Back
+      </a>
+    </div>
+    
+    <div class="glass-card p-8 text-center">
+      <h1 class="text-4xl font-['Rajdhani'] text-[var(--bright-blue)] mb-3 tracking-wide">CAT 2025 Exam Details</h1>
+      <p class="text-[var(--text-secondary)] mb-6">The Common Admission Test (CAT) is a high-level entrance exam for admission into various management programs across India, conducted by one of the IIMs (IIM Kozhikode in 2025).</p>
+      
+      <div class="space-y-2 text-left inline-block mb-10 text-[var(--text-main)]">
+        <p><strong>Mode:</strong> <span>Online (CBT)</span></p>
+        <p><strong>Total Sections:</strong> <span>3 (Verbal Ability & Reading Comprehension, Data Interpretation & Logical Reasoning, Quantitative Ability)</span></p>
+        <p><strong>Total Questions:</strong> <span>68</span></p>
+        <p><strong>Total Duration:</strong> <span>120 Minutes (40 mins per section)</span></p>
+      </div>
+
+      <div class="text-left">
+        <h3 class="text-2xl font-['Rajdhani'] text-[var(--bright-blue)] mb-4 border-b border-[var(--border-light)] pb-2">Key Dates for CAT 2025</h3>
+        <div class="overflow-x-auto">
+          <table class="key-date-table w-full text-[var(--text-main)] text-sm">
+            <tbody>
+              <tr><th>Registration Starts</th><td>August 1, 2025</td></tr>
+              <tr><th>Registration Ends</th><td>September 20, 2025</td></tr>
+              <tr><th>Admit Card Release</th><td>November 12, 2025</td></tr>
+              <tr><th>Exam Date (Tentative)</th><td>November 30, 2025 (Sunday)</td></tr>
+            </tbody>
+          </table>
+        </div>
+        
+        <h2 class="text-2xl font-['Rajdhani'] text-[var(--bright-blue)] mt-10 mb-4 border-b border-[var(--border-light)] pb-2">📝 Exam Pattern & Marking</h2>
+        
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm text-[var(--text-main)] styled-table border-collapse border border-[var(--border-light)]">
+            <thead>
+              <tr class="bg-gray-100">
+                <th class="py-3 px-4 border border-[var(--border-light)]">Section</th>
+                <th class="py-3 px-4 border border-[var(--border-light)]">Total Qs</th>
+                <th class="py-3 px-4 border border-[var(--border-light)]">Time (Mins)</th>
+                <th class="py-3 px-4 border border-[var(--border-light)]">Marks/Qs</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="py-2 px-4 border border-[var(--border-light)] text-left font-medium">VARC (Verbal Ability & Reading Comprehension)</td>
+                <td class="py-2 px-4 border border-[var(--border-light)] font-bold text-[var(--text-main)]">24</td>
+                <td class="py-2 px-4 border border-[var(--border-light)]">40</td>
+                <td class="py-2 px-4 border border-[var(--border-light)]">+3 / -1</td>
+              </tr>
+              <tr class="bg-white/5">
+                <td class="py-2 px-4 border border-[var(--border-light)] text-left font-medium">DILR (Data Interpretation & Logical Reasoning)</td>
+                <td class="py-2 px-4 border border-[var(--border-light)] font-bold text-[var(--text-main)]">20</td>
+                <td class="py-2 px-4 border border-[var(--border-light)]">40</td>
+                <td class="py-2 px-4 border border-[var(--border-light)]">+3 / -1</td>
+              </tr>
+              <tr>
+                <td class="py-2 px-4 border border-[var(--border-light)] text-left font-medium">QA (Quantitative Ability)</td>
+                <td class="py-2 px-4 border border-[var(--border-light)] font-bold text-[var(--text-main)]">22</td>
+                <td class="py-2 px-4 border border-[var(--border-light)]">40</td>
+                <td class="py-2 px-4 border border-[var(--border-light)]">+3 / -1</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="text-xs text-[var(--text-secondary)] mt-3">*Note: TITA (Type-in-the-Answer) questions usually have no negative marking, but MCQs have -1.</p>
+        </div>
+      </div>
+
+      <div class="mt-8 space-y-4">
+        <a href="https://www.careerlauncher.com/cat-mba/cat-syllabus/?utm_source=Google-ads&utm_medium=ppc&utm_campaign=MBA_CAT_Syllabus_RSA_India&utm_term=Generic_Syllabus&matchtype=p&device=c&keyword=cat%20syllabus&gad_source=1&gad_campaignid=19604714291&gbraid=0AAAAADnGNikuurSLyYZ4OM-39b9XMDGG3&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cGo2zgR3LjhF8Cxyf60gwIocP5KqjTrcTfRMFXSJKOfwzCKqdwCMRxoCga0QAvD_BwE" target="_blank" 
+          class="block bg-white text-[var(--bright-blue)] border-2 border-[var(--bright-blue)] px-6 py-3 rounded-full font-semibold hover:bg-[var(--bright-blue)] hover:text-white transition text-center">
+          Application Form
+        </a>
+
+        <a href="https://www.careerlauncher.com/cat-mba/cat-syllabus/?utm_source=Google-ads&utm_medium=ppc&utm_campaign=MBA_CAT_Syllabus_RSA_India&utm_term=Generic_Syllabus&matchtype=p&device=c&keyword=cat%20syllabus&gad_source=1&gad_campaignid=19604714291&gbraid=0AAAAADnGNikuurSLyYZ4OM-39b9XMDGG3&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cGo2zgR3LjhF8Cxyf60gwIocP5KqjTrcTfRMFXSJKOfwzCKqdwCMRxoCga0QAvD_BwE" target="_blank" 
+          class="block bg-white text-[var(--bright-blue)] border-2 border-[var(--bright-blue)] px-6 py-3 rounded-full font-semibold hover:bg-[var(--bright-blue)] hover:text-white transition text-center">
+          View Syllabus
+        </a>
+
+        <a href="https://bschool.careers360.com/download/sample-papers/past-10-years-cat-question-papers-answers?utm_source=past_10_qp&utm_medium=GoogleAds&utm_campaign=2506&gad_source=1&gad_campaignid=22684926419&gbraid=0AAAAADvfvKFjexn1MhrCutUXMRCHTIYMX&gclid=CjwKCAiA_dDIBhB6EiwAvzc1cFZnQ6Wy3MjGP4PGyah7SXPGBhkVAoKPVgvuLRfy3VXy_Wu3pALYxRoCmRMQAvD_BwE" target="_blank" 
+          class="block bg-white text-[var(--bright-blue)] border-2 border-[var(--bright-blue)] px-6 py-3 rounded-full font-semibold hover:bg-[var(--bright-blue)] hover:text-white transition text-center">
+          View PYQs
+        </a>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

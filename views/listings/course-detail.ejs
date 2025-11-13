@@ -1,12 +1,8 @@
 <% layout('layouts/boilerplate') %>
 
+<% /* Helper: renderResourceValue(val, headingLevel) - recursively render arrays, objects, and strings as nested headings/lists */ %>
 <%
-// Helper: Recursively render a value that could be:
-// - an array of items (books/resources) where each item is either a string or an object with properties (title, author, link, read_online, etc.)
-// - an object whose keys are category names => values (array | object)
-// We'll output nested headings and lists to mirror JSON structure.
 function renderResourceValue(val, headingLevel) {
-  // headingLevel: integer (2 => <h2>, 3 => <h3>, etc.)
   const h = n => {
     const lvl = Math.min(Math.max(n,2),6);
     return 'h' + lvl;
@@ -19,7 +15,6 @@ function renderResourceValue(val, headingLevel) {
     return;
   }
 
-  // If array: output list of items
   if (Array.isArray(val)) {
     %>
     <ul class="list-unstyled mb-3">
@@ -43,46 +38,39 @@ function renderResourceValue(val, headingLevel) {
     return;
   }
 
-  // If object: iterate keys and render each part
   if (typeof val === 'object') {
     Object.keys(val).forEach(function(key){
       const child = val[key];
       %>
       <<%= h(headingLevel) %> class="mt-3 mb-1"><%= key %></<%= h(headingLevel) %>>
       <%
-      // If the child is a simple array or object that looks like a named-list (array of items), render it directly with a slightly smaller headingLevel +1
       if (Array.isArray(child)) {
         renderResourceValue(child, headingLevel + 1);
       } else if (typeof child === 'object') {
-        // If it's an object with further nested categories (e.g. "Android": { "books": [...], "notes": [...] })
-        // Try to detect if this object itself is a simple book-like object (contains title/author) or a category group.
         const maybeBookLike = child.title || child.author || child.read_online || child.link;
         if (maybeBookLike) {
-          // treat as single book object
           renderResourceValue([child], headingLevel + 1);
         } else {
-          // deeper categories: recurse
           renderResourceValue(child, headingLevel + 1);
         }
       } else {
-        // fallback: print value
         %><p class="text-muted"><%= String(child) %></p><%
       }
     });
     return;
   }
 
-  // fallback string
   %><p class="text-muted"><%= String(val) %></p><%
 }
 %>
 
 <main class="my-5">
   <div class="mb-3">
-  <a href="/courses" class="btn btn-outline-primary">
-    <i class="fa-solid fa-arrow-left"></i> Back to Courses
-  </a>
-</div>
+    <a href="/courses" class="btn btn-outline-primary">
+      <i class="fa-solid fa-arrow-left"></i> Back to Courses
+    </a>
+  </div>
+
   <div class="card border-0 shadow-sm">
     <div class="card-body">
       <div class="d-flex justify-content-between align-items-start">
@@ -98,16 +86,15 @@ function renderResourceValue(val, headingLevel) {
           <% } %>
 
           <% if (course.tags && course.tags.length) { %>
-          <div class="mb-3">
-            <% course.tags.forEach(tag => { %>
-              <span class="badge bg-info text-dark me-1"><%= tag %></span>
-            <% }) %>
-          </div>
+            <div class="mb-3">
+              <% course.tags.forEach(tag => { %>
+                <span class="badge bg-info text-dark me-1"><%= tag %></span>
+              <% }) %>
+            </div>
           <% } %>
         </div>
 
         <div class="text-end">
-          <% /* Optional Start link: keep or remove as you prefer */ %>
           <% if (course.courses && course.courses.free && course.courses.free[0] && course.courses.free[0].link) { %>
             <a class="btn btn-primary btn-lg mb-2" href="<%= course.courses.free[0].link %>" target="_blank">Start Free</a>
           <% } %>
@@ -128,11 +115,11 @@ function renderResourceValue(val, headingLevel) {
       </p>
 
       <% if (course.roadmap && (course.roadmap.source || course.roadmap.link)) { %>
-      <p class="mb-3">
-        <a href="<%= course.roadmap.source || course.roadmap.link %>" target="_blank" rel="noopener noreferrer">
-          <small class="text-info">Open roadmap source</small>
-        </a>
-      </p>
+        <p class="mb-3">
+          <a href="<%= course.roadmap.source || course.roadmap.link %>" target="_blank" rel="noopener noreferrer">
+            <small class="text-info">Open roadmap source</small>
+          </a>
+        </p>
       <% } %>
 
       <hr />
@@ -142,42 +129,40 @@ function renderResourceValue(val, headingLevel) {
         <% if (!course.books) { %>
           <p class="text-muted">No books/resources listed.</p>
         <% } else { %>
-          <% // Render books section robustly %>
           <% renderResourceValue(course.books, 3); %>
         <% } %>
       </div>
 
       <% if (course.courses) { %>
-      <h5>Courses</h5>
-      <div class="row">
-        <% Object.keys(course.courses).forEach(k => { %>
-          <div class="col-md-4 mb-3">
-            <h6 class="mb-2 text-capitalize"><%= k.replace(/_/g,' ') %></h6>
-            <% const arr = course.courses[k] || []; %>
-            <% if (Array.isArray(arr) && arr.length) { %>
-              <ul class="list-unstyled">
-                <% arr.forEach(item => { %>
-                  <li class="mb-2">
-                    <strong><%= item.title || item.platform || item.name || 'Untitled' %></strong>
-                    <% if (item.platform) { %> — <em><%= item.platform %></em><% } %>
-                    <% if (item.link) { %>
-                      <div><a href="<%= item.link %>" target="_blank">Open</a></div>
-                    <% } %>
-                  </li>
+        <h5>Courses</h5>
+        <div class="row">
+          <% Object.keys(course.courses).forEach(k => { %>
+            <div class="col-md-4 mb-3">
+              <h6 class="mb-2 text-capitalize"><%= k.replace(/_/g,' ') %></h6>
+              <% const arr = course.courses[k] || []; %>
+              <% if (Array.isArray(arr) && arr.length) { %>
+                <ul class="list-unstyled">
+                  <% arr.forEach(item => { %>
+                    <li class="mb-2">
+                      <strong><%= item.title || item.platform || item.name || 'Untitled' %></strong>
+                      <% if (item.platform) { %> — <em><%= item.platform %></em><% } %>
+                      <% if (item.link) { %>
+                        <div><a href="<%= item.link %>" target="_blank">Open</a></div>
+                      <% } %>
+                    </li>
+                  <% }) %>
+                </ul>
+              <% } else if (typeof arr === 'object' && Object.keys(arr).length) { %>
+                <% Object.keys(arr).forEach(sub => { %>
+                  <h6 class="mt-2 mb-1"><%= sub %></h6>
+                  <% renderResourceValue(arr[sub], 5); %>
                 <% }) %>
-              </ul>
-            <% } else if (typeof arr === 'object' && Object.keys(arr).length) { %>
-              <% // nested object categories inside courses[k] %>
-              <% Object.keys(arr).forEach(sub => { %>
-                <h6 class="mt-2 mb-1"><%= sub %></h6>
-                <% renderResourceValue(arr[sub], 5); %>
-              <% }) %>
-            <% } else { %>
-              <p class="text-muted">No courses listed under <%= k %>.</p>
-            <% } %>
-          </div>
-        <% }) %>
-      </div>
+              <% } else { %>
+                <p class="text-muted">No courses listed under <%= k %>.</p>
+              <% } %>
+            </div>
+          <% }) %>
+        </div>
       <% } %>
 
     </div>

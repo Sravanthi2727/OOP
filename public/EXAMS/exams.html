@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Exams - VisionVault</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --primary: #00d9ff;
+        --bg-dark: #0a1e2e;
+        --card-bg: rgba(255, 255, 255, 0.05);
+        --card-border: rgba(0, 217, 255, 0.2);
+      }
+      body {
+        font-family: Inter, system-ui;
+        background: linear-gradient(180deg, #0a1e2e, #0d2838, #0f3240);
+        color: #fff;
+        min-height: 100vh;
+      }
+      .starry-background {
+        position: fixed;
+        inset: 0;
+        z-index: -20;
+        pointer-events: none;
+      }
+      .stars-layer-1,
+      .stars-layer-2,
+      .stars-layer-3 {
+        position: absolute;
+        inset: 0;
+        background-repeat: repeat;
+      }
+      .stars-layer-1 {
+        background-image: radial-gradient(
+          1px 1px at 20px 30px,
+          white,
+          transparent
+        );
+        background-size: 200px 200px;
+        animation: tw1 3s infinite;
+        opacity: 0.6;
+      }
+      .stars-layer-2 {
+        background-image: radial-gradient(
+          1px 1px at 40px 60px,
+          var(--primary),
+          transparent
+        );
+        background-size: 250px 250px;
+        animation: tw2 5s infinite reverse;
+        opacity: 0.45;
+      }
+      .stars-layer-3 {
+        background-image: radial-gradient(
+          2px 2px at 100px 120px,
+          white,
+          transparent
+        );
+        background-size: 300px 300px;
+        animation: tw3 7s infinite;
+        opacity: 0.55;
+      }
+      @keyframes tw1 {
+        0%,
+        100% {
+          opacity: 0.3;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+      @keyframes tw2 {
+        0%,
+        100% {
+          opacity: 0.25;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+      @keyframes tw3 {
+        0%,
+        100% {
+          opacity: 0.35;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+      .glass-card {
+        background: var(--card-bg);
+        border: 1px solid var(--card-border);
+        border-radius: 12px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 10px 30px rgba(0, 217, 255, 0.12);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="starry-background">
+      <div class="stars-layer-1"></div>
+      <div class="stars-layer-2"></div>
+      <div class="stars-layer-3"></div>
+    </div>
+
+    <nav
+      class="sticky top-0 z-40 bg-[rgba(10,30,46,0.8)] backdrop-blur-md border-b border-white/10"
+    >
+      <div
+        class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
+      >
+        <a
+          href="#"
+          class="text-[#00d9ff] font-['Rajdhani'] text-2xl font-bold tracking-widest"
+          >VISIONVAULT</a
+        >
+        <div class="hidden md:flex items-center gap-8">
+          <a href="/courses" class="text-white/80 hover:text-[#00d9ff]"
+            >Courses</a
+          >
+          <a href="/EXAMS/exams.html" class="text-white/80 hover:text-[#00d9ff]"
+            >Exams</a
+          >
+          <a href="/hackathons" class="text-white/80 hover:text-[#00d9ff]"
+            >Hackathons</a
+          >
+          <a href="/Quiz/quiz.html" class="text-white/80 hover:text-[#00d9ff]"
+            >Quiz</a
+          >
+        </div>
+        <button id="mobileMenuBtn" class="md:hidden text-white text-2xl">
+          ☰
+        </button>
+      </div>
+      <div
+        id="mobileMenu"
+        class="hidden md:hidden bg-[#0d2838] border-t border-white/10"
+      >
+        <a
+          href="/courses"
+          class="block px-4 py-3 text-white/80 hover:text-[#00d9ff]"
+          >Courses</a
+        >
+        <a
+          href="/EXAM/exams.html"
+          class="block px-4 py-3 text-white/80 hover:text-[#00d9ff]"
+          >Exams</a
+        >
+        <a
+          href="/hackathons"
+          class="block px-4 py-3 text-white/80 hover:text-[#00d9ff]"
+          >Hackathons</a
+        >
+        <a
+          href="/Quiz/quiz.html"
+          class="block px-4 py-3 text-white/80 hover:text-[#00d9ff]"
+          >Quiz</a
+        >
+      </div>
+    </nav>
+
+    <main class="max-w-6xl mx-auto px-6 py-16 relative z-10">
+      <header class="text-center mb-10">
+        <h1 class="text-4xl font-['Rajdhani'] text-[#00d9ff] mb-2">
+          Upcoming <span class="text-white">Exams</span>
+        </h1>
+        <p class="text-white/70 max-w-xl mx-auto">
+          Check important exams, dates, and apply links.
+        </p>
+      </header>
+
+      <section id="examGrid" class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <article class="exam-card glass-card p-6 cursor-pointer">
+          <h3 class="text-[#00d9ff] text-xl font-semibold mb-2">GATE 2026</h3>
+          <p class="text-white/70 mb-4">
+            Graduate Aptitude Test in Engineering(CS/IT)
+          </p>
+          <a
+            href="gate.html"
+            class="block bg-[#00d9ff] text-[#0a1e2e] py-2 rounded-full font-semibold text-center hover:scale-[1.03] transition"
+            >View Details</a
+          >
+        </article>
+
+        <article class="exam-card glass-card p-6 cursor-pointer">
+          <h3 class="text-[#00d9ff] text-xl font-semibold mb-2">CAT 2025</h3>
+          <p class="text-white/70 mb-4">
+            Common Admission Test for MBA aspirants
+          </p>
+          <a
+            href="cat.html"
+            class="block bg-[#00d9ff] text-[#0a1e2e] py-2 rounded-full font-semibold text-center hover:scale-[1.03] transition"
+            >View Details</a
+          >
+        </article>
+
+        <article class="exam-card glass-card p-6 cursor-pointer">
+          <h3 class="text-[#00d9ff] text-xl font-semibold mb-2">GRE</h3>
+          <p class="text-white/70 mb-4">
+            Graduate Record Examination for grad schools abroad
+          </p>
+          <a
+            href="gre.html"
+            class="block bg-[#00d9ff] text-[#0a1e2e] py-2 rounded-full font-semibold text-center hover:scale-[1.03] transition"
+            >View Details</a
+          >
+        </article>
+
+        <article class="exam-card glass-card p-6 cursor-pointer">
+          <h3 class="text-[#00d9ff] text-xl font-semibold mb-2">GMAT</h3>
+          <p class="text-white/70 mb-4">
+            Graduate Management Admission Test for B-schools
+          </p>
+          <a
+            href="gmat.html"
+            class="block bg-[#00d9ff] text-[#0a1e2e] py-2 rounded-full font-semibold text-center hover:scale-[1.03] transition"
+            >View Details</a
+          >
+        </article>
+
+        <article class="exam-card glass-card p-6 cursor-pointer">
+          <h3 class="text-[#00d9ff] text-xl font-semibold mb-2">CEED</h3>
+          <p class="text-white/70 mb-4">
+            Common Entrance Examination for Design
+          </p>
+          <a
+            href="ceed.html"
+            class="block bg-[#00d9ff] text-[#0a1e2e] py-2 rounded-full font-semibold text-center hover:scale-[1.03] transition"
+            >View Details</a
+          >
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
