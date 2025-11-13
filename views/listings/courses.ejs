@@ -1,0 +1,32 @@
+<% layout('layouts/boilerplate') %>
+
+<div id="courseGrid" class="row gx-4 gy-4">
+<div class="mb-3">
+  <a href="/" class="btn btn-outline-primary">
+    <i class="fa-solid fa-arrow-left"></i> Back to Home
+  </a>
+</div>
+
+  <% courses.forEach(function(c){ %>
+  <div class="col-sm-12 col-md-6 col-lg-4 course-col">
+    <article class="course-card position-relative">
+      <div class="card-body">
+        <h5 class="card-title"><%= c.title %></h5>
+
+        <% if (c.tags && c.tags.length) { %>
+        <small class="d-block mb-1"><%= c.tags.slice(0,3).join(' • ') %></small>
+        <% } %>
+
+        <p class="card-text">
+          <%= (c.intro && c.intro.description) ? c.intro.description :
+          (c.roadmap && c.roadmap.summary ? c.roadmap.summary : '') %>
+        </p>
+
+        <div class="card-actions">
+          <a href="/courses/<%= c.id %>" class="btn btn-view">View Details</a>
+        </div>
+      </div>
+    </article>
+  </div>
+  <% }) %>
+</div>

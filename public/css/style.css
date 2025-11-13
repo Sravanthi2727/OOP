@@ -367,3 +367,341 @@ footer {
     font-size: 1rem;
   }
 }
+
+/* courses.css
+   Designed to be used with Bootstrap 5. Place after bootstrap.css
+*/
+
+/* --- Variables --- */
+:root {
+  --bg-1: #071425;
+  --bg-2: #0b2a37;
+  --bg-3: #112a36;
+  --accent: #00d4d9; /* cyan */
+  --accent-2: #0fb7ff; /* secondary cyan */
+  --muted: #bfc9cf;
+  --glass: rgba(15, 28, 35, 0.48);
+  --glass-border: rgba(11, 181, 196, 0.06);
+  --card-border: rgba(0, 255, 255, 0.08);
+  --radius-lg: 14px;
+  --radius-pill: 999px;
+  --max-width: 1200px;
+}
+
+/* --- Base / Page Background --- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background: radial-gradient(
+      circle at 10% 10%,
+      rgba(11, 40, 50, 0.6) 0%,
+      transparent 15%
+    ),
+    linear-gradient(180deg, var(--bg-1) 0%, var(--bg-2) 40%, var(--bg-3) 100%);
+  color: #ecf7f8;
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+/* subtle star field using multiple box-shadows on pseudo element */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(
+      1px 1px at 10% 20%,
+      rgba(255, 255, 255, 0.06) 50%,
+      transparent 51%
+    ),
+    radial-gradient(
+      1px 1px at 30% 40%,
+      rgba(255, 255, 255, 0.04) 50%,
+      transparent 51%
+    ),
+    radial-gradient(
+      1px 1px at 50% 65%,
+      rgba(255, 255, 255, 0.03) 50%,
+      transparent 51%
+    ),
+    radial-gradient(
+      1px 1px at 80% 20%,
+      rgba(255, 255, 255, 0.05) 50%,
+      transparent 51%
+    ),
+    radial-gradient(
+      1px 1px at 70% 80%,
+      rgba(255, 255, 255, 0.025) 50%,
+      transparent 51%
+    );
+  opacity: 0.9;
+  mix-blend-mode: screen;
+  z-index: 0;
+  filter: blur(0.6px);
+}
+
+/* Centered page container constraints */
+main.my-5 {
+  position: relative;
+  z-index: 1;
+  max-width: var(--max-width);
+  margin: 3.5rem auto;
+  padding: 2.5rem;
+}
+
+/* --- Header / Intro (left column in image) --- */
+.d-flex.justify-content-between.align-items-center.mb-4 {
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+/* Big Title */
+h1.h2 {
+  font-size: clamp(2.2rem, 4vw, 3.8rem);
+  font-weight: 700;
+  line-height: 1.02;
+  margin-bottom: 0.35rem;
+  display: block;
+  letter-spacing: -0.02em;
+}
+
+/* make the "Courses" span pop in cyan */
+h1.h2 .text-info {
+  color: transparent;
+  background: linear-gradient(
+    90deg,
+    #ffffff 10%,
+    var(--accent) 45%,
+    var(--accent-2) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: 800;
+  text-shadow: 0 6px 22px rgba(10, 40, 50, 0.45);
+}
+
+/* subtitle */
+p.text-muted {
+  color: var(--muted);
+  margin-top: 0.25rem;
+  font-size: 1rem;
+}
+
+/* search input styling */
+#courseSearch.form-control {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.015),
+    rgba(255, 255, 255, 0.01)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  color: #e9f7f8;
+  transition: box-shadow 0.18s ease, border-color 0.18s ease,
+    transform 0.12s ease;
+  outline: none;
+}
+
+/* search focus */
+#courseSearch:focus {
+  border-color: rgba(0, 215, 217, 0.65);
+  box-shadow: 0 6px 20px rgba(5, 30, 40, 0.45);
+  transform: translateY(-1px);
+  color: #fff;
+}
+
+/* placeholder color */
+#courseSearch::placeholder {
+  color: rgba(191, 201, 207, 0.35);
+  font-weight: 500;
+}
+
+/* --- Course Grid & Cards --- */
+/* 
+/* ---------- Bootstrap-first Courses Styles (FIX) ---------- */
+/* Place this AFTER Bootstrap and AFTER any previous course CSS to ensure overrides */
+
+:root {
+  --accent: #00d4d9;
+  --accent-2: #0fb7ff;
+  --muted: #bfc9cf;
+  --card-bg: linear-gradient(
+    180deg,
+    rgba(12, 22, 28, 0.52),
+    rgba(10, 18, 22, 0.28)
+  );
+  --card-border: rgba(255, 255, 255, 0.035);
+  --radius: 12px;
+}
+
+/* Ensure we use Bootstrap's row/col system — remove any CSS-grid override */
+#courseGrid {
+  /* keep default bootstrap row behavior, do not set display:grid here */
+  margin-top: 1.5rem;
+}
+
+/* Course column helper (works with col- classes) */
+.course-col {
+  display: block; /* allow column to size normally */
+  width: 100%;
+}
+
+/* Card: full width of column */
+.course-card {
+  width: 100%; /* crucial: fill the .col */
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  border: 1px solid var(--card-border);
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.22s cubic-bezier(0.2, 0.9, 0.2, 1),
+    box-shadow 0.22s ease, border-color 0.22s ease;
+  overflow: hidden;
+  min-height: 220px; /* reasonable height */
+}
+
+/* Slight, tasteful hover */
+.course-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(3, 30, 36, 0.32),
+    0 0 22px rgba(0, 215, 217, 0.03);
+  border-color: rgba(0, 215, 217, 0.1);
+}
+
+/* Card body spacing & typography */
+.course-card .card-body {
+  padding: 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  flex: 1 1 auto;
+}
+
+/* Title */
+.course-card .card-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: 0;
+  color: transparent;
+  background: linear-gradient(
+    90deg,
+    #9ef6f8 0%,
+    var(--accent) 35%,
+    var(--accent-2) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* small meta line */
+.course-card small {
+  color: rgba(191, 201, 207, 0.56);
+  font-size: 0.78rem;
+  margin-top: 0.15rem;
+}
+
+/* description clamp */
+.course-card .card-text {
+  color: rgba(191, 201, 207, 0.66);
+  font-size: 0.92rem;
+  line-height: 1.45;
+  margin-top: 0.4rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* actions area — sticks to bottom */
+.course-card .card-actions {
+  margin-top: auto;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding-top: 0.35rem;
+}
+
+/* hide Start button if markup still has it */
+.btn-start {
+  display: none !important;
+}
+
+/* View Details button */
+.btn-view {
+  border-radius: 10px;
+  padding: 0.42rem 0.85rem;
+  color: var(--muted);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.01),
+    rgba(255, 255, 255, 0.002)
+  );
+  transition: background 0.14s ease, transform 0.12s ease, color 0.12s ease,
+    border-color 0.12s ease;
+}
+.btn-view:hover {
+  color: var(--accent);
+  background: rgba(0, 215, 217, 0.04);
+  transform: translateY(-3px);
+  border-color: rgba(0, 215, 217, 0.14);
+  box-shadow: 0 8px 20px rgba(0, 215, 217, 0.035);
+}
+
+/* subtle top-right glyph */
+.course-card::after {
+  content: "";
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.012),
+    rgba(255, 255, 255, 0.004)
+  );
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .course-card {
+    min-height: 200px;
+  }
+}
+@media (max-width: 700px) {
+  /* On smaller screens, stack into single column (Bootstrap handles this naturally) */
+  .course-card .card-text {
+    -webkit-line-clamp: 6;
+  }
+}
+
+/* Accessibility */
+a:focus,
+.btn-view:focus {
+  outline: 3px solid rgba(0, 215, 217, 0.08);
+  outline-offset: 3px;
+}
+
+/* back to home button */
+.btn-outline-primary {
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-weight: 500;
+}

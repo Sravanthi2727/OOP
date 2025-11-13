@@ -7,12 +7,13 @@ const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate");
 const session = require("express-session");
 const ExpressError = require("./utils/expressError");
+const courseRoutes = require("./routes/courses");
 
 require("dotenv").config();
 
 // --- DB connect
 const MONGO_URL =
-  process.env.MONGO_URI || "mongodb://127.0.0.1:27017/visionvault";
+  process.env.MONGO_URI;
 mongoose
   .connect(MONGO_URL)
   .then(() => console.log("Mongo connected"))
@@ -121,6 +122,8 @@ safeMount("/auth", authRoutes); // auth routes (signup/login/verify)
 safeMount("/api/hackathons", hackRoutes);
 safeMount("/hackathons", hackRoutes);
 safeMount("/auth", regRoutes); // registration recording endpoint
+app.use("/courses", courseRoutes);
+console.log("Mounted router at /courses (from app.js)");
 
 // Root
 app.get("/", (req, res) => {
@@ -151,3 +154,4 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => console.log("Listening to port", PORT));
+

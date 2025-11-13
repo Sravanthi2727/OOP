@@ -101,3 +101,26 @@ hamburger.addEventListener("click", () => {
     navIcon.classList.add("fa-bars");
   }
 });
+
+
+// search for server-rendered cards
+document.addEventListener('DOMContentLoaded', () => {
+  const input = document.getElementById('courseSearch');
+  if (!input) return;
+  input.addEventListener('input', (e) => {
+    const q = e.target.value.toLowerCase();
+    const cards = document.querySelectorAll('#courseGrid .card');
+    let visible = 0;
+    cards.forEach(card => {
+      const title = (card.querySelector('.card-title')?.innerText || '').toLowerCase();
+      const desc = (card.querySelector('.card-text')?.innerText || '').toLowerCase();
+      if (title.includes(q) || desc.includes(q)) {
+        card.closest('.col-md-6, .col-lg-4').style.display = '';
+        visible++;
+      } else {
+        card.closest('.col-md-6, .col-lg-4').style.display = 'none';
+      }
+    });
+    document.getElementById('noResults').style.display = visible ? 'none' : 'block';
+  });
+});
