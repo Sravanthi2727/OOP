@@ -47,8 +47,6 @@ try {
   console.warn("Optional routes './routes/auth' not loaded:", e.message);
 }
 
-const courseRoutes = require("./routes/courses");
-
 // --- Mount routes (simple, normal Express style)
 if (authRoutes) {
   // If authRoutes is a router, mount it.
@@ -58,6 +56,8 @@ if (authRoutes) {
   console.log("Skipping /auth mount (file not present or failed to load)");
 }
 
+const courseRoutes = require("./routes/courses");
+
 app.use("/courses", courseRoutes);
 console.log("Mounted /courses routes");
 
@@ -66,7 +66,6 @@ app.get("/", (req, res) => {
   try {
     res.render("listings/index");
   } catch (e) {
-    // If the view is missing, send a friendly fallback message instead of crashing.
     res.status(200).send("Home (index view missing)");
   }
 });

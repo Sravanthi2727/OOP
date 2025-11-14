@@ -93,3 +93,8 @@ async function sendMail({ to, subject, html, text }) {
 }
 
 module.exports = sendMail;
+
+// ✔ Signup → Email Verification
+// ✔ Resend verification
+// ✔ Forgot password
+// ✔ Reset password
