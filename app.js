@@ -76,7 +76,7 @@ app.get("/hackathons", (req, res) => {
 });
 
 // Catch-all 404
-app.all("*", (req, res, next) => {
+app.all(/.*/, (req, res, next) => {
   next(new ExpressError(404, "Page Not Found!"));
 });
 

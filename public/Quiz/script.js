@@ -4319,357 +4319,373 @@ const quizData = {
     ],
   },
 };
-/* -------------------- 🗃️ END QUIZ DATA STORE -------------------- */
+/* -------------------- 🗃️ EXAM DATA STORE (Descriptive) -------------------- */
+
 
 /* -------------------- 🗃️ EXAM DATA STORE (Descriptive) -------------------- */
 
+// NOTE: The JSON data (quizData) is assumed to be defined globally above this script.
+
 function getQuizIdFromUrl() {
-  const params = new URLSearchParams(window.location.search);
-  return params.get("id");
+    const params = new URLSearchParams(window.location.search);
+    return params.get('id');
 }
 
 function selectRandomQuestions(questionsArray, count) {
-  // 1. Create a shallow copy to avoid modifying the original data
-  const shuffled = [...questionsArray];
-  let n = shuffled.length;
-  let t, i;
+    // 1. Create a shallow copy to avoid modifying the original data
+    const shuffled = [...questionsArray];
+    let n = shuffled.length;
+    let t, i;
 
-  // 2. Fisher-Yates Shuffle algorithm
-  while (n > 0) {
-    // Pick a remaining element
-    i = Math.floor(Math.random() * n--);
+    // 2. Fisher-Yates Shuffle algorithm
+    while (n > 0) {
+        // Pick a remaining element
+        i = Math.floor(Math.random() * n--);
 
-    // And swap it with the current element (n)
-    t = shuffled[n];
-    shuffled[n] = shuffled[i];
-    shuffled[i] = t;
-  }
+        // And swap it with the current element (n)
+        t = shuffled[n];
+        shuffled[n] = shuffled[i];
+        shuffled[i] = t;
+    }
 
-  // 3. Return the first 'count' elements
-  return shuffled.slice(0, count);
+    // 3. Return the first 'count' elements
+    return shuffled.slice(0, count);
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  /* -------------------- 🌐 MOBILE MENU -------------------- */
-  const mobileMenuBtn = document.getElementById("mobileMenuBtn");
-  const mobileMenu = document.getElementById("mobileMenu");
-  if (mobileMenuBtn && mobileMenu) {
-    mobileMenuBtn.addEventListener("click", () => {
-      mobileMenu.classList.toggle("hidden");
-    });
-  }
 
-  // Close mobile menu on link click (UX improvement)
-  document.querySelectorAll("#mobileMenu a").forEach((link) => {
-    link.addEventListener("click", () => {
-      if (!mobileMenu.classList.contains("hidden"))
-        mobileMenu.classList.add("hidden");
-    });
-  });
+/* -------------------- 🧠 BASEQUIZ CLASS (OOP - Encapsulation & Abstraction) -------------------- */
 
-  /* -------------------- 📚 COURSE SEARCH -------------------- */
-  const courseSearch = document.getElementById("courseSearch");
-  const courseGrid = document.getElementById("courseGrid");
-  const noResults = document.getElementById("noResults");
+// This is the parent class, defining common logic for ALL quiz types.
+class BaseQuiz {
+    static QUESTIONS_PER_QUIZ = 5;
 
-  if (courseSearch && courseGrid) {
-    courseSearch.addEventListener("input", (e) => {
-      const searchTerm = e.target.value.toLowerCase().trim();
-      const courseCards = courseGrid.querySelectorAll(".course-card");
-      let found = false;
-
-      courseCards.forEach((card) => {
-        const title = (
-          card.getAttribute("data-course-title") || ""
-        ).toLowerCase();
-        const desc = (
-          card.getAttribute("data-course-description") || ""
-        ).toLowerCase();
-        const match = title.includes(searchTerm) || desc.includes(searchTerm);
-        card.classList.toggle("hidden", !match);
-        if (match) found = true;
-      });
-
-      if (noResults) noResults.classList.toggle("hidden", found);
-    });
-  }
-
-  /* -------------------- 🧾 EXAM SEARCH -------------------- */
-  const examSearch = document.getElementById("examSearch");
-  const examGrid = document.getElementById("examGrid");
-  const examNoRes = document.getElementById("examNoResults");
-
-  if (examSearch && examGrid) {
-    examSearch.addEventListener("input", (e) => {
-      const term = e.target.value.toLowerCase().trim();
-      const examCards = examGrid.querySelectorAll(".exam-card");
-      let found = false;
-
-      examCards.forEach((card) => {
-        const title = (
-          card.getAttribute("data-exam-title") || ""
-        ).toLowerCase();
-        const desc = (card.textContent || "").toLowerCase();
-        const match = title.includes(term) || desc.includes(term);
-        card.classList.toggle("hidden", !match);
-        if (match) found = true;
-      });
-
-      if (examNoRes) examNoRes.classList.toggle("hidden", found);
-    });
-  }
-
-  // ... after the EXAM SEARCH section
-  // 🛑 The rest of the script continues only if we were NOT on exam-detail.html
-  // or if the logic above returns.
-
-  /* -------------------- 📑 COURSE DETAIL TABS -------------------- */
-  const tabButtons = document.querySelectorAll(".tab-button");
-  if (tabButtons.length > 0) {
-    tabButtons.forEach((btn) => {
-      btn.addEventListener("click", () => {
-        tabButtons.forEach((b) => b.classList.remove("tab-active"));
-        btn.classList.add("tab-active");
-
-        const target = btn.getAttribute("data-tab");
-        const contents = document.querySelectorAll(".tab-content");
-        contents.forEach((c) => c.classList.add("hidden"));
-
-        const active = document.getElementById(target);
-        if (active) active.classList.remove("hidden");
-      });
-    });
-  }
-
-  /* -------------------- 🧠 QUIZ REDIRECT (Updated) -------------------- */
-  const quizButtons = document.querySelectorAll(".quiz-category-card button");
-  quizButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      // Get the unique ID from the parent card
-      const card = btn.closest(".quiz-category-card");
-      const quizId = card.getAttribute("data-quiz-id"); // e.g., 'frontend' or 'python'
-
-      // Redirect with the ID as a query parameter
-      if (quizId) {
-        window.location.href = `quiz-detail.html?id=${quizId}`;
-      } else {
-        window.location.href = "quiz-detail.html";
-      }
-    });
-  });
-
-  // In script.js, inside document.addEventListener('DOMContentLoaded', function() { ... });
-  /* -------------------- 🧩 QUIZ LOGIC (Dynamic) -------------------- */
-
-  /* -------------------- 🧩 QUIZ LOGIC (Dynamic with Timer) -------------------- */
-  const QUESTIONS_PER_QUIZ = 5; // Changed to 5 questions as requested
-
-  // Global timer variables
-  let timerInterval;
-  const quizForm = document.getElementById("quizForm");
-  const quizTitleEl = document.getElementById("quizTitle");
-  const questionsContainer = document.getElementById("quizQuestionsContainer");
-  const quizTimerEl = document.getElementById("quizTimer");
-  const quizReviewContainer = document.getElementById("quizReviewContainer");
-  let currentQuizAnswers = {};
-  let questionsToDisplay = [];
-
-  // --- Core Function: Submits and Evaluates the Quiz ---
-  function submitQuiz(quiz, isTimedOut = false) {
-    // 1. Stop the Timer immediately
-    clearInterval(timerInterval);
-
-    if (
-      document.getElementById("quizResult").classList.contains("hidden") ===
-      false
-    ) {
-      return;
-    }
-    // 2. Calculate Score
-    let score = 0;
-    const total = questionsToDisplay.length;
-
-    questionsToDisplay.forEach((q) => {
-      const selected = quizForm.querySelector(`input[name="${q.qId}"]:checked`);
-      if (selected && selected.value === currentQuizAnswers[q.qId]) {
-        score++;
-      }
-    });
-
-    // 3. Display Results
-    const resultBox = document.getElementById("quizResult");
-    const scoreText = document.getElementById("scoreText");
-
-    resultBox.classList.remove("hidden");
-    quizForm.classList.add("hidden");
-
-    let resultMessage = `${score} / ${total} Correct`;
-    if (isTimedOut) {
-      resultMessage += " (Time Expired)";
-    }
-    scoreText.textContent = resultMessage;
-
-    // Feedback color
-    scoreText.classList.remove(
-      "text-green-400",
-      "text-yellow-400",
-      "text-red-400"
-    );
-    if (score === total) scoreText.classList.add("text-green-400");
-    else if (score >= total / 2) scoreText.classList.add("text-yellow-400");
-    else scoreText.classList.add("text-red-400");
-
-    let reviewHtml = `
-      <h2 class="text-3xl font-['Rajdhani'] text-white text-center mb-8">Review Your Answers</h2>
-  `;
-
-    questionsToDisplay.forEach((q, index) => {
-      // Get the user's selected radio button value (e.g., 'A', 'B', 'C')
-      const userAnswerKey = quizForm.querySelector(
-        `input[name="${q.qId}"]:checked`
-      )?.value;
-      const correctAnswerKey = currentQuizAnswers[q.qId];
-      const isCorrect = userAnswerKey === correctAnswerKey;
-
-      const correctClass = "text-green-400 font-bold";
-      const incorrectClass = "text-red-400 font-bold";
-      const indicator = isCorrect ? "✅ Correct" : "❌ Incorrect";
-      const statusClass = isCorrect ? correctClass : incorrectClass;
-
-      // Get the full text of the correct option
-      const correctOptionText = q.options[correctAnswerKey];
-
-      let userAnswerText = "Not Answered";
-      let userAnswerDisplayClass = "text-white/60";
-
-      if (userAnswerKey) {
-        // Get the full text of the user's selected option
-        userAnswerText = q.options[userAnswerKey];
-        userAnswerDisplayClass = isCorrect ? correctClass : incorrectClass;
-      }
-
-      reviewHtml += `
-          <div class="glass-card p-6 border-l-4 ${
-            isCorrect ? "border-green-500" : "border-red-500"
-          }">
-              <h3 class="text-[#00d9ff] font-semibold mb-3">${index + 1}. ${
-        q.text
-      } <span class="float-right ${statusClass} text-base">${indicator}</span></h3>
-              
-              <p class="mt-2 ${userAnswerDisplayClass}">
-                  You Answered: ${userAnswerText}
-              </p>
-              
-              ${
-                !isCorrect
-                  ? `
-                  <p class="mt-1 ${correctClass}">
-                      Correct Answer: ${correctOptionText}
-                  </p>
-              `
-                  : ""
-              }
-          </div>
-      `;
-    });
-
-    // Inject the final review HTML into the container
-    if (quizReviewContainer) {
-      quizReviewContainer.innerHTML = reviewHtml;
-    }
-  }
-
-  // --- Timer Function ---
-  function startTimer(duration, quiz) {
-    let time = duration;
-
-    function formatTime(seconds) {
-      const minutes = Math.floor(seconds / 60);
-      const remainingSeconds = seconds % 60;
-      return `${minutes}:${remainingSeconds < 10 ? "0" : ""}${remainingSeconds}`;
+    // Encapsulation: The constructor defines the object's state and DOM references.
+    constructor(quizData, quizId) {
+        this.quiz = quizData[quizId];
+        this.questionsToDisplay = [];
+        this.currentQuizAnswers = {};
+        
+        // Encapsulated DOM References
+        this.quizForm = document.getElementById('quizForm');
+        this.quizTitleEl = document.getElementById('quizTitle');
+        this.questionsContainer = document.getElementById('quizQuestionsContainer');
+        this.quizReviewContainer = document.getElementById('quizReviewContainer');
+        this.quizResult = document.getElementById('quizResult');
+        this.scoreText = document.getElementById('scoreText');
     }
 
-    if (quizTimerEl) quizTimerEl.textContent = formatTime(time);
+    // Abstraction: Public method to start the process (implementation deferred to children)
+    init() {
+        if (!this.quiz || !this.questionsContainer) {
+            if (this.quizTitleEl) this.quizTitleEl.textContent = "Quiz Not Found";
+            if (this.quizForm) this.quizForm.classList.add('hidden');
+            return;
+        }
 
-    timerInterval = setInterval(() => {
-      time--;
-      if (quizTimerEl) quizTimerEl.textContent = formatTime(time);
+        this.questionsToDisplay = selectRandomQuestions(
+            this.quiz.questions, 
+            BaseQuiz.QUESTIONS_PER_QUIZ
+        );
+        
+        this._renderQuestions();
+        this._setupSubmitListener();
+        
+        this.quizTitleEl.textContent = this.quiz.title;
+        // Subclasses will add their specific start logic here (e.g., timer)
+    }
 
-      if (time <= 30 && quizTimerEl) {
-        // Warning color for last 30 seconds
-        quizTimerEl.classList.remove("text-[#00d9ff]");
-        quizTimerEl.classList.add("text-red-500");
-      }
+    // Encapsulation: Handles the core task of rendering the UI.
+    _renderQuestions() {
+        let questionsHtml = '';
+        let questionNumber = 1;
+        
+        this.questionsToDisplay.forEach(q => {
+            this.currentQuizAnswers[q.qId] = q.correctAnswer; 
+            
+            let optionsHtml = '';
+            Object.entries(q.options).forEach(([key, value]) => {
+                optionsHtml += `<label class="block mb-2 text-white/90"><input type="radio" name="${q.qId}" value="${key}" class="mr-2"> ${value}</label>`;
+            });
 
-      if (time <= 0) {
-        // 🚨 CRITICAL: When time hits zero, call submitQuiz directly.
-        // This forces evaluation and result display.
-        submitQuiz(quiz, true);
-      }
-    }, 1000);
-  }
-
-  // --- Initialization Logic ---
-  if (questionsContainer) {
-    const quizId = getQuizIdFromUrl();
-    const quiz = quizData[quizId];
-    // Moved declaration to be accessible by submitQuiz
-
-    if (quiz) {
-      // Randomization Step
-      questionsToDisplay = selectRandomQuestions(
-        quiz.questions,
-        QUESTIONS_PER_QUIZ
-      );
-
-      // 1. Set the Quiz Title
-      quizTitleEl.textContent = quiz.title;
-
-      // 2. Generate the Questions HTML
-      let questionsHtml = "";
-      let questionNumber = 1;
-
-      questionsToDisplay.forEach((q) => {
-        currentQuizAnswers[q.qId] = q.correctAnswer; // Store answers
-
-        // ... (HTML generation loop remains the same) ...
-        let optionsHtml = "";
-        Object.entries(q.options).forEach(([key, value]) => {
-          optionsHtml += `<label class="block mb-2 text-white/90"><input type="radio" name="${q.qId}" value="${key}" class="mr-2"> ${value}</label>`;
-        });
-
-        questionsHtml += `
+            questionsHtml += `
                 <div class="glass-card p-6">
-                    <h3 class="text-[#00d9ff] font-semibold mb-3">${questionNumber++}. ${
-          q.text
-        }</h3>
+                    <h3 class="text-[#00d9ff] font-semibold mb-3">${questionNumber++}. ${q.text}</h3>
                     ${optionsHtml}
                 </div>
             `;
-      });
-      questionsContainer.innerHTML = questionsHtml;
-
-      // 4. Start the Timer
-      startTimer(quiz.timeLimitSeconds, quiz);
-
-      // 5. Quiz Form Submission Listener
-      if (quizForm) {
-        quizForm.addEventListener("submit", (e) => {
-          e.preventDefault();
-          submitQuiz(quiz, false); // Manual submit
         });
-      }
-    } else {
-      if (quizTitleEl) quizTitleEl.textContent = "Quiz Not Found";
-      if (quizForm) quizForm.classList.add("hidden");
+        
+        this.questionsContainer.innerHTML = questionsHtml;
     }
-  }
 
-  // Retake button logic (remains the same)
-  const retakeBtn = document.getElementById("retakeQuiz");
-  if (retakeBtn) {
-    retakeBtn.addEventListener("click", () => {
-      window.location.reload();
+    // Encapsulation: Sets up the listener, calling the object's own submit method.
+    _setupSubmitListener() {
+        if (this.quizForm) {
+            this.quizForm.addEventListener('submit', e => {
+                e.preventDefault();
+                this.submit(false); 
+            });
+        }
+    }
+
+    // Abstraction/Polymorphism: The core behavior of ending the quiz. 
+    // This is the common method that will be implemented or extended by children.
+    submit(isTimedOut = false) {
+        // Polymorphism/Method Overriding would happen here in a child class,
+        // but the base class ensures core scoring/review happens for all quiz types.
+
+        // Prevent double submission/evaluation
+        if (this.quizResult && !this.quizResult.classList.contains('hidden')) {
+            return;
+        }
+
+        let score = 0;
+        const total = this.questionsToDisplay.length;
+        
+        this.questionsToDisplay.forEach(q => {
+            const selected = this.quizForm.querySelector(`input[name="${q.qId}"]:checked`);
+            if (selected && selected.value === this.currentQuizAnswers[q.qId]) {
+                score++;
+            }
+        });
+
+        // Display logic
+        this.quizResult.classList.remove('hidden');
+        this.quizForm.classList.add('hidden');
+        
+        let resultMessage = `${score} / ${total} Correct`;
+        if (isTimedOut) {
+            resultMessage += ' (Time Expired)';
+        }
+        this.scoreText.textContent = resultMessage;
+
+        // Feedback color logic...
+        this.scoreText.classList.remove('text-green-400', 'text-yellow-400', 'text-red-400');
+        if (score === total) this.scoreText.classList.add('text-green-400');
+        else if (score >= total / 2) this.scoreText.classList.add('text-yellow-400');
+        else this.scoreText.classList.add('text-red-400');
+
+        this._renderReview(score, total, isTimedOut);
+    }
+
+    // Encapsulation: Renders the review section based on encapsulated state.
+    _renderReview(score, total, isTimedOut) {
+        let reviewHtml = `
+            <h2 class="text-3xl font-['Rajdhani'] text-white text-center mb-8">Review Your Answers</h2>
+        `;
+        // ... (Review HTML generation logic remains the same, using this.properties) ...
+        this.questionsToDisplay.forEach((q, index) => {
+            const userAnswerKey = this.quizForm.querySelector(`input[name="${q.qId}"]:checked`)?.value;
+            const correctAnswerKey = this.currentQuizAnswers[q.qId];
+            const isCorrect = userAnswerKey === correctAnswerKey;
+
+            const correctClass = 'text-green-400 font-bold';
+            const incorrectClass = 'text-red-400 font-bold';
+            const indicator = isCorrect ? '✅ Correct' : '❌ Incorrect';
+            const statusClass = isCorrect ? correctClass : incorrectClass;
+            
+            const correctOptionText = q.options[correctAnswerKey];
+            
+            let userAnswerText = 'Not Answered';
+            let userAnswerDisplayClass = 'text-white/60';
+
+            if (userAnswerKey) {
+                userAnswerText = q.options[userAnswerKey];
+                userAnswerDisplayClass = isCorrect ? correctClass : incorrectClass;
+            }
+
+            reviewHtml += `
+                <div class="glass-card p-6 border-l-4 ${isCorrect ? 'border-green-500' : 'border-red-500'}">
+                    <h3 class="text-[#00d9ff] font-semibold mb-3">${index + 1}. ${q.text} <span class="float-right ${statusClass} text-base">${indicator}</span></h3>
+                    <p class="mt-2 ${userAnswerDisplayClass}">You Answered: ${userAnswerText}</p>
+                    ${!isCorrect ? `<p class="mt-1 ${correctClass}">Correct Answer: ${correctOptionText}</p>` : ''}
+                </div>
+            `;
+        });
+
+        if (this.quizReviewContainer) {
+            this.quizReviewContainer.innerHTML = reviewHtml;
+        }
+    }
+}
+
+
+/* -------------------- ⏲️ TIMEDQUIZ CLASS (OOP - Inheritance & Polymorphism) -------------------- */
+
+// This is the child class that inherits all common quiz features.
+class TimedQuiz extends BaseQuiz {
+    
+    // Inheritance: Calls the parent constructor to set up base state (questions, DOM, etc.)
+    constructor(quizData, quizId) {
+        super(quizData, quizId);
+        // Add timer-specific state
+        this.timerInterval = null;
+        this.timeRemaining = this.quiz ? this.quiz.timeLimitSeconds : 0;
+        this.quizTimerEl = document.getElementById('quizTimer'); // From quiz-detail.html
+    }
+
+    // Polymorphism/Method Extension: Extends the parent's init method
+    init() {
+        // Call the parent's init() method to handle common tasks (shuffling, rendering, listeners)
+        super.init(); 
+        
+        // Add TimedQuiz specific logic
+        this._startTimer();
+    }
+
+    // Encapsulation: Timer logic, only accessible within the TimedQuiz instance.
+    _startTimer() {
+        const formatTime = (seconds) => {
+            const minutes = Math.floor(seconds / 60);
+            const remainingSeconds = seconds % 60;
+            return `${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
+        };
+
+        if (this.quizTimerEl) this.quizTimerEl.textContent = formatTime(this.timeRemaining);
+
+        this.timerInterval = setInterval(() => {
+            this.timeRemaining--;
+            if (this.quizTimerEl) this.quizTimerEl.textContent = formatTime(this.timeRemaining);
+
+            if (this.timeRemaining <= 30 && this.quizTimerEl) {
+                this.quizTimerEl.classList.remove('text-[#00d9ff]');
+                this.quizTimerEl.classList.add('text-red-500');
+            }
+
+            if (this.timeRemaining <= 0) {
+                this.submit(true); // Forces submission on timeout
+            }
+        }, 1000);
+    }
+    
+    // Polymorphism/Method Overriding: Overrides the parent's submit method.
+    // Both BaseQuiz and TimedQuiz have a 'submit' method, but TimedQuiz adds a crucial step.
+    submit(isTimedOut = false) {
+        // TimedQuiz specific logic: Stop the timer before calling the base logic
+        if (this.timerInterval) clearInterval(this.timerInterval); 
+
+        // Call the parent's submit method to handle the rest (scoring, display, review)
+        super.submit(isTimedOut);
+    }
+}
+
+
+/* -------------------- 🏃 RUNTIME EXECUTION -------------------- */
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    /* -------------------- 🌐 MOBILE MENU (Same) -------------------- */
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    if (mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    }
+
+    // Close mobile menu on link click (UX improvement)
+    document.querySelectorAll('#mobileMenu a').forEach(link => {
+        link.addEventListener('click', () => {
+            if (!mobileMenu.classList.contains('hidden')) mobileMenu.classList.add('hidden');
+        });
     });
-  }
+
+    /* -------------------- 📚 COURSE SEARCH (Same) -------------------- */
+    const courseSearch = document.getElementById('courseSearch');
+    const courseGrid = document.getElementById('courseGrid');
+    const noResults = document.getElementById('noResults');
+
+    if (courseSearch && courseGrid) {
+        courseSearch.addEventListener('input', e => {
+            const searchTerm = e.target.value.toLowerCase().trim();
+            const courseCards = courseGrid.querySelectorAll('.course-card');
+            let found = false;
+
+            courseCards.forEach(card => {
+                const title = (card.getAttribute('data-course-title') || '').toLowerCase();
+                const desc = (card.getAttribute('data-course-description') || '').toLowerCase();
+                const match = title.includes(searchTerm) || desc.includes(searchTerm);
+                card.classList.toggle('hidden', !match);
+                if (match) found = true;
+            });
+
+            if (noResults) noResults.classList.toggle('hidden', found);
+        });
+    }
+
+    /* -------------------- 🧾 EXAM SEARCH (Same) -------------------- */
+    const examSearch = document.getElementById('examSearch');
+    const examGrid = document.getElementById('examGrid');
+    const examNoRes = document.getElementById('examNoResults');
+
+    if (examSearch && examGrid) {
+        examSearch.addEventListener('input', e => {
+            const term = e.target.value.toLowerCase().trim();
+            const examCards = examGrid.querySelectorAll('.exam-card');
+            let found = false;
+
+            examCards.forEach(card => {
+                const title = (card.getAttribute('data-exam-title') || '').toLowerCase();
+                const desc = (card.textContent || '').toLowerCase();
+                const match = title.includes(term) || desc.includes(term);
+                card.classList.toggle('hidden', !match);
+                if (match) found = true;
+            });
+
+            if (examNoRes) examNoRes.classList.toggle('hidden', found);
+        });
+    }
+
+    /* -------------------- 📑 COURSE DETAIL TABS (Same) -------------------- */
+    const tabButtons = document.querySelectorAll('.tab-button');
+    if (tabButtons.length > 0) {
+        tabButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                tabButtons.forEach(b => b.classList.remove('tab-active'));
+                btn.classList.add('tab-active');
+
+                const target = btn.getAttribute('data-tab');
+                const contents = document.querySelectorAll('.tab-content');
+                contents.forEach(c => c.classList.add('hidden'));
+
+                const active = document.getElementById(target);
+                if (active) active.classList.remove('hidden');
+            });
+        });
+    }
+
+
+    /* -------------------- 🧠 QUIZ REDIRECT (Same) -------------------- */
+    const quizButtons = document.querySelectorAll('.quiz-category-card button');
+    quizButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const card = btn.closest('.quiz-category-card');
+            const quizId = card.getAttribute('data-quiz-id');
+            
+            if (quizId) {
+                window.location.href = `quiz-detail.html?id=${quizId}`;
+            } else {
+                window.location.href = 'quiz-detail.html';
+            }
+        });
+    });
+
+    // 🛑 OOP Implementation: Instantiating the TimedQuiz 🛑
+    const questionsContainer = document.getElementById('quizQuestionsContainer');
+    if (questionsContainer) {
+        const quizId = getQuizIdFromUrl();
+        
+        // We use the specialized TimedQuiz class because our quizzes have a timer
+        const manager = new TimedQuiz(quizData, quizId); 
+        manager.init(); 
+    }
+
+    // Retake button logic (Same)
+    const retakeBtn = document.getElementById('retakeQuiz');
+    if (retakeBtn) {
+        retakeBtn.addEventListener('click', () => {
+            window.location.reload(); 
+        });
+    }
+
 });
