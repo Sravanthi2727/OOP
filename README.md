@@ -1,4 +1,4 @@
-# 🎯 VisionVault
+# 🎯VisionVault- A Career Guidance Platform
 
 A structured career guidance platform designed to help tech students discover the right domain, learn systematically, practice effectively, and track their growth — all in one place.
 
